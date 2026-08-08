@@ -1,3 +1,3 @@
 const isEvenOrOdd = (num) => {
-    //implement the logic here using an arrow function
+    return num % 2 === 0 ? "Even" : "Odd";
 }

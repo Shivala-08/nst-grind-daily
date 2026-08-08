@@ -3,13 +3,13 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `f8k9wjpquw9i`  
-**Submission Time:** 2026-08-08T21:08:08.478Z  
+**Submission Time:** 2026-08-08T21:08:33.724Z  
 
 ## Solution
 
 ```js
 const isEvenOrOdd = (num) => {
-    //implement the logic here using an arrow function
+    return num % 2 === 0 ? "Even" : "Odd";
 }
 ```
 
