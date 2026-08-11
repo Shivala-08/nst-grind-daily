@@ -3,19 +3,24 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `5r0n3nkgu5v1`  
-**Submission Time:** 2026-08-11T10:10:52.307Z  
+**Submission Time:** 2026-08-11T10:11:13.942Z  
 
 ## Solution
 
 ```js
-function multiplyAll(arr) {
-  // Check if the array is empty
-  if (arr.length === 0) {
-    return 0;
+function countValues(...objects) {
+  const counts = {};
+  
+  // Loop through each object passed as an argument
+  for (const obj of objects) {
+    // Extract all values from the current object
+    for (const val of Object.values(obj)) {
+      // If the value exists in counts, increment it, otherwise initialize to 1
+      counts[val] = (counts[val] || 0) + 1;
+    }
   }
   
-  // Use reduce to multiply all elements together
-  return arr.reduce((product, num) => product * num, 1);
+  return counts;
 }
 ```
 
