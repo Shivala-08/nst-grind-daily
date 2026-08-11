@@ -1,0 +1,1 @@
+const parent = (callback) => (num) => callback(num);
