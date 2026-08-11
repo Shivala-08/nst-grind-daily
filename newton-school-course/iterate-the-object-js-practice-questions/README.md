@@ -3,28 +3,22 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `dbff1nj6rnv5`  
-**Submission Time:** 2026-08-11T10:39:25.001Z  
+**Submission Time:** 2026-08-11T10:39:31.012Z  
 
 ## Solution
 
 ```js
-function successfulOrders(orders) {
-  let successfulCount = 0;
-
-  // Loop through each order in the orders array
-  for (const order of orders) {
-    // Check if the item is in stock using the pre-defined function
-    if (checkQuantity(order.name) > 0) {
-      // If in stock, it's a successful order
-      successfulCount++;
-      
-      // Reduce the stock quantity by 1
-      updateQuantity(order.name);
-    }
+function solve(obj) {
+  // 1. Use for...of to print all the values
+  // Since objects aren't directly iterable, we use Object.values()
+  for (const value of Object.values(obj)) {
+    console.log(value);
   }
 
-  // Return the total count of successful orders
-  return successfulCount;
+  // 2. Use for...in to print keys and values in {key}: {value} format
+  for (const key in obj) {
+    console.log(`${key}: ${obj[key]}`);
+  }
 }
 ```
 
