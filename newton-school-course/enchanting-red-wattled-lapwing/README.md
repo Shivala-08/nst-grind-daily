@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `t8g1pgg95a8q`  
-**Submission Time:** 2026-08-14T07:22:40.974Z  
+**Submission Time:** 2026-08-14T07:23:19.920Z  
 
 ## Problem Statement
 
@@ -12,7 +12,11 @@ untitled
 ## Solution
 
 ```js
-const obj =
+const obj ={
+    name: Pallav
+    num : 69
+    date: 18
+}
 ```
 
 ---
