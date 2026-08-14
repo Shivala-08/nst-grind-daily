@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `t8g1pgg95a8q`  
-**Submission Time:** 2026-08-14T06:12:40.529Z  
+**Submission Time:** 2026-08-14T06:13:17.574Z  
 
 ## Problem Statement
 
@@ -13,6 +13,8 @@ untitled
 
 ```js
 const arr = [1,2,3,4,5,6,7,8,9]
+let b = arr.pop()
+console.log(b)
 ```
 
 ---
