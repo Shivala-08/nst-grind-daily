@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `t8g1pgg95a8q`  
-**Submission Time:** 2026-08-14T04:20:07.479Z  
+**Submission Time:** 2026-08-14T04:20:17.665Z  
 
 ## Problem Statement
 
@@ -12,7 +12,7 @@ untitled
 ## Solution
 
 ```js
-consoe.log(typeof "3")
+console.log(typeof "3")
 ```
 
 ---
