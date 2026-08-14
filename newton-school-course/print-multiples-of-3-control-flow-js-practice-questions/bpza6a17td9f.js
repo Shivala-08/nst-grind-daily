@@ -1,4 +1,4 @@
 function printMultiplesOfThree(beginNum, endNum) {
-  for (let i = beginNum)
+  for (let i = beginNum;i>)
 
 }
