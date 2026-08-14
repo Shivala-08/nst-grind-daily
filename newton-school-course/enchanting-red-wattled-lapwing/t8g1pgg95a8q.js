@@ -1,1 +1,3 @@
-console.log(typeof null)
+function add(a,b){
+    
+}
