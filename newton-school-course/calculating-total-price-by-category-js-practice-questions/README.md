@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `xtid2z3hrage`  
-**Submission Time:** 2026-08-14T07:09:37.654Z  
+**Submission Time:** 2026-08-14T07:10:36.371Z  
 
 ## Problem Statement
 
@@ -53,6 +53,7 @@ We can see that the sum of all prices of each product of category "Clothing" ins
 return function totalByCategory(products,category){
     return products
         .filter((product)=> product.category === category)
+        .reduce(())
   
 }
 ```
