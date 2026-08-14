@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `gj318xhoe1v0`  
-**Submission Time:** 2026-08-14T07:21:19.100Z  
+**Submission Time:** 2026-08-14T07:21:39.571Z  
 
 ## Problem Statement
 
@@ -64,7 +64,7 @@ Check the length of filtered arrays:
 function extract(arr) {
     return arr
         .map(innerArray=>innerArray.filter(num =>num%2==0))
-        filter(innerArray => innerArray.length > 0 && innerArray.length % 2 === 0)
+        .filter(innerArray => innerArray.length > 0 && innerArray.length % 2 === 0)
 }
 ```
 
