@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `mi4v79ev131x`  
-**Submission Time:** 2026-08-14T07:15:05.969Z  
+**Submission Time:** 2026-08-14T07:15:16.172Z  
 
 ## Problem Statement
 
@@ -34,7 +34,7 @@ NA
 
 ```js
 function mycalculator(mycallback,var1,var2){
-    let val=var1+var2
+    let val = var1+var2
     mycallback(val)
 }
 ```
