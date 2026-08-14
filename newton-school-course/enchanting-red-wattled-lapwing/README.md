@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `t8g1pgg95a8q`  
-**Submission Time:** 2026-08-14T04:23:49.335Z  
+**Submission Time:** 2026-08-14T04:24:19.083Z  
 
 ## Problem Statement
 
@@ -12,10 +12,9 @@ untitled
 ## Solution
 
 ```js
-function add(a,b){
+const add = function (a,b){
     return a+b
 }
-console.log(add(4,5))
 ```
 
 ---
