@@ -1,4 +1,4 @@
 function extract(arr) {
     return arr
-        .map(innerArray)
+        .map(innerArray=>innerArray.filter(num = ))
 }
