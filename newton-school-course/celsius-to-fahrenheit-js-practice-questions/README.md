@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `hholyo3iryyi`  
-**Submission Time:** 2026-08-14T03:06:32.082Z  
+**Submission Time:** 2026-08-14T03:06:51.343Z  
 
 ## Problem Statement
 
@@ -35,7 +35,7 @@ Sample Output:-
 
 ```js
 function celsiusToFahrenheit(C) {
-    
+    let C = 
 
 }
 ```
