@@ -1,1 +1,4 @@
-const add(a,b)
+const arr = [1,2,3,4,5,6,7,8,9]
+for (val of arr){
+    console.log(val)
+}

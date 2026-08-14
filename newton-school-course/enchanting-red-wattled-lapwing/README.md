@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `t8g1pgg95a8q`  
-**Submission Time:** 2026-08-14T06:10:40.542Z  
+**Submission Time:** 2026-08-14T06:12:19.540Z  
 
 ## Problem Statement
 
@@ -12,7 +12,10 @@ untitled
 ## Solution
 
 ```js
-const add(a,b)
+const arr = [1,2,3,4,5,6,7,8,9]
+for (val of arr){
+    console.log(val)
+}
 ```
 
 ---
