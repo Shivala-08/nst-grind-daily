@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `gj318xhoe1v0`  
-**Submission Time:** 2026-08-14T07:18:19.894Z  
+**Submission Time:** 2026-08-14T07:19:15.268Z  
 
 ## Problem Statement
 
@@ -63,7 +63,7 @@ Check the length of filtered arrays:
 ```js
 function extract(arr) {
     return arr
-        .filter((nums)=>nums%2==0)
+        .forEach(())
 }
 ```
 
