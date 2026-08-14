@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `rv0pzghlpvcf`  
-**Submission Time:** 2026-08-14T03:18:20.124Z  
+**Submission Time:** 2026-08-14T03:20:29.996Z  
 
 ## Problem Statement
 
@@ -28,11 +28,11 @@ Sample output:-
 
 ```js
 function test_divisors(low, high) {
-    for (let i=low;i<=high;i++){
-        if (i%3==0){
-            console.log("div3")
-        }else{
-            console.log(i)
+    for (let i = low; i <= high; i++) {
+        process.stdout.write(i + " ");
+
+        if (i % 3 == 0) {
+            process.stdout.write("div3 ");
         }
     }
 }
