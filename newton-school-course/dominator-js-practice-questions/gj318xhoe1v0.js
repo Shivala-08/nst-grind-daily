@@ -1,3 +1,3 @@
 function extract(arr) {
-    
+    arr.
 }
