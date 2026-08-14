@@ -1,3 +1,3 @@
 function getNumbersGreaterThan5(nums) {
-    nums.filter()
+    nums.filter(i) =>i>5
 }
