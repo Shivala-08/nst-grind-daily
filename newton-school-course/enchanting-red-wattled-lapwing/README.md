@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `t8g1pgg95a8q`  
-**Submission Time:** 2026-08-14T07:23:30.101Z  
+**Submission Time:** 2026-08-14T07:24:16.705Z  
 
 ## Problem Statement
 
@@ -17,6 +17,7 @@ const obj ={
     num : 69;
     date: 18
 }
+console.log(obj.name)
 ```
 
 ---
