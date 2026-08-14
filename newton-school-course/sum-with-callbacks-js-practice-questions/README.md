@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `mi4v79ev131x`  
-**Submission Time:** 2026-08-14T07:12:27.382Z  
+**Submission Time:** 2026-08-14T07:12:52.617Z  
 
 ## Problem Statement
 
@@ -33,8 +33,9 @@ NA
 ## Solution
 
 ```js
-function mycalculator(){
+function mycalculator(mycallback,var1,var2){
     
+
 }
 ```
 
