@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `t8g1pgg95a8q`  
-**Submission Time:** 2026-08-14T07:24:59.319Z  
+**Submission Time:** 2026-08-14T07:25:36.507Z  
 
 ## Problem Statement
 
@@ -17,7 +17,9 @@ const obj ={
     num : 69,
     date: 18
 }
-console.log(obj.name)
+for (key in obj){
+    console.log(key,obj[key])
+}
 ```
 
 ---

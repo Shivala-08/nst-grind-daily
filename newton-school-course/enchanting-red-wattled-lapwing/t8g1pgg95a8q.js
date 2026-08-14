@@ -3,4 +3,6 @@ const obj ={
     num : 69,
     date: 18
 }
-console.log(obj.name)
+for (key in obj){
+    console.log(key,obj[key])
+}
