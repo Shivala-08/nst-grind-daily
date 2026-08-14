@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `t8g1pgg95a8q`  
-**Submission Time:** 2026-08-14T04:17:55.755Z  
+**Submission Time:** 2026-08-14T04:18:27.340Z  
 
 ## Problem Statement
 
@@ -13,7 +13,7 @@ untitled
 
 ```js
 let age = 35
-console.log()
+console.log(`hi i am pallav. i am ${age} yeras old`)
 ```
 
 ---
