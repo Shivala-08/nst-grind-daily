@@ -5,6 +5,6 @@ function printSign(N)
     console.log("The number is negative")
 
 } else{
-    console.log()
+    console.log("The number is zero")
 }
 }
