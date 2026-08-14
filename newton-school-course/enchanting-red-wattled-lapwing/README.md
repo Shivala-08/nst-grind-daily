@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `t8g1pgg95a8q`  
-**Submission Time:** 2026-08-14T04:23:15.312Z  
+**Submission Time:** 2026-08-14T04:23:35.453Z  
 
 ## Problem Statement
 
@@ -13,8 +13,9 @@ untitled
 
 ```js
 function add(a,b){
-    
+    return a+b
 }
+console.log(add(4,5))
 ```
 
 ---
