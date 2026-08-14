@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `o1n4dkiqovob`  
-**Submission Time:** 2026-08-14T03:11:43.809Z  
+**Submission Time:** 2026-08-14T03:12:11.493Z  
 
 ## Problem Statement
 
@@ -36,7 +36,9 @@ Explanation:
 
 ```js
 function printSign(N)
-{ if (N>=0)
+{ if (N>=0){
+    
+}
 }
 ```
 
