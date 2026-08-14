@@ -1,1 +1,2 @@
-let a =
+let age = 35
+console.log()

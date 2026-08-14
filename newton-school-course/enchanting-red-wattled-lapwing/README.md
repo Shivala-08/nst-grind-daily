@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `t8g1pgg95a8q`  
-**Submission Time:** 2026-08-14T04:17:18.161Z  
+**Submission Time:** 2026-08-14T04:17:55.755Z  
 
 ## Problem Statement
 
@@ -12,7 +12,8 @@ untitled
 ## Solution
 
 ```js
-let a =
+let age = 35
+console.log()
 ```
 
 ---
