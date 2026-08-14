@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `2bdcw978t5wh`  
-**Submission Time:** 2026-08-14T07:04:41.444Z  
+**Submission Time:** 2026-08-14T07:06:07.029Z  
 
 ## Problem Statement
 
@@ -29,7 +29,8 @@ Explanation: Only 9, 10, 7 are greater than 5 among the array values.
 
 ```js
 function getNumbersGreaterThan5(nums) {
-    nums.filter((i)=> i>5)
+    let a = nums.filter((i)=> i>5)
+    return a
 }
 ```
 

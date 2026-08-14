@@ -1,3 +1,4 @@
 function getNumbersGreaterThan5(nums) {
-    nums.filter((i)=> i>5)
+    let a = nums.filter((i)=> i>5)
+    return a
 }
