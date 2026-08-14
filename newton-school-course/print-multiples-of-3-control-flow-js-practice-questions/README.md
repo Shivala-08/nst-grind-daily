@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `bpza6a17td9f`  
-**Submission Time:** 2026-08-14T03:22:07.734Z  
+**Submission Time:** 2026-08-14T03:22:46.017Z  
 
 ## Problem Statement
 
@@ -43,7 +43,9 @@ printMultiplesOfThree(beginNum, endNum);
 ```js
 function printMultiplesOfThree(beginNum, endNum) {
   for (let i = beginNum;i<=endNum;i++){
-    
+    if (i%3==0){
+        console.log(i)
+    }
   }
 
 }
