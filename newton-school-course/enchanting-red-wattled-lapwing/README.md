@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `t8g1pgg95a8q`  
-**Submission Time:** 2026-08-14T06:12:31.218Z  
+**Submission Time:** 2026-08-14T06:12:40.529Z  
 
 ## Problem Statement
 
@@ -13,9 +13,6 @@ untitled
 
 ```js
 const arr = [1,2,3,4,5,6,7,8,9]
-for (val in arr){
-    console.log(val)
-}
 ```
 
 ---
