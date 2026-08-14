@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `o1n4dkiqovob`  
-**Submission Time:** 2026-08-14T03:12:28.068Z  
+**Submission Time:** 2026-08-14T03:12:37.067Z  
 
 ## Problem Statement
 
@@ -37,7 +37,7 @@ Explanation:
 ```js
 function printSign(N)
 { if (N>=0){
-    cconsole.log
+    cconsole.log("The number is positive")
 }
 }
 ```
