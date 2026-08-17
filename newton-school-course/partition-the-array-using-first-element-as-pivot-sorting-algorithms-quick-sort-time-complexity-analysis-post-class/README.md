@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `zqzmii0mftph`  
-**Submission Time:** 2026-08-17T05:50:32.215Z  
+**Submission Time:** 2026-08-17T05:51:32.739Z  
 
 ## Problem Statement
 
@@ -76,8 +76,8 @@ def partition_array(arr, lo, hi):
     
     pivot_index = i - 1
     
-    # The comment in the editor asks to return a tuple
-    return arr, pivot_index
+    # Return ONLY the pivot index as required
+    return pivot_index
 ```
 
 ---

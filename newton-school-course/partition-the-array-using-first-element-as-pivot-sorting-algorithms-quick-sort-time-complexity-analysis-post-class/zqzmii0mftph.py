@@ -19,5 +19,5 @@ def partition_array(arr, lo, hi):
     
     pivot_index = i - 1
     
-    # The comment in the editor asks to return a tuple
-    return arr, pivot_index
+    # Return ONLY the pivot index as required
+    return pivot_index
