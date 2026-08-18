@@ -1,1 +1,2 @@
-ALTER TABLE cover_pic album_cover
+ALTER TABLE songs
+R
