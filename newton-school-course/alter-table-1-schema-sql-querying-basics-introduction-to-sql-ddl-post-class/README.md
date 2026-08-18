@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `dbf00h9jqqee`  
-**Submission Time:** 2026-08-18T20:05:30.226Z  
+**Submission Time:** 2026-08-18T20:05:44.772Z  
 
 ## Problem Statement
 
@@ -114,7 +114,7 @@ NULL
 ## Solution
 
 ```js
-ALTER TABLE cover_pic
+ALTER TABLE cover_pic album_cover
 ```
 
 ---
