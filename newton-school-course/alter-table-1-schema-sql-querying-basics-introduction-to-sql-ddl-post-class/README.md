@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `dbf00h9jqqee`  
-**Submission Time:** 2026-08-18T20:06:54.624Z  
+**Submission Time:** 2026-08-18T20:07:24.623Z  
 
 ## Problem Statement
 
@@ -115,7 +115,7 @@ NULL
 
 ```js
 ALTER TABLE songs
-R
+RENAME COLUMN cover_pic TO album_cover;
 ```
 
 ---

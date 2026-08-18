@@ -1,2 +1,2 @@
 ALTER TABLE songs
-R
+RENAME COLUMN cover_pic TO album_cover;
