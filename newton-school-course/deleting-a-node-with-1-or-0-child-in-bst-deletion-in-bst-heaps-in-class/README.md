@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `k446cgr0inbz`  
-**Submission Time:** 2026-08-19T05:49:38.488Z  
+**Submission Time:** 2026-08-19T05:50:19.709Z  
 
 ## Problem Statement
 
@@ -46,17 +46,17 @@ class Node:
         self.right = right 
 '''    
 def deleteFromBST(root, target):
-        if root==None:
+    if root==None:
         return None 
-        if target>root.val:
-            root.right=deleteFromBST(root.right,target)
-        elif target<root.val:
-            root.left=deleteFromBST(root.left,target)
-        else:
-            if root.left==None:
-                return root.right
-            if root.right==None:
-                return root.left
+    if target>root.val:
+        root.right=deleteFromBST(root.right,target)
+    elif target<root.val:
+        root.left=deleteFromBST(root.left,target)
+    else:
+        if root.left==None:
+            return root.right
+        if root.right==None:
+            return root.left
         return root
 ```
 
