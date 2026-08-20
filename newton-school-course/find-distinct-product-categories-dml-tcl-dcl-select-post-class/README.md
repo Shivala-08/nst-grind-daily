@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `azk2rtzbfjhp`  
-**Submission Time:** 2026-08-20T21:31:45.298Z  
+**Submission Time:** 2026-08-20T21:32:06.563Z  
 
 ## Problem Statement
 
@@ -57,7 +57,7 @@ Products
 ## Solution
 
 ```js
-SELECT
+SELECT DISTINCT
 ```
 
 ---
