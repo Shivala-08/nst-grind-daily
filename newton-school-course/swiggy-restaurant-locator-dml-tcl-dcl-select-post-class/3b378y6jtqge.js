@@ -1,2 +1,2 @@
 SELECT restaurant_name AND cuisine FROM restaurants
-WHERE (cuisine = ''
+WHERE (cuisine = '' OR
