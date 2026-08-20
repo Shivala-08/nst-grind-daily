@@ -1,3 +1,3 @@
 CREATE TABLE Books(
-    BookID INT 
+    BookID INT PRIMARY KEY
 )
