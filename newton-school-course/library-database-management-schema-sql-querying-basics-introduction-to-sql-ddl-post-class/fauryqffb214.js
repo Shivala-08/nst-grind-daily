@@ -6,3 +6,4 @@ CREATE TABLE Books(
     PublishedYear INT,
     AvailableCopies INT
 )
+INSERT INTO Books
