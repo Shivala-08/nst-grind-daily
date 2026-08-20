@@ -4,4 +4,4 @@ CREATE TABLE courses(
     credits INT
 )
 INSERT courses
-VALUES ()
+VALUES (1,'Databases',4)
