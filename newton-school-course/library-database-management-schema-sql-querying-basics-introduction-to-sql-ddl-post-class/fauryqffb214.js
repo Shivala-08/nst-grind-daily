@@ -7,6 +7,6 @@ CREATE TABLE Books(
     AvailableCopies INT
 );
 INSERT INTO Books 
-VALUES ('The Great Gatsby','F. Scott Fitzgerald','Classic',1925,10);
+VALUES (1,'The Great Gatsby','F. Scott Fitzgerald','Classic',1925,10);
 SELECT *
 FROM Books
