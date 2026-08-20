@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `7mkawvpnug4q`  
-**Submission Time:** 2026-08-20T20:26:49.961Z  
+**Submission Time:** 2026-08-20T20:26:56.655Z  
 
 ## Problem Statement
 
@@ -12,7 +12,9 @@ untitled
 ## Solution
 
 ```js
-CREATE TABLE NST
+CREATE TABLE NST (
+    
+)
 ```
 
 ---
