@@ -3,7 +3,9 @@ CREATE TABLE Books(
     Title VARCHAR(100),
     Author VARCHAR(100),
     Genre VARCHAR(50),
+    PublishedYear INT,
     
+
 
 
 )
