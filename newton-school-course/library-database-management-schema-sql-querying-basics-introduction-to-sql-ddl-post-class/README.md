@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `fauryqffb214`  
-**Submission Time:** 2026-08-20T21:21:25.675Z  
+**Submission Time:** 2026-08-20T21:22:14.463Z  
 
 ## Problem Statement
 
@@ -87,7 +87,7 @@ INSERT 0 1
 
 ```js
 CREATE TABLE Books(
-    BookID INT PRIMARY KEY,
+    BookID SERIAL PRIMARY KEY,
     Title VARCHAR(100),
     Author VARCHAR(100),
     Genre VARCHAR(50),
