@@ -7,4 +7,4 @@ CREATE TABLE Books(
     AvailableCopies INT
 )
 INSERT INTO Books 
-VALUES ('The Great Gatsby',)
+VALUES ('The Great Gatsby','F. Scott Fitzgerald',)
