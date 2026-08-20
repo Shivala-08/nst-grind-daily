@@ -5,5 +5,5 @@ CREATE TABLE courses(
 )
 INSERT INTO courses
 VALUES (1,'Databases',4)
-(2,'Databases',4)
+(2,'Databases',3)
 (3,'Databases',4)
