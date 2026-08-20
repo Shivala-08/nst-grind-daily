@@ -1,1 +1,1 @@
-ALTER TABLE employees ADD COLUMN status
+ALTER TABLE employees ADD COLUMN status CHAR DEFAULT 'active'
