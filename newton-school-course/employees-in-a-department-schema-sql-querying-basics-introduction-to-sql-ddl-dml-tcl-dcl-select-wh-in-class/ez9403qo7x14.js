@@ -1,1 +1,1 @@
-SELECT emp_name,salary FROM employees WHERE
+SELECT emp_name,salary FROM employees WHERE department = 'Tech'

@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ez9403qo7x14`  
-**Submission Time:** 2026-08-20T21:49:44.680Z  
+**Submission Time:** 2026-08-20T21:49:55.945Z  
 
 ## Problem Statement
 
@@ -29,7 +29,7 @@ Return the \`emp_name\` and \`salary\` of every employee in the \`Tech\` departm
 ## Solution
 
 ```js
-SELECT emp_name,salary FROM employees WHERE
+SELECT emp_name,salary FROM employees WHERE department = 'Tech'
 ```
 
 ---
