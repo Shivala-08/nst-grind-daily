@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `7mkawvpnug4q`  
-**Submission Time:** 2026-08-20T20:32:48.069Z  
+**Submission Time:** 2026-08-20T20:32:52.919Z  
 
 ## Problem Statement
 
@@ -12,7 +12,7 @@ untitled
 ## Solution
 
 ```js
-CREATE TABLE (
+CREATE TABLE CUSTOMERS (
     o_id INT PRIMARY KEY,
     o_name VARCHAR(50),
     age INT CHECK(o_id >=10)
