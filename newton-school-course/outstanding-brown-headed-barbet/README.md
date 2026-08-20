@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `7mkawvpnug4q`  
-**Submission Time:** 2026-08-20T20:34:34.451Z  
+**Submission Time:** 2026-08-20T20:34:44.647Z  
 
 ## Problem Statement
 
@@ -28,7 +28,7 @@ placed_at TIMESTAMP,
 FOREIGN KEY (cust_id) REFERENCES customers(cust_id)
 );
 ALTER TABLE customers
-ADD COLUMN
+ADD COLUMN PUSSY INT
 ```
 
 ---

@@ -14,4 +14,4 @@ placed_at TIMESTAMP,
 FOREIGN KEY (cust_id) REFERENCES customers(cust_id)
 );
 ALTER TABLE customers
-ADD COLUMN
+ADD COLUMN PUSSY INT
