@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `3b378y6jtqge`  
-**Submission Time:** 2026-08-20T21:28:02.008Z  
+**Submission Time:** 2026-08-20T21:28:05.760Z  
 
 ## Problem Statement
 
@@ -61,7 +61,7 @@ restaurants
 
 ```js
 SELECT restaurant_name AND cuisine FROM restaurants
-WHERE (cuisine = 'North Indian' OR cuisine = 'Chinese' OR cuisine = ''
+WHERE (cuisine = 'North Indian' OR cuisine = 'Chinese' OR cuisine = 'Italian'
 ```
 
 ---
