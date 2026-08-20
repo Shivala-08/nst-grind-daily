@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `gryxa6fqd6bi`  
-**Submission Time:** 2026-08-20T21:53:38.848Z  
+**Submission Time:** 2026-08-20T21:53:54.223Z  
 
 ## Problem Statement
 
@@ -56,7 +56,7 @@ DELETE 2
 ```js
 UPDATE STUDENTS_RESULTS SET marks = marks+85 WHERE student_id = 103;
 DELETE FROM STUDENTS_RESULTS WHERE marks<35;
-SELECT * FROM
+SELECT * FROM STUDENTS_RESULTS
 ```
 
 ---
