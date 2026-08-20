@@ -5,8 +5,4 @@ CREATE TABLE Books(
     Genre VARCHAR(50),
     PublishedYear INT,
     AvailableCopies INT
-
-
-
-
 )

@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `fauryqffb214`  
-**Submission Time:** 2026-08-20T21:17:42.746Z  
+**Submission Time:** 2026-08-20T21:17:51.416Z  
 
 ## Problem Statement
 
@@ -93,10 +93,6 @@ CREATE TABLE Books(
     Genre VARCHAR(50),
     PublishedYear INT,
     AvailableCopies INT
-
-
-
-
 )
 ```
 
