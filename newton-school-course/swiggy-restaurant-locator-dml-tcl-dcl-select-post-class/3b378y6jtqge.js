@@ -1,2 +1,2 @@
-SELECT FROM restaurants
+SELECT * FROM restaurants
 WHERE
