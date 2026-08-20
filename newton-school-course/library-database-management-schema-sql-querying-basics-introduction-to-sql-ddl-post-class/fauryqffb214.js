@@ -5,6 +5,8 @@ CREATE TABLE Books(
     Genre VARCHAR(50),
     PublishedYear INT,
     AvailableCopies INT
-)
+);
 INSERT INTO Books 
-VALUES ('The Great Gatsby','F. Scott Fitzgerald','Classic',1925,10)
+VALUES ('The Great Gatsby','F. Scott Fitzgerald','Classic',1925,10);
+SELECT *
+FROM
