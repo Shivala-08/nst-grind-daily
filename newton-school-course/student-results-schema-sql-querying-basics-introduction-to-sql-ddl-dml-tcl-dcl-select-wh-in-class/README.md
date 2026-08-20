@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `gryxa6fqd6bi`  
-**Submission Time:** 2026-08-20T21:52:05.431Z  
+**Submission Time:** 2026-08-20T21:52:12.522Z  
 
 ## Problem Statement
 
@@ -54,7 +54,7 @@ DELETE 2
 ## Solution
 
 ```js
-UPDATE STUDENTS
+UPDATE STUDENTS_RESULTS
 ```
 
 ---
