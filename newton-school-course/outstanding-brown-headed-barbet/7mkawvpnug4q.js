@@ -1,4 +1,4 @@
 CREATE TABLE ORDERS (
-    o-id INT PRIMARY KEY,
-    
+    o_id INT PRIMARY KEY,
+
 )

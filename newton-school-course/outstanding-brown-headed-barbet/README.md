@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `7mkawvpnug4q`  
-**Submission Time:** 2026-08-20T20:31:23.668Z  
+**Submission Time:** 2026-08-20T20:31:31.577Z  
 
 ## Problem Statement
 
@@ -13,8 +13,8 @@ untitled
 
 ```js
 CREATE TABLE ORDERS (
-    o-id INT PRIMARY KEY,
-    
+    o_id INT PRIMARY KEY,
+
 )
 ```
 
