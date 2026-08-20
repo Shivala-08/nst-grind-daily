@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `iv66saf89uj3`  
-**Submission Time:** 2026-08-20T21:39:37.750Z  
+**Submission Time:** 2026-08-20T21:39:52.726Z  
 
 ## Problem Statement
 
@@ -31,7 +31,7 @@ UPDATE 2
 ## Solution
 
 ```js
-UPDATE TABLE
+UPDATE TABLE Sales SET
 ```
 
 ---
