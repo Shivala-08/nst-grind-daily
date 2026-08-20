@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `iv66saf89uj3`  
-**Submission Time:** 2026-08-20T21:42:07.243Z  
+**Submission Time:** 2026-08-20T21:42:53.027Z  
 
 ## Problem Statement
 
@@ -32,7 +32,7 @@ UPDATE 2
 
 ```js
 UPDATE employees SET salary=salary+5000;
-SELECT emp_id,emp_name,department,salary FROM employees
+SELECT emp_id,emp_name,department,salary FROM employees ORDER BY ASC
 ```
 
 ---
