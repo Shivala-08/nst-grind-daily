@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `zccvum49ohjb`  
-**Submission Time:** 2026-08-20T21:36:14.414Z  
+**Submission Time:** 2026-08-20T21:36:36.756Z  
 
 ## Problem Statement
 
@@ -28,6 +28,7 @@ TRUNCATE TABLE
 
 ```js
 TRUNCATE TABLE staging_orders
+SELECT * FROM staging_orders
 ```
 
 ---
