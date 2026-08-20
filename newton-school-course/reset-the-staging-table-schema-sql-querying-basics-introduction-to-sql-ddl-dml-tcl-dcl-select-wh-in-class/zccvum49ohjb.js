@@ -1,2 +1,2 @@
-TRUNCATE TABLE staging_orders
+TRUNCATE TABLE staging_orders;
 SELECT * FROM staging_orders
