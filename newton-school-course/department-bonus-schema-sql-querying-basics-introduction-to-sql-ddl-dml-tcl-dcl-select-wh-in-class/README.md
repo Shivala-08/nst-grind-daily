@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `iv66saf89uj3`  
-**Submission Time:** 2026-08-20T21:40:53.044Z  
+**Submission Time:** 2026-08-20T21:41:07.686Z  
 
 ## Problem Statement
 
@@ -31,7 +31,7 @@ UPDATE 2
 ## Solution
 
 ```js
-UPDATE TABLE Sales SET salary=salary+5000;
+UPDATE Sales SET salary=salary+5000;
 SELECT emp_id,emp_name,department,salary FROM employees
 ```
 
