@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `tk08g9ew03dg`  
-**Submission Time:** 2026-08-20T21:37:19.395Z  
+**Submission Time:** 2026-08-20T21:37:27.459Z  
 
 ## Problem Statement
 
@@ -31,7 +31,7 @@ DELETE 2
 ## Solution
 
 ```js
-DELETE TABLE products WHERE
+DELETE TABLE products WHERE stock = 0;
 ```
 
 ---

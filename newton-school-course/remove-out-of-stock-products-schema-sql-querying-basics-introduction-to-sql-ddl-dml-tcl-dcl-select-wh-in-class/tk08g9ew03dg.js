@@ -1,1 +1,1 @@
-DELETE TABLE products WHERE
+DELETE TABLE products WHERE stock = 0;
