@@ -5,6 +5,6 @@ CREATE TABLE courses(
 );
 INSERT INTO courses
 VALUES (1,'Databases',4),
-(2,'Operating Systems',3)
+(2,'Operating Systems',3),
 (3,'Algorithms',4);
 SELECT * FROM courses
