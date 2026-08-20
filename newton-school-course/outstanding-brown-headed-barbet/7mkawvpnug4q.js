@@ -1,5 +1,15 @@
 CREATE TABLE customers (
-    o_id INT PRIMARY KEY,
-    o_name VARCHAR(50),
-    age INT CHECK(o_id >=10)
-)
+cust_id INT PRIMARY KEY,
+name VARCHAR(50) NOT NULL,
+email VARCHAR(100) UNIQUE,
+age INT CHECK (age >= 18),
+city VARCHAR(30) DEFAULT 'Pune',
+is_prime BOOLEAN DEFAULT FALSE
+);
+CREATE TABLE orders (
+order_id INT PRIMARY KEY,
+cust_id INT,
+amount DECIMAL(10,2),
+placed_at TIMESTAMP,
+FOREIGN KEY (cust_id) REFERENCES customers(cust_id)
+);
