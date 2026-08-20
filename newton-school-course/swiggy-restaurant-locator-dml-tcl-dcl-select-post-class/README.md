@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `3b378y6jtqge`  
-**Submission Time:** 2026-08-20T21:24:34.217Z  
+**Submission Time:** 2026-08-20T21:24:51.356Z  
 
 ## Problem Statement
 
@@ -60,7 +60,7 @@ restaurants
 ## Solution
 
 ```js
-SELECT  FROM restaurants
+SELECT restaurant_name AND cuis FROM restaurants
 WHERE
 ```
 
