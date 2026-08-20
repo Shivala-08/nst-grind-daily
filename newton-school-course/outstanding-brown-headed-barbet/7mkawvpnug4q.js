@@ -1,3 +1,3 @@
 CREATE TABLE NST (
-    sr INT 
+    sr INT UNIQUE
 )
