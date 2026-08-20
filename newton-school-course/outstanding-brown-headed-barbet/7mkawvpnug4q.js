@@ -2,4 +2,3 @@ CREATE TABLE NST (
     sr INT UNIQUE,
     name CHAR(20) NOT NULL
 );
-INSERT

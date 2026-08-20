@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `7mkawvpnug4q`  
-**Submission Time:** 2026-08-20T20:29:31.590Z  
+**Submission Time:** 2026-08-20T20:29:48.527Z  
 
 ## Problem Statement
 
@@ -16,7 +16,6 @@ CREATE TABLE NST (
     sr INT UNIQUE,
     name CHAR(20) NOT NULL
 );
-INSERT
 ```
 
 ---
