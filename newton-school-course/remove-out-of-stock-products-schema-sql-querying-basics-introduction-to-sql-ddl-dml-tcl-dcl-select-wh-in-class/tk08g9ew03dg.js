@@ -1,2 +1,2 @@
-DELETE TABLE products WHERE stock = 0;
+DELETE products WHERE stock = 0;
 SELECT product_id,product_name,stock FROM products
