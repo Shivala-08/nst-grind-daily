@@ -3,3 +3,4 @@ CREATE TABLE courses(
     course_name VARCHAR,
     credits INT
 )
+INSERT
