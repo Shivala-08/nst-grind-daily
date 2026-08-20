@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `gryxa6fqd6bi`  
-**Submission Time:** 2026-08-20T21:55:26.559Z  
+**Submission Time:** 2026-08-20T21:55:44.529Z  
 
 ## Problem Statement
 
@@ -54,9 +54,9 @@ DELETE 2
 ## Solution
 
 ```js
-UPDATE STUDENTS_RESULTS SET marks = 85 WHERE student_id = 103;
-DELETE FROM STUDENTS_RESULTS WHERE marks<35;
-SELECT * FROM STUDENTS_RESULTS
+UPDATE STUDENT_RESULTS SET marks = 85 WHERE student_id = 103;
+DELETE FROM STUDENT_RESULTS WHERE marks<35;
+SELECT * FROM STUDENT_RESULTS
 ```
 
 ---
