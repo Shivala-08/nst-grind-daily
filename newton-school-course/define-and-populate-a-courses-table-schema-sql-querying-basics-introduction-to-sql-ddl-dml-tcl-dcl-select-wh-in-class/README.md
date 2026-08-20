@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `svn856tg7qfq`  
-**Submission Time:** 2026-08-20T21:46:07.769Z  
+**Submission Time:** 2026-08-20T21:46:16.265Z  
 
 ## Problem Statement
 
@@ -43,7 +43,7 @@ CREATE TABLE courses(
     course_name VARCHAR,
     credits INT
 )
-INSERT
+INSERT courses
 ```
 
 ---
