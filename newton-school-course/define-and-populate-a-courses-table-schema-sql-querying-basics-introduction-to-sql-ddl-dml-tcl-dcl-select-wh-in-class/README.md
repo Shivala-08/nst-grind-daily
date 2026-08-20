@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `svn856tg7qfq`  
-**Submission Time:** 2026-08-20T21:48:31.102Z  
+**Submission Time:** 2026-08-20T21:48:47.407Z  
 
 ## Problem Statement
 
@@ -44,7 +44,7 @@ CREATE TABLE courses(
     credits INT
 );
 INSERT INTO courses
-VALUES (1,'Databases',4)
+VALUES (1,'Databases',4),
 (2,'Operating Systems',3)
 (3,'Algorithms',4);
 SELECT * FROM courses
