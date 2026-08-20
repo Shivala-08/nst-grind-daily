@@ -13,3 +13,4 @@ amount DECIMAL(10,2),
 placed_at TIMESTAMP,
 FOREIGN KEY (cust_id) REFERENCES customers(cust_id)
 );
+ALTER TABLE

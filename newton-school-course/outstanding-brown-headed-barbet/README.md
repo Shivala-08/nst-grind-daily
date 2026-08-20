@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `7mkawvpnug4q`  
-**Submission Time:** 2026-08-20T20:33:48.886Z  
+**Submission Time:** 2026-08-20T20:34:13.791Z  
 
 ## Problem Statement
 
@@ -27,6 +27,7 @@ amount DECIMAL(10,2),
 placed_at TIMESTAMP,
 FOREIGN KEY (cust_id) REFERENCES customers(cust_id)
 );
+ALTER TABLE
 ```
 
 ---
