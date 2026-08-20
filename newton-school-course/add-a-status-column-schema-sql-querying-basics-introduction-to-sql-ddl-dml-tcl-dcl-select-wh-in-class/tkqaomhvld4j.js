@@ -1,1 +1,1 @@
-ALTER TABLE employees ADD COLUMN
+ALTER TABLE employees ADD COLUMN status

@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `tkqaomhvld4j`  
-**Submission Time:** 2026-08-20T21:33:47.839Z  
+**Submission Time:** 2026-08-20T21:34:00.166Z  
 
 ## Problem Statement
 
@@ -53,7 +53,7 @@ ALTER TABLE
 ## Solution
 
 ```js
-ALTER TABLE employees ADD COLUMN
+ALTER TABLE employees ADD COLUMN status
 ```
 
 ---
