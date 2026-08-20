@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `fauryqffb214`  
-**Submission Time:** 2026-08-20T21:20:51.344Z  
+**Submission Time:** 2026-08-20T21:20:54.635Z  
 
 ## Problem Statement
 
@@ -97,7 +97,7 @@ CREATE TABLE Books(
 INSERT INTO Books 
 VALUES ('The Great Gatsby','F. Scott Fitzgerald','Classic',1925,10);
 SELECT *
-FROM
+FROM Books
 ```
 
 ---

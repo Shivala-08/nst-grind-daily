@@ -9,4 +9,4 @@ CREATE TABLE Books(
 INSERT INTO Books 
 VALUES ('The Great Gatsby','F. Scott Fitzgerald','Classic',1925,10);
 SELECT *
-FROM
+FROM Books
