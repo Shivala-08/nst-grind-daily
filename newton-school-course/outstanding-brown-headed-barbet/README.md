@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `7mkawvpnug4q`  
-**Submission Time:** 2026-08-20T20:32:26.421Z  
+**Submission Time:** 2026-08-20T20:32:48.069Z  
 
 ## Problem Statement
 
@@ -12,11 +12,10 @@ untitled
 ## Solution
 
 ```js
-CREATE TABLE ORDERS (
+CREATE TABLE (
     o_id INT PRIMARY KEY,
     o_name VARCHAR(50),
     age INT CHECK(o_id >=10)
-
 )
 ```
 
