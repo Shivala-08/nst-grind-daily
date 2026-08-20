@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `7mkawvpnug4q`  
-**Submission Time:** 2026-08-20T20:26:13.842Z  
+**Submission Time:** 2026-08-20T20:26:49.961Z  
 
 ## Problem Statement
 
@@ -12,10 +12,7 @@ untitled
 ## Solution
 
 ```js
--- Newton School Online PostgreSQL compiler to run SQL online.
--- Write PostgreSQL code in this online editor and run it.
-
-SELECT 'Hello from Newton School! 👋';
+CREATE TABLE NST
 ```
 
 ---
