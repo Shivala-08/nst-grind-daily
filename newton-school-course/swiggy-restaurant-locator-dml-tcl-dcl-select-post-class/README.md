@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `3b378y6jtqge`  
-**Submission Time:** 2026-08-20T21:24:56.619Z  
+**Submission Time:** 2026-08-20T21:25:11.673Z  
 
 ## Problem Statement
 
@@ -61,7 +61,7 @@ restaurants
 
 ```js
 SELECT restaurant_name AND cuisine FROM restaurants
-WHERE
+WHERE cuisine =
 ```
 
 ---
