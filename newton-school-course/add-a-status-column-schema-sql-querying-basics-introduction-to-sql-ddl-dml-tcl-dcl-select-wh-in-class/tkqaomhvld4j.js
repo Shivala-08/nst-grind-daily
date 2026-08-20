@@ -1,1 +1,1 @@
-ALTER TABLE employees ADD COLUMN status VARCHAR DEFAULT 'active'
+ALTER TABLE employees ADD COLUMN status VARCHAR DEFAULT 'active';
