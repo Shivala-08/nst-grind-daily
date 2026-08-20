@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `dbf00h9jqqee`  
-**Submission Time:** 2026-08-20T21:10:48.444Z  
+**Submission Time:** 2026-08-20T21:10:53.592Z  
 
 ## Problem Statement
 
@@ -114,7 +114,7 @@ NULL
 ## Solution
 
 ```js
-ALTER TABLE
+ALTER TABLE songs
 ```
 
 ---
