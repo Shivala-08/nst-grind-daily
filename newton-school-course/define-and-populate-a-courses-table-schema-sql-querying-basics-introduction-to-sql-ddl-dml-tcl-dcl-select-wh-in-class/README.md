@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `svn856tg7qfq`  
-**Submission Time:** 2026-08-20T21:45:26.366Z  
+**Submission Time:** 2026-08-20T21:46:02.641Z  
 
 ## Problem Statement
 
@@ -40,7 +40,8 @@ INSERT 0 3
 ```js
 CREATE TABLE courses(
     course_id INT PRIMARY KEY,
-    
+    course_name VARCHAR,
+    credits INT
 )
 ```
 
