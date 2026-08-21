@@ -1,1 +1,2 @@
 BEGIN;
+UPDATE accounts
