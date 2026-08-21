@@ -1,4 +1,4 @@
 BEGIN;
 UPDATE products SET stock = stock -1 WHERE product_name = 'Laptop';
 COMMIT
-SELSCT * FROM
+SELSCT * FROM products
