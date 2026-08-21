@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `xxshalrk3nh0`  
-**Submission Time:** 2026-08-21T03:39:49.870Z  
+**Submission Time:** 2026-08-21T03:39:54.274Z  
 
 ## Problem Statement
 
@@ -34,7 +34,7 @@ ROLLBACK
 BEGIN;
 SAVEPOINT sp1;
 DELETE FROM accounts;
-ROLLBACK TO sp1
+ROLLBACK TO sp1;
 ```
 
 ---
