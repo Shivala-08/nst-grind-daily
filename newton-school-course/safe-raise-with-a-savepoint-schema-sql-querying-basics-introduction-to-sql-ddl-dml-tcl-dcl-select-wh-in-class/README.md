@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ce59f78s8cp5`  
-**Submission Time:** 2026-08-21T03:28:17.550Z  
+**Submission Time:** 2026-08-21T03:28:29.849Z  
 
 ## Problem Statement
 
@@ -48,7 +48,7 @@ COMMIT
 ## Solution
 
 ```js
-UPDATE STUDENTS STUDENTS
+UPDATE empployees SET
 ```
 
 ---
