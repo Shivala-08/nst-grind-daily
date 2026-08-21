@@ -1,2 +1,2 @@
 BEGIN;
-UPDATE
+UPDATE products SET
