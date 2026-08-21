@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `o0uy7zfdlkld`  
-**Submission Time:** 2026-08-21T03:45:44.076Z  
+**Submission Time:** 2026-08-21T03:45:52.983Z  
 
 ## Problem Statement
 
@@ -66,6 +66,7 @@ COMMIT
 
 ```js
 BEGIN;
+UPDATE
 ```
 
 ---
