@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `g8teinr30bfy`  
-**Submission Time:** 2026-08-21T04:40:01.713Z  
+**Submission Time:** 2026-08-21T04:40:08.278Z  
 
 ## Problem Statement
 
@@ -64,7 +64,7 @@ VALUES (201, 'The Alchemist', 499.00, 20),
 (203, 'Rich Dad Poor Dad', 650.00, 10),
 (204, 'Ikigai', 550.00, 18), 
 (205, 'Deep Work', 720.00, 12) ;
-SLECT * FROM BOOK_STORE
+SELECT * FROM BOOK_STORE
 ```
 
 ---
