@@ -1,1 +1,1 @@
-DLEETE FROM accounts
+DELETE FROM accounts
