@@ -1,2 +1,2 @@
 BEGIN;
-UPDATE accounts SET balance =
+UPDATE accounts SET balance = balance - 500 WHERE acc_id = 1;

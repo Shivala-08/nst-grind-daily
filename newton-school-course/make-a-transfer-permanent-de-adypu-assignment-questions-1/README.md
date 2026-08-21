@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `krb15bk2m4i1`  
-**Submission Time:** 2026-08-21T03:34:42.695Z  
+**Submission Time:** 2026-08-21T03:35:11.671Z  
 
 ## Problem Statement
 
@@ -33,7 +33,7 @@ COMMIT
 
 ```js
 BEGIN;
-UPDATE accounts SET balance =
+UPDATE accounts SET balance = balance - 500 WHERE acc_id = 1;
 ```
 
 ---
