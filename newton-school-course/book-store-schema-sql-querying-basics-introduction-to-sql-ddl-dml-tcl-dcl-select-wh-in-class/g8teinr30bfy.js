@@ -1,3 +1,4 @@
 CREATE TABLE BOOK_STORE(
-    BOOK_ID INT
+    boo_id INT,
+    
 )
