@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `g8teinr30bfy`  
-**Submission Time:** 2026-08-21T04:37:41.542Z  
+**Submission Time:** 2026-08-21T04:37:46.814Z  
 
 ## Problem Statement
 
@@ -57,7 +57,7 @@ CREATE TABLE BOOK_STORE(
 
 );
 ALTER TABLE BOOK_STORE ADD COLUMN stock_quantity INT;
-ALTER TABLE BOOK_STORE ALTER COLUMN book_title to
+ALTER TABLE BOOK_STORE ALTER COLUMN book_title
 ```
 
 ---
