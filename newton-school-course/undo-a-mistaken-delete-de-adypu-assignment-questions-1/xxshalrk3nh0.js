@@ -1,0 +1,1 @@
+DLEETE FROM accounts
