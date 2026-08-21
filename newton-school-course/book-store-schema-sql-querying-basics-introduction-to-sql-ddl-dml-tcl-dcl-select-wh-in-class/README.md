@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `g8teinr30bfy`  
-**Submission Time:** 2026-08-21T04:34:00.404Z  
+**Submission Time:** 2026-08-21T04:34:11.328Z  
 
 ## Problem Statement
 
@@ -56,6 +56,7 @@ CREATE TABLE BOOK_STORE(
     price DECIMAL(7,2)
 
 );
+ALTER TABLE
 ```
 
 ---
