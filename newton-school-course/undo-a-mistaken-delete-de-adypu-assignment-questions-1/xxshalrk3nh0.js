@@ -1,3 +1,4 @@
 BEGIN;
 SAVEPOINT sp1;
 DELETE FROM accounts;
+RLLBACK TO sp1
