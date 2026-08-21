@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `8a9r5h50o5pt`  
-**Submission Time:** 2026-08-21T04:15:55.129Z  
+**Submission Time:** 2026-08-21T04:16:47.432Z  
 
 ## Problem Statement
 
@@ -54,6 +54,8 @@ CREATE TABLE MY_PRODUCTS (
     price DECIMAL(8,2),
     stock INT
 );
+INSERT INTO MY_PRODUCTS
+VALUES (101,'Laptop',55000.00)
 ```
 
 ---
