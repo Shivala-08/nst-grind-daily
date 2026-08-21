@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ce59f78s8cp5`  
-**Submission Time:** 2026-08-21T03:32:02.534Z  
+**Submission Time:** 2026-08-21T03:33:13.072Z  
 
 ## Problem Statement
 
@@ -48,7 +48,7 @@ COMMIT
 ## Solution
 
 ```js
-BEGIN
+BEGIN;
 UPDATE employees SET salary= salary+5000;
 SAVEPOINT sp1;
 DELETE FROM  employees WHERE department = 'Intern';
