@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `o0uy7zfdlkld`  
-**Submission Time:** 2026-08-21T03:46:09.396Z  
+**Submission Time:** 2026-08-21T03:46:45.018Z  
 
 ## Problem Statement
 
@@ -66,7 +66,8 @@ COMMIT
 
 ```js
 BEGIN;
-UPDATE products SET
+UPDATE products SET stock = stock -1 WHERE product = 'Laptop';
+COMMIT
 ```
 
 ---

@@ -1,2 +1,3 @@
 BEGIN;
-UPDATE products SET
+UPDATE products SET stock = stock -1 WHERE product = 'Laptop';
+COMMIT
