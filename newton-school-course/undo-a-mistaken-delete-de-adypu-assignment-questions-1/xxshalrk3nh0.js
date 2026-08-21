@@ -1,3 +1,3 @@
 BEGIN;
 DELETE FROM accounts;
-SELECT * FROM accounts
+SELECT * FROM accounts;
