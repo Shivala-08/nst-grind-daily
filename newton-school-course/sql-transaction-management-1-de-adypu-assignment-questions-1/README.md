@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `o0uy7zfdlkld`  
-**Submission Time:** 2026-08-21T03:47:11.059Z  
+**Submission Time:** 2026-08-21T03:49:05.149Z  
 
 ## Problem Statement
 
@@ -68,6 +68,7 @@ COMMIT
 BEGIN;
 UPDATE products SET stock = stock -1 WHERE product_name = 'Laptop';
 COMMIT
+SELSCT * FROM
 ```
 
 ---
