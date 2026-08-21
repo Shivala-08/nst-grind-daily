@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ce59f78s8cp5`  
-**Submission Time:** 2026-08-21T03:28:38.755Z  
+**Submission Time:** 2026-08-21T03:28:58.006Z  
 
 ## Problem Statement
 
@@ -48,7 +48,7 @@ COMMIT
 ## Solution
 
 ```js
-UPDATE employees SET
+UPDATE employees SET salary= salary+5000;
 ```
 
 ---

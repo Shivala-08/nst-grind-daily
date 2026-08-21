@@ -1,1 +1,1 @@
-UPDATE employees SET
+UPDATE employees SET salary= salary+5000;
