@@ -1,2 +1,2 @@
 BEGIN;
-UPDATE accounts
+UPDATE accounts SET
