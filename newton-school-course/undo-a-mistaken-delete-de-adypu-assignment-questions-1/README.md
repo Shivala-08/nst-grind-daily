@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `xxshalrk3nh0`  
-**Submission Time:** 2026-08-21T03:38:46.790Z  
+**Submission Time:** 2026-08-21T03:39:15.773Z  
 
 ## Problem Statement
 
@@ -31,7 +31,9 @@ ROLLBACK
 ## Solution
 
 ```js
-DELETE FROM accounts
+BEGIN;
+SAVEPOINT sp1;
+DELETE FROM accounts;
 ```
 
 ---

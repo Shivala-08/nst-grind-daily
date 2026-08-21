@@ -1,1 +1,3 @@
-DELETE FROM accounts
+BEGIN;
+SAVEPOINT sp1;
+DELETE FROM accounts;
