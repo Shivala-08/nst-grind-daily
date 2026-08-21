@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ce59f78s8cp5`  
-**Submission Time:** 2026-08-21T03:31:54.956Z  
+**Submission Time:** 2026-08-21T03:32:00.676Z  
 
 ## Problem Statement
 
@@ -51,7 +51,7 @@ COMMIT
 BEGIN
 UPDATE employees SET salary= salary+5000;
 SAVEPOINT sp1;
-DELEtE FROM  employees WHERE department = 'Intern';
+DELETE FROM  employees WHERE department = 'Intern';
 ROLLBACK TO sp1;
 COMMIT;
 SELECT * FROM employees;
