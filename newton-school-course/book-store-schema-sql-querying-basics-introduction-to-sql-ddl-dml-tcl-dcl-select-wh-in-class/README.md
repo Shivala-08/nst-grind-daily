@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `g8teinr30bfy`  
-**Submission Time:** 2026-08-21T04:32:19.872Z  
+**Submission Time:** 2026-08-21T04:32:30.970Z  
 
 ## Problem Statement
 
@@ -50,7 +50,7 @@ INSERT 0 5
 ## Solution
 
 ```js
-CREATE TABLE
+CREATE TABLE BOOK_STORE
 ```
 
 ---
