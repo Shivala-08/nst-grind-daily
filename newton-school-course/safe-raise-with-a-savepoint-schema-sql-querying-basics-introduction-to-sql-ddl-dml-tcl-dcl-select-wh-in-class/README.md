@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ce59f78s8cp5`  
-**Submission Time:** 2026-08-21T03:30:50.397Z  
+**Submission Time:** 2026-08-21T03:31:12.870Z  
 
 ## Problem Statement
 
@@ -54,6 +54,7 @@ SAVEPOINT sp1;
 DELEE FROM  employees WHERE department = 'Intern';
 ROLLBACK TO sp1
 COMMIT
+SELSCT FROM employees
 ```
 
 ---
