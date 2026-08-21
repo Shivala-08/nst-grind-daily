@@ -1,4 +1,4 @@
 BEGIN;
 DELETE FROM accounts;
-ROLLBACK
+ROLLBACK;
 SELECT * FROM accounts;

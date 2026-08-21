@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `xxshalrk3nh0`  
-**Submission Time:** 2026-08-21T03:42:53.248Z  
+**Submission Time:** 2026-08-21T03:43:01.123Z  
 
 ## Problem Statement
 
@@ -33,7 +33,7 @@ ROLLBACK
 ```js
 BEGIN;
 DELETE FROM accounts;
-ROLLBACK
+ROLLBACK;
 SELECT * FROM accounts;
 ```
 
