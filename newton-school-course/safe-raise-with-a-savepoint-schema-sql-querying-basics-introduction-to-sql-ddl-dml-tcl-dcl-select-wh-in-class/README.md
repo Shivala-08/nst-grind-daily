@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ce59f78s8cp5`  
-**Submission Time:** 2026-08-21T03:29:45.934Z  
+**Submission Time:** 2026-08-21T03:30:12.278Z  
 
 ## Problem Statement
 
@@ -50,7 +50,7 @@ COMMIT
 ```js
 UPDATE employees SET salary= salary+5000;
 SAVEPOINT sp1;
-DELEE FROM  employees WHERE
+DELEE FROM  employees WHERE department = 'Intern'
 ```
 
 ---
