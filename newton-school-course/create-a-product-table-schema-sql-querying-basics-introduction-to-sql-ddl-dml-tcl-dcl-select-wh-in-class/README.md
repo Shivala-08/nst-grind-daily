@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `8a9r5h50o5pt`  
-**Submission Time:** 2026-08-21T04:18:47.768Z  
+**Submission Time:** 2026-08-21T04:18:57.383Z  
 
 ## Problem Statement
 
@@ -57,8 +57,8 @@ CREATE TABLE MY_PRODUCTS (
 INSERT INTO MY_PRODUCTS
 VALUES (101,'Laptop',55000.00,10),
 (102,'Mouse',799.00,50),
-(103,'Keyoard',1499.00,30)
-(104,'Monitor',12000.00,15)
+(103,'Keyoard',1499.00,30),
+(104,'Monitor',12000.00,15),
 (105,'Printer',8500.00,8);
 ```
 
