@@ -1,5 +1,3 @@
 BEGIN;
-SAVEPOINT sp1;
 DELETE FROM accounts;
-ROLLBACK TO sp1;
 SELECT * FROM accounts
