@@ -1,4 +1,6 @@
 CREATE TABLE BOOK_STORE(
-    boo_id INT,
-    
+    book_id INT,
+    book_title VARCHAR(100),
+    price DECIMAL(7,2)
+
 )

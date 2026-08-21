@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `g8teinr30bfy`  
-**Submission Time:** 2026-08-21T04:33:17.850Z  
+**Submission Time:** 2026-08-21T04:33:56.316Z  
 
 ## Problem Statement
 
@@ -51,8 +51,10 @@ INSERT 0 5
 
 ```js
 CREATE TABLE BOOK_STORE(
-    boo_id INT,
-    
+    book_id INT,
+    book_title VARCHAR(100),
+    price DECIMAL(7,2)
+
 )
 ```
 
