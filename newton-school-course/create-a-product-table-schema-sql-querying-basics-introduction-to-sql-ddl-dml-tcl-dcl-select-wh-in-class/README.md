@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `8a9r5h50o5pt`  
-**Submission Time:** 2026-08-21T04:15:05.052Z  
+**Submission Time:** 2026-08-21T04:15:55.129Z  
 
 ## Problem Statement
 
@@ -50,8 +50,10 @@ Display all records using a SELECT statement.
 ```js
 CREATE TABLE MY_PRODUCTS (
     product_id INT PRIMARY KEY,
-    
-)
+    product_name VARCHAR(50),
+    price DECIMAL(8,2),
+    stock INT
+);
 ```
 
 ---
