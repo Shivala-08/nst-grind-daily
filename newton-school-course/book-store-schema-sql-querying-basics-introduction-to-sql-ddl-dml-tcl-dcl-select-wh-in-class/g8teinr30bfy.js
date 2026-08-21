@@ -3,4 +3,4 @@ CREATE TABLE BOOK_STORE(
     book_title VARCHAR(100),
     price DECIMAL(7,2)
 
-)
+);
