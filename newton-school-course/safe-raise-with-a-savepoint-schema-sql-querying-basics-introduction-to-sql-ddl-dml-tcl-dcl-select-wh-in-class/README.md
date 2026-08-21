@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ce59f78s8cp5`  
-**Submission Time:** 2026-08-21T03:29:12.479Z  
+**Submission Time:** 2026-08-21T03:29:32.103Z  
 
 ## Problem Statement
 
@@ -50,6 +50,7 @@ COMMIT
 ```js
 UPDATE employees SET salary= salary+5000;
 SAVEPOINT sp1;
+DELEE employees
 ```
 
 ---
