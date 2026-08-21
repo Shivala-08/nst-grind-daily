@@ -10,3 +10,4 @@ VALUES (101,'Laptop',55000.00,10),
 (103,'Keyoard',1499.00,30),
 (104,'Monitor',12000.00,15),
 (105,'Printer',8500.00,8);
+SELECT * FROM MY_PRODUCTS

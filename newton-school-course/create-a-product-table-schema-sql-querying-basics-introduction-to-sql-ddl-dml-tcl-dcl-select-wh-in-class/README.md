@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `8a9r5h50o5pt`  
-**Submission Time:** 2026-08-21T04:18:57.383Z  
+**Submission Time:** 2026-08-21T04:19:15.101Z  
 
 ## Problem Statement
 
@@ -60,6 +60,7 @@ VALUES (101,'Laptop',55000.00,10),
 (103,'Keyoard',1499.00,30),
 (104,'Monitor',12000.00,15),
 (105,'Printer',8500.00,8);
+SELECT * FROM MY_PRODUCTS
 ```
 
 ---
