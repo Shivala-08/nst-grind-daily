@@ -4,4 +4,4 @@ SAVEPOINT sp1;
 DELEE FROM  employees WHERE department = 'Intern';
 ROLLBACK TO sp1
 COMMIT
-SELSCT FROM employees
+SELSCT * FROM employees
