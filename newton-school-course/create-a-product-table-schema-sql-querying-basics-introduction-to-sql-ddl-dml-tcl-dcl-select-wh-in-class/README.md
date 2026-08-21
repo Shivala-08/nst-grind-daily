@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `8a9r5h50o5pt`  
-**Submission Time:** 2026-08-21T03:50:14.578Z  
+**Submission Time:** 2026-08-21T04:13:58.396Z  
 
 ## Problem Statement
 
@@ -48,7 +48,7 @@ Display all records using a SELECT statement.
 ## Solution
 
 ```js
-CREATE TABLE
+CREATE TABLE MY_
 ```
 
 ---
