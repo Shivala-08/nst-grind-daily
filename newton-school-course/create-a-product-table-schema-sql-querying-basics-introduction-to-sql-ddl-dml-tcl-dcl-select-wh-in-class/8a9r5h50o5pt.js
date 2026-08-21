@@ -1,3 +1,4 @@
 CREATE TABLE MY_PRODUCTS (
+    product_id INT PRIMARY KEY,
     
 )
