@@ -1,2 +1,2 @@
 BEGIN;
-UPDATE accounts SET
+UPDATE accounts SET balance =
