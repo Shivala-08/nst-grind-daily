@@ -7,4 +7,8 @@ CREATE TABLE BOOK_STORE(
 ALTER TABLE BOOK_STORE ADD COLUMN stock_quantity INT;
 ALTER TABLE BOOK_STORE ALTER COLUMN book_title TYPE VARCHAR(200);
 INSERT INTO BOOK_STORE
-VALUES
+VALUES (201, 'The Alchemist', 499.00, 20),
+(202, 'Atomic Habits', 799.00, 15),
+(203, 'Rich Dad Poor Dad', 650.00, 10),
+(204, 'Ikigai', 550.00, 18), 
+(205, 'Deep Work', 720.00, 12) ;
