@@ -22,7 +22,7 @@ def deleteNode(root, key):
         elif not root.right:
             return root.left
             
-        # Case 3: Node has two children
+        
         # Find the inorder successor (smallest value in the right subtree)
         curr = root.right
         while curr.left:

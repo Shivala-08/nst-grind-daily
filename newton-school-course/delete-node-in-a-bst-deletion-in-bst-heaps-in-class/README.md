@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `oo6esndedh75`  
-**Submission Time:** 2026-08-24T05:53:29.656Z  
+**Submission Time:** 2026-08-24T05:53:37.695Z  
 
 ## Problem Statement
 
@@ -61,7 +61,7 @@ def deleteNode(root, key):
         elif not root.right:
             return root.left
             
-        # Case 3: Node has two children
+        
         # Find the inorder successor (smallest value in the right subtree)
         curr = root.right
         while curr.left:
