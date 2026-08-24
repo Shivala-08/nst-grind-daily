@@ -6,19 +6,17 @@ class Node:
         self.right = None
 '''
 def deleteNode(root, key):
-    # Base case: if the tree is empty or we haven't found the key
+    
     if not root:
         return root
 
-    # Traverse down the tree to find the node to delete
+    
     if key < root.val:
         root.left = deleteNode(root.left, key)
     elif key > root.val:
         root.right = deleteNode(root.right, key)
     else:
-        # Node to delete is found.
         
-        # Case 1 & 2: Node has no children (leaf) or only one child
         if not root.left:
             return root.right
         elif not root.right:
