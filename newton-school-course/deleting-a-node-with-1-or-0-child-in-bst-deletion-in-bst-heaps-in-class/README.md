@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `k446cgr0inbz`  
-**Submission Time:** 2026-08-24T05:56:48.017Z  
+**Submission Time:** 2026-08-24T05:57:09.540Z  
 
 ## Problem Statement
 
@@ -57,16 +57,13 @@ def deleteFromBST(root, target):
     elif target < root.val:
         root.left = deleteFromBST(root.left, target)
         
-    # Target node found
     else:
-        # Case 1 & 2: Node has 0 or 1 child
         if root.left is None:
             return root.right
         elif root.right is None:
             return root.left
 
-        # Case 3: Node has 2 children
-        # Find the inorder successor (smallest node in the right subtree)
+        
         temp = root.right
         while temp.left is not None:
             temp = temp.left
@@ -74,7 +71,7 @@ def deleteFromBST(root, target):
         # Replace target's value with the inorder successor's value
         root.val = temp.val
 
-        # Recursively delete the inorder successor from the right subtree
+
         root.right = deleteFromBST(root.right, temp.val)
 
     return root
