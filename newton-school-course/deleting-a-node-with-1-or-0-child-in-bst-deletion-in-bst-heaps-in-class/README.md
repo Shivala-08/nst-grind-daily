@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `k446cgr0inbz`  
-**Submission Time:** 2026-08-24T05:57:09.540Z  
+**Submission Time:** 2026-08-24T05:57:22.404Z  
 
 ## Problem Statement
 
@@ -67,8 +67,6 @@ def deleteFromBST(root, target):
         temp = root.right
         while temp.left is not None:
             temp = temp.left
-
-        # Replace target's value with the inorder successor's value
         root.val = temp.val
 
 

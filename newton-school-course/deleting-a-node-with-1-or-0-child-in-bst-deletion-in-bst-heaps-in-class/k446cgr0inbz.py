@@ -27,8 +27,6 @@ def deleteFromBST(root, target):
         temp = root.right
         while temp.left is not None:
             temp = temp.left
-
-        # Replace target's value with the inorder successor's value
         root.val = temp.val
 
 
