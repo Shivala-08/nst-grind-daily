@@ -27,10 +27,9 @@ def deleteNode(root, key):
         while curr.left:
             curr = curr.left
             
-        # Replace the target node's value with the inorder successor's value
+      
         root.val = curr.val
         
-        # Recursively delete the inorder successor from the right subtree
         root.right = deleteNode(root.right, root.val)
 
     return root

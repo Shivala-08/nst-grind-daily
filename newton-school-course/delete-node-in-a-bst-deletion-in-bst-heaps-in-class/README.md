@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `oo6esndedh75`  
-**Submission Time:** 2026-08-24T05:54:10.668Z  
+**Submission Time:** 2026-08-24T05:54:21.121Z  
 
 ## Problem Statement
 
@@ -66,10 +66,9 @@ def deleteNode(root, key):
         while curr.left:
             curr = curr.left
             
-        # Replace the target node's value with the inorder successor's value
+      
         root.val = curr.val
         
-        # Recursively delete the inorder successor from the right subtree
         root.right = deleteNode(root.right, root.val)
 
     return root
