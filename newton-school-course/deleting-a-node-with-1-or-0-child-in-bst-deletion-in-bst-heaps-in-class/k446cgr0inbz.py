@@ -7,11 +7,11 @@ class Node:
 '''
 ,
 def deleteFromBST(root, target):
-    # Base case: if the tree is empty or we haven't found the target
+ 
     if root is None:
         return None
 
-    # Search for the target node
+
     if target > root.val:
         root.right = deleteFromBST(root.right, target)
     elif target < root.val:
