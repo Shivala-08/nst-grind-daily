@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `83pk0qui0mx5`  
-**Submission Time:** 2026-08-25T17:59:51.319Z  
+**Submission Time:** 2026-08-25T18:01:19.636Z  
 
 ## Problem Statement
 
@@ -47,17 +47,13 @@ def trimBST(root, low, high):
     if not root:
         return None
 
-    # If the current node value is less than low, 
-    # then its left subtree is also completely out of range.
-    if root.val < low:
+    # Newton School uses root.data instead of root.val
+    if root.data < low:
         return trimBST(root.right, low, high)
 
-    # If the current node value is greater than high, 
-    # then its right subtree is also completely out of range.
-    if root.val > high:
+    if root.data > high:
         return trimBST(root.left, low, high)
 
-    # If node is within [low, high], recursively trim left and right subtrees.
     root.left = trimBST(root.left, low, high)
     root.right = trimBST(root.right, low, high)
 
