@@ -6,31 +6,22 @@ class Node:
         self.right = None
 '''
 
-def delete_node(root, key):
+def trimBST(root, low, high):
     if not root:
         return None
 
-    # Search for the node to delete
-    if key < root.val:
-        root.left = delete_node(root.left, key)
-    elif key > root.val:
-        root.right = delete_node(root.right, key)
-    else:
-        # Node with only one child or no child
-        if not root.left:
-            return root.right
-        elif not root.right:
-            return root.left
+    # If the current node value is less than low, 
+    # then its left subtree is also completely out of range.
+    if root.val < low:
+        return trimBST(root.right, low, high)
 
-        # Node with two children: replace with inorder predecessor (max in left subtree)
-        curr = root.left
-        while curr.right:
-            curr = curr.right
-        
-        # Replace value with inorder predecessor's value
-        root.val = curr.val
-        
-        # Recursively delete the inorder predecessor from left subtree
-        root.left = delete_node(root.left, curr.val)
+    # If the current node value is greater than high, 
+    # then its right subtree is also completely out of range.
+    if root.val > high:
+        return trimBST(root.left, low, high)
+
+    # If node is within [low, high], recursively trim left and right subtrees.
+    root.left = trimBST(root.left, low, high)
+    root.right = trimBST(root.right, low, high)
 
     return root
