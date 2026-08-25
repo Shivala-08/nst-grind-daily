@@ -5,6 +5,11 @@ class Node:
         self.left = None
         self.right = None
 '''
+import sys
+
+sys.setrecursionlimit(200000)
+
+
 def bst_to_sorted_list(root):
     dummy = Node(-1)
     prev = dummy
@@ -14,15 +19,12 @@ def bst_to_sorted_list(root):
         if not node:
             return
 
-        # 1. Traverse the left subtree
         inorder(node.left)
 
-        # 2. Process current node
         prev.right = node
         node.left = None
         prev = node
 
-        # 3. Traverse the right subtree
         inorder(node.right)
 
     inorder(root)
