@@ -6,18 +6,20 @@ class Node:
         self.right = None
 '''
 
-def trimBST(root, low, high):
-    if not root:
+def trim_bst(root, low, high):
+    if root is None:
         return None
 
-    # Newton School uses root.data instead of root.val
-    if root.data < low:
-        return trimBST(root.right, low, high)
+    # Current node is too small
+    if root.val < low:
+        return trim_bst(root.right, low, high)
 
-    if root.data > high:
-        return trimBST(root.left, low, high)
+    # Current node is too large
+    if root.val > high:
+        return trim_bst(root.left, low, high)
 
-    root.left = trimBST(root.left, low, high)
-    root.right = trimBST(root.right, low, high)
+    # Current node is valid
+    root.left = trim_bst(root.left, low, high)
+    root.right = trim_bst(root.right, low, high)
 
     return root
