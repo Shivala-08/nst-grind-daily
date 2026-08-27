@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `2budqkclo3sc`  
-**Submission Time:** 2026-08-27T04:40:05.308Z  
+**Submission Time:** 2026-08-27T04:40:16.753Z  
 
 ## Problem Statement
 
@@ -62,17 +62,14 @@ FROM Books
 WHERE rating >= 4.7 
 ORDER BY rating DESC;
 
--- Task 2: Retrieve books published between 2010 and 2020 with > 1 available copies
 SELECT * 
 FROM Books 
 WHERE publication_year BETWEEN 2010 AND 2020 
   AND available_copies > 1;
 
--- Task 3: Retrieve unique genres
 SELECT DISTINCT genre 
 FROM Books;
 
--- Task 4: Retrieve authors whose last name starts with M
 SELECT * 
 FROM Books 
 WHERE author LIKE '% M%';
