@@ -27,7 +27,6 @@ def delete_from_heap(heap):
         if right < n and heap[right] > heap[largest]:
             largest = right
             
-        # If the largest element is not the current root, swap and continue down
         if largest != i:
             heap[i], heap[largest] = heap[largest], heap[i]
             i = largest

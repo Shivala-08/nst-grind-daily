@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `3sz6ox27gf28`  
-**Submission Time:** 2026-08-27T06:59:55.687Z  
+**Submission Time:** 2026-08-27T07:00:00.169Z  
 
 ## Problem Statement
 
@@ -88,7 +88,6 @@ def delete_from_heap(heap):
         if right < n and heap[right] > heap[largest]:
             largest = right
             
-        # If the largest element is not the current root, swap and continue down
         if largest != i:
             heap[i], heap[largest] = heap[largest], heap[i]
             i = largest
