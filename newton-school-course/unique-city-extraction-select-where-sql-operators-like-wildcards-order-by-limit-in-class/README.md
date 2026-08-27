@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `hipbx3eqbt2q`  
-**Submission Time:** 2026-08-27T04:46:23.968Z  
+**Submission Time:** 2026-08-27T04:46:32.293Z  
 
 ## Problem Statement
 
@@ -69,19 +69,17 @@ city
 
 -- Hint 4: Retrieve unique membership types without duplicates.
 
--- 1. Retrieve unique cities
+
 SELECT DISTINCT city 
 FROM Customers;
 
--- 2. Retrieve unique city-state combinations
 SELECT DISTINCT city, state 
 FROM Customers;
 
--- 3. Count the number of unique cities
 SELECT COUNT(DISTINCT city) AS unique_city_count 
 FROM Customers;
 
--- 4. Retrieve unique membership tiers
+
 SELECT DISTINCT membership 
 FROM Customers;
 ```
