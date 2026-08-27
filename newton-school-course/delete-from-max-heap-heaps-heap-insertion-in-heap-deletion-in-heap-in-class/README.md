@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `3sz6ox27gf28`  
-**Submission Time:** 2026-08-27T06:59:46.665Z  
+**Submission Time:** 2026-08-27T06:59:55.687Z  
 
 ## Problem Statement
 
@@ -81,11 +81,10 @@ def delete_from_heap(heap):
         left = 2 * i + 1
         right = 2 * i + 2
         
-        # Check if left child exists and is greater than current largest
+
         if left < n and heap[left] > heap[largest]:
             largest = left
             
-        # Check if right child exists and is greater than current largest
         if right < n and heap[right] > heap[largest]:
             largest = right
             

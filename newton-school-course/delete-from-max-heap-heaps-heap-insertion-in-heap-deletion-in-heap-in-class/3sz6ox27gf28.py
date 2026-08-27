@@ -20,11 +20,10 @@ def delete_from_heap(heap):
         left = 2 * i + 1
         right = 2 * i + 2
         
-        # Check if left child exists and is greater than current largest
+
         if left < n and heap[left] > heap[largest]:
             largest = left
             
-        # Check if right child exists and is greater than current largest
         if right < n and heap[right] > heap[largest]:
             largest = right
             
