@@ -2,7 +2,7 @@ def delete_from_heap(heap):
     if not heap:
         return None
     
-    # Save the root element (maximum value)
+
     max_val = heap[0]
     
     # If there's only one element, remove it and return

@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `3sz6ox27gf28`  
-**Submission Time:** 2026-08-27T06:59:31.191Z  
+**Submission Time:** 2026-08-27T06:59:36.621Z  
 
 ## Problem Statement
 
@@ -63,7 +63,7 @@ def delete_from_heap(heap):
     if not heap:
         return None
     
-    # Save the root element (maximum value)
+
     max_val = heap[0]
     
     # If there's only one element, remove it and return
