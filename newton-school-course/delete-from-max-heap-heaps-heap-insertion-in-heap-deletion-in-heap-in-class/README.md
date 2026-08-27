@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `3sz6ox27gf28`  
-**Submission Time:** 2026-08-27T06:59:36.621Z  
+**Submission Time:** 2026-08-27T06:59:46.665Z  
 
 ## Problem Statement
 
@@ -66,15 +66,13 @@ def delete_from_heap(heap):
 
     max_val = heap[0]
     
-    # If there's only one element, remove it and return
+    
     if len(heap) == 1:
         heap.pop()
         return max_val
-    
-    # Move the last element to the root position
+
     heap[0] = heap.pop()
     
-    # Down-heapify process starting from index 0
     n = len(heap)
     i = 0
     
