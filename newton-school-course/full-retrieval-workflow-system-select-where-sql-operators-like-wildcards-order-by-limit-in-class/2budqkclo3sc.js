@@ -1,4 +1,3 @@
--- Task 1: Retrieve highly rated (>= 4.7) books (title, author, rating) ordered by rating descending
 SELECT title, author, rating 
 FROM Books 
 WHERE rating >= 4.7 

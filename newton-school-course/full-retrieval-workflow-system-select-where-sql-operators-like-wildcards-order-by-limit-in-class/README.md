@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `2budqkclo3sc`  
-**Submission Time:** 2026-08-27T04:40:16.753Z  
+**Submission Time:** 2026-08-27T04:40:20.262Z  
 
 ## Problem Statement
 
@@ -56,7 +56,6 @@ Tasks:
 ## Solution
 
 ```js
--- Task 1: Retrieve highly rated (>= 4.7) books (title, author, rating) ordered by rating descending
 SELECT title, author, rating 
 FROM Books 
 WHERE rating >= 4.7 
