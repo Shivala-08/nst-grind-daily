@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `128b8b19zy1v`  
-**Submission Time:** 2026-08-27T03:44:58.443Z  
+**Submission Time:** 2026-08-27T03:45:52.510Z  
 
 ## Problem Statement
 
@@ -69,6 +69,7 @@ and gpa &gt; 3.5)
 ## Solution
 
 ```js
+SELECT * FROM Applicants where gpa >=3.7 AND entrance_score>=85;
 SELECT * FROM Applicants where gpa >=3.7 AND entrance_score>=85;
 ```
 
