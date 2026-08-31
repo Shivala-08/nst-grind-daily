@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `5p0zw5ynzlpy`  
-**Submission Time:** 2026-08-31T06:49:12.536Z  
+**Submission Time:** 2026-08-31T06:49:26.492Z  
 
 ## Problem Statement
 
@@ -55,7 +55,6 @@ aeiou1234@
 ```py
 import itertools
 import sys
-
 def solve():
     input_data = sys.stdin.read().split()
     if not input_data:
@@ -63,8 +62,6 @@ def solve():
     
     n = int(input_data[0])
     chars = "aeiou1234@"
-    
-    # Generate all Cartesian products of length n with repetition
     for p in itertools.product(chars, repeat=n):
         print("".join(p))
 
