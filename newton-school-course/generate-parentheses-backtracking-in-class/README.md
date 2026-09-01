@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `28qkqpfjmxku`  
-**Submission Time:** 2026-09-01T07:27:43.130Z  
+**Submission Time:** 2026-09-01T07:28:52.009Z  
 
 ## Problem Statement
 
@@ -41,7 +41,6 @@ def generateParenthesis(n):
     result = []
     
     def backtrack(current_str, open_count, close_count):
-        # Base case: valid combination formed
         if len(current_str) == 2 * n:
             result.append(current_str)
             return
