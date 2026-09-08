@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T20:14:48.762Z  
+**Submission Time:** 2026-09-08T20:15:20.019Z  
 
 ## Problem Statement
 
@@ -12,11 +12,10 @@ untitled
 ## Solution
 
 ```py
-def fact(n,i=0):
-    if i>n:
+def powe(a,b):
+    if b==0:
         return 1
-    return i*(fact(n,i+1))
-print(fact(4,0))
+    return a
 ```
 
 ---
