@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T19:58:16.443Z  
+**Submission Time:** 2026-09-08T20:02:21.122Z  
 
 ## Problem Statement
 
@@ -11,10 +11,13 @@ untitled
 
 ## Solution
 
-```js
-# Newton School Online Python compiler (interpreter) to run Python online.
-# Write Python 3 code in this online editor and run it.
-print("Hello from Newton School! 👋")
+```py
+def countdown(n):
+    if n==0:
+        return 0
+    print(n)
+    countdown(n-1)
+countdown(5)
 ```
 
 ---
