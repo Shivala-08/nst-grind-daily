@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:06:39.899Z  
+**Submission Time:** 2026-09-08T21:07:46.289Z  
 
 ## Problem Statement
 
@@ -13,6 +13,12 @@ untitled
 
 ```js
 arr = list(map(int,input().split()))
+n = len(arr)
+high = n-1
+low = 0
+while low<=high:
+    mid  = (high+low)//2
+    if
 ```
 
 ---
