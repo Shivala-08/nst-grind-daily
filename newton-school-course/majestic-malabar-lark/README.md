@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T20:08:14.207Z  
+**Submission Time:** 2026-09-08T20:11:41.994Z  
 
 ## Problem Statement
 
@@ -12,11 +12,10 @@ untitled
 ## Solution
 
 ```py
-def suma(arr,i):
-    if len(arr)==0:
-        return 0
-    return arr[0]+suma(arr[1:])
-print(suma([10,20,30,40]))
+def fact(n):
+    if n==1:
+        return 1
+    return n*fact(n-1)
 ```
 
 ---
