@@ -1,2 +1,3 @@
-def sub(s,n):
-    if len(s
+def sub("",n):
+    if len(s)==n:
+        return s
