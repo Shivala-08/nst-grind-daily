@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T20:04:21.750Z  
+**Submission Time:** 2026-09-08T20:05:00.358Z  
 
 ## Problem Statement
 
@@ -13,7 +13,9 @@ untitled
 
 ```py
 def suma(arr,i=0):
-    if i>
+    if i>=len(arr):
+        return 0
+    return arr[i]+suma()
 ```
 
 ---
