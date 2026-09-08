@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:07:46.289Z  
+**Submission Time:** 2026-09-08T21:08:25.555Z  
 
 ## Problem Statement
 
@@ -18,7 +18,9 @@ high = n-1
 low = 0
 while low<=high:
     mid  = (high+low)//2
-    if
+    if arr[mid]==x:
+        print(x)
+    elif arr[mid]>x:
 ```
 
 ---

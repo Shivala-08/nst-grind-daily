@@ -4,4 +4,6 @@ high = n-1
 low = 0
 while low<=high:
     mid  = (high+low)//2
-    if
+    if arr[mid]==x:
+        print(x)
+    elif arr[mid]>x:
