@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T20:03:47.484Z  
+**Submission Time:** 2026-09-08T20:04:04.551Z  
 
 ## Problem Statement
 
@@ -12,10 +12,7 @@ untitled
 ## Solution
 
 ```py
-def suma(n):
-    if n==0:
-        return 0
-    return n+suma(n-1)
+def suma(arr):
 ```
 
 ---
