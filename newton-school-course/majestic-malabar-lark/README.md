@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:22:54.867Z  
+**Submission Time:** 2026-09-08T21:30:44.316Z  
 
 ## Problem Statement
 
@@ -12,13 +12,9 @@ untitled
 ## Solution
 
 ```py
-def sub(s,n):
-    if len(s)==n:
-        print(s)
+def subsets(arr,i,current):
+    if i==len(arr)-1:
         return
-    sub(s+"0",n)
-    sub(s+"1",n)
-sub("",3)
 ```
 
 ---

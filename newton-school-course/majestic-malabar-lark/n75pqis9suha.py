@@ -1,7 +1,3 @@
-def sub(s,n):
-    if len(s)==n:
-        print(s)
+def subsets(arr,i,current):
+    if i==len(arr)-1:
         return
-    sub(s+"0",n)
-    sub(s+"1",n)
-sub("",3)
