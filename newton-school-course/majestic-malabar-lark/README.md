@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T22:08:12.017Z  
+**Submission Time:** 2026-09-08T22:08:23.913Z  
 
 ## Problem Statement
 
@@ -12,14 +12,14 @@ untitled
 ## Solution
 
 ```py
-def sub(i,s,n):
+def sub(s,n):
     if len(s)==n:
         print(s)
         return
     sub(i,s+"0",n)
     if not s or s[-1] != "1":
         sub(s + "1", n)
-sub(1,"",3)
+sub("",3)
 ```
 
 ---
