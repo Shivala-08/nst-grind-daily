@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T20:05:48.654Z  
+**Submission Time:** 2026-09-08T20:06:06.520Z  
 
 ## Problem Statement
 
@@ -16,7 +16,8 @@ def suma(arr,i=0):
     if i>=len(arr):
         return 0
     i+=1
-    return arr[i]+suma()
+    return arr[i]+suma(arr,i)
+suma([10,20,30,40])
 ```
 
 ---
