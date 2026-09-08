@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T20:02:30.699Z  
+**Submission Time:** 2026-09-08T20:02:50.028Z  
 
 ## Problem Statement
 
@@ -15,8 +15,9 @@ untitled
 def countdown(n):
     if n==0:
         return 0
-    print(n)
     countdown(n-1)
+    print(n)
+    
 countdown(5)
 ```
 
