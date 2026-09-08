@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:13:26.659Z  
+**Submission Time:** 2026-09-08T21:13:51.869Z  
 
 ## Problem Statement
 
@@ -13,10 +13,9 @@ untitled
 
 ```py
 def bins(arr,target,left,right):
-    left = 0
-    right = len(arr)-1
     if left<right:
         return -1
+    if arr[mid]:
 ```
 
 ---
