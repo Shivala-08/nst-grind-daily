@@ -7,3 +7,6 @@ while low<=high:
     if arr[mid]==x:
         print(x)
     elif arr[mid]>x:
+        low = mid+1
+    else:
+        mi

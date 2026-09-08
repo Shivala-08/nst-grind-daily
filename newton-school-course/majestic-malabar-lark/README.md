@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:08:25.555Z  
+**Submission Time:** 2026-09-08T21:08:48.977Z  
 
 ## Problem Statement
 
@@ -21,6 +21,9 @@ while low<=high:
     if arr[mid]==x:
         print(x)
     elif arr[mid]>x:
+        low = mid+1
+    else:
+        mi
 ```
 
 ---
