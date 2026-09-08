@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T20:02:50.028Z  
+**Submission Time:** 2026-09-08T20:03:47.484Z  
 
 ## Problem Statement
 
@@ -12,13 +12,10 @@ untitled
 ## Solution
 
 ```py
-def countdown(n):
+def suma(n):
     if n==0:
         return 0
-    countdown(n-1)
-    print(n)
-    
-countdown(5)
+    return n+suma(n-1)
 ```
 
 ---
