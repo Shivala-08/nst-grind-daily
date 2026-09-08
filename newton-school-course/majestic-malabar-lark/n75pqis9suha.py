@@ -4,3 +4,5 @@ def bins(arr,target,left,right):
     if arr[mid]==target:
         return mid
     elif arr[mid]>target:
+        bins(arr,target,left,mid-1)
+    else:
