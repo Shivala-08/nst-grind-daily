@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:47:39.105Z  
+**Submission Time:** 2026-09-08T21:48:06.197Z  
 
 ## Problem Statement
 
@@ -15,6 +15,7 @@ untitled
 def sub(s,n):
     if len(s)==n:
         print(s)
+        return
 ```
 
 ---
