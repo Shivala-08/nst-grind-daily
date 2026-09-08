@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:09:44.675Z  
+**Submission Time:** 2026-09-08T21:10:13.688Z  
 
 ## Problem Statement
 
@@ -11,20 +11,8 @@ untitled
 
 ## Solution
 
-```js
-arr = list(map(int,input().split()))
-x = int(input())
-n = len(arr)
-high = n-1
-low = 0
-while low<=high:
-    mid  = (high+low)//2
-    if arr[mid]==x:
-        print(x)
-    elif arr[mid]>x:
-        low = mid+1
-    else:
-        high = mid-1
+```py
+def bins(arr,target,left,right):
 ```
 
 ---
