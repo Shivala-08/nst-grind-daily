@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T20:17:28.805Z  
+**Submission Time:** 2026-09-08T20:18:56.391Z  
 
 ## Problem Statement
 
@@ -12,11 +12,7 @@ untitled
 ## Solution
 
 ```py
-def powe(a,b):
-    if b==0:
-        return 1
-    return a*powe(a,b-1)
-print(powe(2,4))
+def findmax(arr):
 ```
 
 ---
