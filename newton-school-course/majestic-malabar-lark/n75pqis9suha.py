@@ -4,3 +4,4 @@ def sub("",n):
         return
     sub(s+"0",n)
     sub(s+"1",n)
+sub()
