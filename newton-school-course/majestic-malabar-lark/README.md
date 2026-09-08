@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:15:05.685Z  
+**Submission Time:** 2026-09-08T21:20:04.626Z  
 
 ## Problem Statement
 
@@ -12,15 +12,7 @@ untitled
 ## Solution
 
 ```py
-def bins(arr,target,left,right):
-    if left<right:
-        return -1
-    if arr[mid]==target:
-        return mid
-    elif arr[mid]>target:
-        bins(arr,target,left,mid-1)
-    else:
-        bins(arr,target,mid+1,right)
+def sub("",n):
 ```
 
 ---
