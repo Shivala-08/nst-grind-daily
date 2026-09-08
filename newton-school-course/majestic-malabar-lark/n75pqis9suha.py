@@ -1,2 +1,2 @@
-def findmax(arr):
-    if
+def findmax(arr,i=0):
+    if i
