@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:06:00.272Z  
+**Submission Time:** 2026-09-08T21:06:39.899Z  
 
 ## Problem Statement
 
@@ -12,7 +12,7 @@ untitled
 ## Solution
 
 ```js
-arr = array(int(input().split()))
+arr = list(map(int,input().split()))
 ```
 
 ---
