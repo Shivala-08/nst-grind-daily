@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:22:34.342Z  
+**Submission Time:** 2026-09-08T21:22:52.756Z  
 
 ## Problem Statement
 
@@ -12,7 +12,7 @@ untitled
 ## Solution
 
 ```py
-def sub("",n):
+def sub(s,n):
     if len(s)==n:
         print(s)
         return
