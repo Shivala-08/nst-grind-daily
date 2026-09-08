@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:05:28.381Z  
+**Submission Time:** 2026-09-08T21:06:00.272Z  
 
 ## Problem Statement
 
@@ -11,12 +11,8 @@ untitled
 
 ## Solution
 
-```py
-def findmax(arr,i=0):
-    if i==len(arr)-1:
-        return arr[i]
-    
-print(findmax([10,20,30,40],i=0))
+```js
+arr = array(int(input().split()))
 ```
 
 ---
