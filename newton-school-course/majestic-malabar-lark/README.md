@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:42:21.078Z  
+**Submission Time:** 2026-09-08T21:47:39.105Z  
 
 ## Problem Statement
 
@@ -12,16 +12,9 @@ untitled
 ## Solution
 
 ```py
-def subsets(arr,i,current):
-    if i==len(arr):
-        print(current)
-        return
-    current.append(arr[i])
-    subsets(arr,i+1,current)
-    current.pop()
-    subsets(arr,i+1,current)
-arr = [1,2,3]
-subsets(arr,0,[])
+def sub(s,n):
+    if len(s)==n:
+        print(s)
 ```
 
 ---
