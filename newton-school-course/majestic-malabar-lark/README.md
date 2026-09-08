@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T20:12:03.410Z  
+**Submission Time:** 2026-09-08T20:12:21.552Z  
 
 ## Problem Statement
 
@@ -15,8 +15,8 @@ untitled
 def fact(n):
     if n==1:
         return 1
+    print(n)
     return n*fact(n-1)
-print(fact(4))
 ```
 
 ---
