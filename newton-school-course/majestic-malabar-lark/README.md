@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:08:48.977Z  
+**Submission Time:** 2026-09-08T21:09:08.652Z  
 
 ## Problem Statement
 
@@ -13,6 +13,7 @@ untitled
 
 ```js
 arr = list(map(int,input().split()))
+x = int(input())
 n = len(arr)
 high = n-1
 low = 0
@@ -23,7 +24,7 @@ while low<=high:
     elif arr[mid]>x:
         low = mid+1
     else:
-        mi
+        high = mid-1
 ```
 
 ---
