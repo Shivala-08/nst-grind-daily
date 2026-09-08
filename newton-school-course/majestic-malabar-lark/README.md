@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:32:55.694Z  
+**Submission Time:** 2026-09-08T21:42:18.501Z  
 
 ## Problem Statement
 
@@ -16,7 +16,7 @@ def subsets(arr,i,current):
     if i==len(arr):
         print(current)
         return
-    current.append(i)
+    current.append(arr[i])
     subsets(arr,i+1,current)
     current.pop()
     subsets(arr,i+1,current)
