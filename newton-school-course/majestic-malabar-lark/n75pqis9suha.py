@@ -6,3 +6,5 @@ def subsets(arr,i,current):
     subsets(arr,i+1,current)
     current.pop()
     subsets(arr,i+1,current)
+arr = [1,2,3]
+subsets(arr,i,current)
