@@ -6,3 +6,4 @@ def bins(arr,target,left,right):
     elif arr[mid]>target:
         bins(arr,target,left,mid-1)
     else:
+        bins(arr,target,mid+1,right)
