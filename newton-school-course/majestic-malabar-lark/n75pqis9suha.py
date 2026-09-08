@@ -3,7 +3,6 @@ def sub(i,s,n):
         print(s)
         return
     sub(i,s+"0",n)
-    sub(i,s+"1",n)
     if not s or s[-1] != "1":
         sub(s + "1", n)
 sub(1,"",3)
