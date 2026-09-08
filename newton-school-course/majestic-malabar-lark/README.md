@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:30:52.112Z  
+**Submission Time:** 2026-09-08T21:31:26.041Z  
 
 ## Problem Statement
 
@@ -13,9 +13,11 @@ untitled
 
 ```py
 def subsets(arr,i,current):
-    if i==len(arr)-1:
+    if i==len(arr):
         print(current)
         return
+    current.append(i)
+    subsets(arr,i+1,target)
 ```
 
 ---
