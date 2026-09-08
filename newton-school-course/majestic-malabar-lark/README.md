@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T20:06:46.114Z  
+**Submission Time:** 2026-09-08T20:07:00.305Z  
 
 ## Problem Statement
 
@@ -15,7 +15,7 @@ untitled
 def suma(arr):
     if len(arr)==0:
         return 0
-    return
+    return arr[0]+suma(arr[1:])
 ```
 
 ---
