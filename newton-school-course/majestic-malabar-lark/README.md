@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T20:04:04.551Z  
+**Submission Time:** 2026-09-08T20:04:21.750Z  
 
 ## Problem Statement
 
@@ -12,7 +12,8 @@ untitled
 ## Solution
 
 ```py
-def suma(arr):
+def suma(arr,i=0):
+    if i>
 ```
 
 ---
