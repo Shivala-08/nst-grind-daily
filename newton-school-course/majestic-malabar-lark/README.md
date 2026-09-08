@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:50:24.668Z  
+**Submission Time:** 2026-09-08T21:50:32.353Z  
 
 ## Problem Statement
 
@@ -16,7 +16,7 @@ def sub(s,n):
     if len(s)==n:
         print(s)
         return
-    if s[-1]==1:
+    if s[-1]=="1":
         sub(s+"0",n)
     else:
         sub(s+"1",n)
