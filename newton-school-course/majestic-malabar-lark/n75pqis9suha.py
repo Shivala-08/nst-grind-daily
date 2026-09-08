@@ -1,6 +1,6 @@
-def fact(n):
-    if n==1:
+def fact(n,i):
+    if i>n:
         return 1
-    print(n)
-    return n*fact(n-1)
+    print(i)
+    return i*(fact(n,i+1))
 print(fact(4))
