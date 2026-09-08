@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T20:15:24.776Z  
+**Submission Time:** 2026-09-08T20:15:29.486Z  
 
 ## Problem Statement
 
@@ -15,7 +15,7 @@ untitled
 def powe(a,b):
     if b==0:
         return 1
-    return a*
+    return a*b
 ```
 
 ---
