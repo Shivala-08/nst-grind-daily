@@ -2,4 +2,4 @@ def suma(arr):
     if len(arr)==0:
         return 0
     return arr[0]+suma(arr[1:])
-suma([10,20,30,40])
+print(suma([10,20,30,40]))
