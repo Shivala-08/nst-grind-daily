@@ -1,2 +1,3 @@
 def findmax(arr,i=0):
-    if i
+    if i>=len(arr):
+        return

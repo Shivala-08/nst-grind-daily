@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T20:19:38.502Z  
+**Submission Time:** 2026-09-08T20:19:58.056Z  
 
 ## Problem Statement
 
@@ -13,7 +13,8 @@ untitled
 
 ```py
 def findmax(arr,i=0):
-    if i
+    if i>=len(arr):
+        return
 ```
 
 ---
