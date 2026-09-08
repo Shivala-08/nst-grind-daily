@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `n75pqis9suha`  
-**Submission Time:** 2026-09-08T21:51:17.557Z  
+**Submission Time:** 2026-09-08T21:51:22.780Z  
 
 ## Problem Statement
 
@@ -17,8 +17,8 @@ def sub(s,n):
         print(s)
         return
  
-        sub(s+"0",n)
-        sub(s+"1",n)
+    sub(s+"0",n)
+    sub(s+"1",n)
 sub("",3)
 ```
 
