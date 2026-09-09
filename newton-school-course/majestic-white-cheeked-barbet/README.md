@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vb5sksemjex3`  
-**Submission Time:** 2026-09-09T05:19:10.368Z  
+**Submission Time:** 2026-09-09T05:19:22.367Z  
 
 ## Problem Statement
 
@@ -14,7 +14,7 @@ untitled
 ```py
 def sub(arr,i,current):
     if i==len(arr):
-
+        print(current)
         return
 ```
 
