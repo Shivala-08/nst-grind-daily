@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `v3dbadhf5o4w`  
-**Submission Time:** 2026-09-09T05:47:40.397Z  
+**Submission Time:** 2026-09-09T05:48:36.226Z  
 
 ## Problem Statement
 
@@ -54,7 +54,13 @@ There exist two distinct solutions to the 4 queens puzzle as shown above
 def solveNQueens(n):
     results = []
     board =[["."]*n for _ in range(n)]
-    def issafe(row,col)
+    def issafe(row,col):
+        for i in range(row):
+            if board[i][col]=='Q':
+                return False
+    def solve(row):
+        if row==n:
+            ans=[]
 ```
 
 ---
