@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vb5sksemjex3`  
-**Submission Time:** 2026-09-09T05:18:01.830Z  
+**Submission Time:** 2026-09-09T05:18:40.594Z  
 
 ## Problem Statement
 
@@ -12,10 +12,8 @@ untitled
 ## Solution
 
 ```py
-def suma(arr,tar,i):
-    if i==len(arr)-1:
-        return arr[-1]
-    rest = suma(arr,tar,i)
+def sub(arr,i):
+    if
 ```
 
 ---
