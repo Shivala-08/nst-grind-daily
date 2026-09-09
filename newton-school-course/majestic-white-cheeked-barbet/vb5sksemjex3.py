@@ -1,1 +1,1 @@
-def suma()
+def suma(arr,tar):

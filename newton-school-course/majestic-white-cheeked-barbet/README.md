@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vb5sksemjex3`  
-**Submission Time:** 2026-09-09T05:15:41.564Z  
+**Submission Time:** 2026-09-09T05:16:04.597Z  
 
 ## Problem Statement
 
@@ -12,7 +12,7 @@ untitled
 ## Solution
 
 ```py
-def suma()
+def suma(arr,tar):
 ```
 
 ---
