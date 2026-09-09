@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vb5sksemjex3`  
-**Submission Time:** 2026-09-09T05:20:05.605Z  
+**Submission Time:** 2026-09-09T05:22:01.045Z  
 
 ## Problem Statement
 
@@ -12,14 +12,11 @@ untitled
 ## Solution
 
 ```py
-def sub(arr,i,current):
+def sub(arr,target,i):
     if i==len(arr):
         print(current)
         return 
-    current.append(arr[i])
-    sub(arr,i+1,current)
-    current.pop()
-    sub(arr,i+1,current)
+    suma =
 ```
 
 ---
