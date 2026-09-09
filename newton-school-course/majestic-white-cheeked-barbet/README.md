@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vb5sksemjex3`  
-**Submission Time:** 2026-09-09T05:19:01.011Z  
+**Submission Time:** 2026-09-09T05:19:10.368Z  
 
 ## Problem Statement
 
@@ -12,8 +12,9 @@ untitled
 ## Solution
 
 ```py
-def sub(arr,i):
+def sub(arr,i,current):
     if i==len(arr):
+
         return
 ```
 
