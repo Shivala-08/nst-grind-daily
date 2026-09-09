@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `v3dbadhf5o4w`  
-**Submission Time:** 2026-09-09T05:48:36.226Z  
+**Submission Time:** 2026-09-09T05:51:01.780Z  
 
 ## Problem Statement
 
@@ -61,6 +61,15 @@ def solveNQueens(n):
     def solve(row):
         if row==n:
             ans=[]
+            for i in range(n):
+                s=''
+                for j in range(n):
+                    s+=board[i][j]
+                ans.append(s)
+            results.append(ans)
+        for col in range(n):
+            if issafe(row,col):
+                board[row][col]='Q'
 ```
 
 ---

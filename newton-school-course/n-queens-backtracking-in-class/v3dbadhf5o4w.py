@@ -8,3 +8,12 @@ def solveNQueens(n):
     def solve(row):
         if row==n:
             ans=[]
+            for i in range(n):
+                s=''
+                for j in range(n):
+                    s+=board[i][j]
+                ans.append(s)
+            results.append(ans)
+        for col in range(n):
+            if issafe(row,col):
+                board[row][col]='Q'
