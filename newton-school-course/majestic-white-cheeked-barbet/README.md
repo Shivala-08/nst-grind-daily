@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vb5sksemjex3`  
-**Submission Time:** 2026-09-09T05:19:22.367Z  
+**Submission Time:** 2026-09-09T05:20:05.605Z  
 
 ## Problem Statement
 
@@ -15,7 +15,11 @@ untitled
 def sub(arr,i,current):
     if i==len(arr):
         print(current)
-        return
+        return 
+    current.append(arr[i])
+    sub(arr,i+1,current)
+    current.pop()
+    sub(arr,i+1,current)
 ```
 
 ---
