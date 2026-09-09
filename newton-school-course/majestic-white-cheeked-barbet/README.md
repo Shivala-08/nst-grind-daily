@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vb5sksemjex3`  
-**Submission Time:** 2026-09-09T05:10:58.257Z  
+**Submission Time:** 2026-09-09T05:11:18.263Z  
 
 ## Problem Statement
 
@@ -13,6 +13,9 @@ untitled
 
 ```py
 def sub(s,n):
+    if len(s)==n:
+        print(s)
+        return
 ```
 
 ---
