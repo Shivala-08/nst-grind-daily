@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vb5sksemjex3`  
-**Submission Time:** 2026-09-09T05:15:25.421Z  
+**Submission Time:** 2026-09-09T05:15:41.564Z  
 
 ## Problem Statement
 
@@ -12,14 +12,7 @@ untitled
 ## Solution
 
 ```py
-def sub(s,n):
-    if len(s)==n:
-        print(s)
-        return
-    sub(s+"0",n)
-    if not s or s[-1]!="1":
-        sub(s+"1",n)
-(sub("",3))
+def suma()
 ```
 
 ---
