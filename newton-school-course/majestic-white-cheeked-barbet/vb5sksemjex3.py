@@ -3,3 +3,5 @@ def sub(arr,target,i):
         print(suma)
         return
     suma = arr[i]+arr[i+1]
+    if suma==target:
+        print(suma)

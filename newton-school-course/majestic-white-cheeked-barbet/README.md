@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vb5sksemjex3`  
-**Submission Time:** 2026-09-09T05:23:15.153Z  
+**Submission Time:** 2026-09-09T05:23:48.098Z  
 
 ## Problem Statement
 
@@ -17,6 +17,8 @@ def sub(arr,target,i):
         print(suma)
         return
     suma = arr[i]+arr[i+1]
+    if suma==target:
+        print(suma)
 ```
 
 ---
