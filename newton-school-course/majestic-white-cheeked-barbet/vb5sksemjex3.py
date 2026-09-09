@@ -1,2 +1,3 @@
 def sub(arr,i):
-    if
+    if i==len(arr):
+        return
