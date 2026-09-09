@@ -5,4 +5,4 @@ def sub(s,n):
     sub(s+"0",n)
     if not s or s[-1]!="1":
         sub(s+"1",n)
-print(sub(s,3))
+print(sub("",3))

@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vb5sksemjex3`  
-**Submission Time:** 2026-09-09T05:14:51.779Z  
+**Submission Time:** 2026-09-09T05:15:06.662Z  
 
 ## Problem Statement
 
@@ -19,7 +19,7 @@ def sub(s,n):
     sub(s+"0",n)
     if not s or s[-1]!="1":
         sub(s+"1",n)
-print(sub(s,3))
+print(sub("",3))
 ```
 
 ---
