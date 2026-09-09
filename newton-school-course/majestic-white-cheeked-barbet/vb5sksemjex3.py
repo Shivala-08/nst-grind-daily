@@ -1,2 +1,2 @@
 def suma(arr,tar,i):
-    if
+    if i==len()
