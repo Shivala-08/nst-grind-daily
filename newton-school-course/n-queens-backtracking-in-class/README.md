@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `v3dbadhf5o4w`  
-**Submission Time:** 2026-09-09T05:47:11.956Z  
+**Submission Time:** 2026-09-09T05:47:26.509Z  
 
 ## Problem Statement
 
@@ -53,7 +53,7 @@ There exist two distinct solutions to the 4 queens puzzle as shown above
 ```py
 def solveNQueens(n):
     results = []
-    board =[["."*n for _ in range(n)]]
+    board =[["."]*n for _ in range(n)]
 ```
 
 ---
