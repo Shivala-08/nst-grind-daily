@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `en41wcbjet0q`  
-**Submission Time:** 2026-09-10T04:15:07.599Z  
+**Submission Time:** 2026-09-10T04:15:26.115Z  
 
 ## Problem Statement
 
@@ -56,7 +56,13 @@ Write SQL queries to:
 ## Solution
 
 ```js
-SELECT
+SELECT game_category, COUNT(*) AS total_players, SUM(points) AS total_points
+FROM PLAYER_STATS
+GROUP BY game_category;
+SELECT game_category, SUM(points) AS total_points
+FROM PLAYER_STATS
+GROUP BY game_category
+ORDER BY total_points DESC;
 ```
 
 ---
