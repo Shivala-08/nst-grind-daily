@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `8wx90kam3zgn`  
-**Submission Time:** 2026-09-10T04:19:03.007Z  
+**Submission Time:** 2026-09-10T04:19:08.489Z  
 
 ## Problem Statement
 
@@ -83,6 +83,16 @@ SELECT
         ELSE 'Platinum'
     END AS membership_tier
 FROM customer_spending;
+SELECT 
+    CASE 
+        WHEN annual_spending < 20000 THEN 'Silver'
+        WHEN annual_spending BETWEEN 20000 AND 50000 THEN 'Gold'
+        ELSE 'Platinum'
+    END AS membership_tier,
+    COUNT(*) AS customer_count
+FROM customer_spending
+GROUP BY membership_tier
+ORDER BY customer_count DESC;
 ```
 
 ---
