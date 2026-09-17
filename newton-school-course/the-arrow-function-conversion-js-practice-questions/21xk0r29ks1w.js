@@ -1,1 +1,3 @@
-const square = num => num * num;
+function square(num) {
+  return num * num;
+}
