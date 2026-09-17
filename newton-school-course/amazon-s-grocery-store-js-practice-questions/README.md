@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ejh99gotq2r5`  
-**Submission Time:** 2026-09-17T13:20:59.442Z  
+**Submission Time:** 2026-09-17T13:21:30.109Z  
 
 ## Problem Statement
 
@@ -141,6 +141,9 @@ function processGroceryOrder(order, availableStock) {
 
     // 3. Simulate asynchronous task with a 2-second delay
     setTimeout(() => {
+      // Deduct the ordered quantity from the available stock
+      itemStock.quantity -= order.quantity;
+
       const totalPrice = order.quantity * itemStock.price;
 
       resolve({
