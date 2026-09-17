@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `67crsncmwpgu`  
-**Submission Time:** 2026-09-17T11:20:11.821Z  
+**Submission Time:** 2026-09-17T11:20:41.552Z  
 
 ## Problem Statement
 
@@ -44,17 +44,14 @@ class Solution:
         
         def dfs(node):
             if not node:
-                return (0, 0)  # (count of 1s, count of 0s)
+                return (0, 0)
             
-            # Recurse left and right subtrees
             left_ones, left_zeros = dfs(node.left)
             right_ones, right_zeros = dfs(node.right)
             
-            # Calculate total 1s and 0s for the current subtree
             total_ones = left_ones + right_ones + (1 if node.val == 1 else 0)
             total_zeros = left_zeros + right_zeros + (1 if node.val == 0 else 0)
             
-            # Check condition
             if total_ones == total_zeros:
                 self.count += 1
                 
