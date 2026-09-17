@@ -1,1 +1,1 @@
-SELECT UNIQUE category form Products
+SELECT UNIQUE category FROM Products;
