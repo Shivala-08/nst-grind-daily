@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `67crsncmwpgu`  
-**Submission Time:** 2026-09-17T11:01:02.590Z  
+**Submission Time:** 2026-09-17T11:01:38.662Z  
 
 ## Problem Statement
 
@@ -65,7 +65,7 @@ class Solution:
             total_ones = left_ones + right_ones + current_ones
             total_zeros = left_zeros + right_zeros + current_zeros
             
-            # Check the condition
+            # Check the condition (ones > zeros)
             if total_ones > total_zeros:
                 self.valid_subtrees += 1
                 

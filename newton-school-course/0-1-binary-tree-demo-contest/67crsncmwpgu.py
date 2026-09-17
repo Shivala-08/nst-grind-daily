@@ -25,7 +25,7 @@ class Solution:
             total_ones = left_ones + right_ones + current_ones
             total_zeros = left_zeros + right_zeros + current_zeros
             
-            # Check the condition
+            # Check the condition (ones > zeros)
             if total_ones > total_zeros:
                 self.valid_subtrees += 1
                 
