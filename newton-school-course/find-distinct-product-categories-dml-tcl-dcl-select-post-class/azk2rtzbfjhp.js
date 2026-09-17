@@ -1,1 +1,1 @@
-SELECT UNIQUE category FROM Products;
+SELECT DISTINCT category FROM Products;
