@@ -1,1 +1,2 @@
 SELECT student_name , department, score FROM students WHERE
+is_suspended is FALSE AND
