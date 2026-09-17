@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `nhcjy0vux5kw`  
-**Submission Time:** 2026-09-17T09:24:59.334Z  
+**Submission Time:** 2026-09-17T09:25:14.628Z  
 
 ## Problem Statement
 
@@ -60,17 +60,15 @@ C
 ## Solution
 
 ```js
-if (input !== '') {
-    const score = parseInt(input, 10);
-    
+function calculateGrade(score) {
     if (score >= 90) {
-        console.log('A');
+        return 'A';
     } else if (score >= 75) {
-        console.log('B');
+        return 'B';
     } else if (score >= 60) {
-        console.log('C');
+        return 'C';
     } else {
-        console.log('D');
+        return 'D';
     }
 }
 ```
