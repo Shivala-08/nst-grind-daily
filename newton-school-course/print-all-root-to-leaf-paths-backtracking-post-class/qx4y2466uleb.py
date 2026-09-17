@@ -12,14 +12,13 @@ def rootToLeafPaths(root):
         if not node:
             return
         
-        # Append current node's data to the path
-        path.append(str(node.data))
+        # Append current node's data
+        path.append(node.data)
         
-        # If it's a leaf node, collect the path
+        # If it's a leaf node, format the path correctly and append
         if not node.left and not node.right:
-            paths.append(" ".join(path))
+            paths.append(" ".join(map(str, path)))
         else:
-            # Continue traversal for left and right children
             dfs(node.left, path)
             dfs(node.right, path)
             
