@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `mpl39uduvx18`  
-**Submission Time:** 2026-09-17T09:11:52.616Z  
+**Submission Time:** 2026-09-17T09:12:20.794Z  
 
 ## Problem Statement
 
@@ -103,13 +103,6 @@ Print the corresponding message using console.log()
 ## Solution
 
 ```js
-const readline = require('readline');
-
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
-
 function login(username, password) {
     return new Promise((resolve, reject) => {
         if (!username || !password || username.trim() === "" || password.trim() === "") {
