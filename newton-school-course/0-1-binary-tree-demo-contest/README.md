@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `67crsncmwpgu`  
-**Submission Time:** 2026-09-17T11:17:21.953Z  
+**Submission Time:** 2026-09-17T11:17:33.309Z  
 
 ## Problem Statement
 
@@ -54,13 +54,17 @@ class Solution:
             total_ones = left_ones + right_ones + (1 if node.val == 1 else 0)
             total_zeros = left_zeros + right_zeros + (1 if node.val == 0 else 0)
             
-            # Change the condition if the problem asks for equality (e.g., balanced 0-1 subtrees)
+            # Print to check the values at each node/subtree
+            print(f"Node value: {node.val}, Total 1s: {total_ones}, Total 0s: {total_zeros}")
+            
+            # Check condition (change to == or > depending on your exact problem requirements)
             if total_ones == total_zeros:
                 self.count += 1
                 
             return (total_ones, total_zeros)
         
         dfs(root)
+        print("Final count:", self.count)
         return self.count
 ```
 
