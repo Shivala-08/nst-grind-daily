@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `03hof8tgvhn1`  
-**Submission Time:** 2026-09-17T07:30:20.234Z  
+**Submission Time:** 2026-09-17T07:30:25.814Z  
 
 ## Problem Statement
 
@@ -45,27 +45,7 @@ The possible palindrome partitions are ["a"]
 ## Solution
 
 ```py
-class Solution:
-    def partition(self, s: str) -> list[list[str]]:
-        res = []
-        
-        def is_palindrome(sub: str) -> bool:
-            return sub == sub[::-1]
-
-        def backtrack(start: int, path: list[str]):
-            if start == len(s):
-                res.append(path.copy())
-                return
-            
-            for end in range(start + 1, len(s) + 1):
-                prefix = s[start:end]
-                if is_palindrome(prefix):
-                    path.append(prefix)
-                    backtrack(end, path)
-                    path.pop()
-
-        backtrack(0, [])
-        return res
+def palindrome_partitions(s):
 ```
 
 ---
