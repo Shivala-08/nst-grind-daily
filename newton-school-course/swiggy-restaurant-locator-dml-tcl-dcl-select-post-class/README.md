@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `3b378y6jtqge`  
-**Submission Time:** 2026-08-20T21:29:54.306Z  
+**Submission Time:** 2026-09-17T21:39:06.555Z  
 
 ## Problem Statement
 
@@ -60,8 +60,7 @@ restaurants
 ## Solution
 
 ```js
-SELECT restaurant_name ,cuisine FROM restaurants
-WHERE cuisine IN ('North Indian','Chinese','Italian')
+SELECT
 ```
 
 ---
