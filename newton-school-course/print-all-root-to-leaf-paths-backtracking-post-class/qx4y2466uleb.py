@@ -15,9 +15,8 @@ def rootToLeafPaths(root):
         # Append current node's data to the path
         path.append(str(node.data))
         
-        # If it's a leaf node, print or collect the path
+        # If it's a leaf node, collect the path
         if not node.left and not node.right:
-            print(" ".join(path))
             paths.append(" ".join(path))
         else:
             # Continue traversal for left and right children
