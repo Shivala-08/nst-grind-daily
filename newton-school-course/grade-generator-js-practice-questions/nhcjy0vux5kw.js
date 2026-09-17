@@ -1,4 +1,5 @@
-if (score >= 90) {
+function calculateGrade(score) {
+    if (score >= 90) {
         console.log('A');
     } else if (score >= 75) {
         console.log('B');
@@ -7,3 +8,4 @@ if (score >= 90) {
     } else {
         console.log('D');
     }
+}
