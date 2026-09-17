@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `vhfo1ezo5bmf`  
-**Submission Time:** 2026-09-17T07:09:28.252Z  
+**Submission Time:** 2026-09-17T07:09:32.846Z  
 
 ## Problem Statement
 
@@ -53,6 +53,12 @@ Tasks:
 SELECT region, COUNT(*) AS player_count
 FROM players
 GROUP BY region;
+SELECT 
+    account_tier, 
+    SUM(wallet_balance) AS total_wallet_balance, 
+    AVG(wallet_balance) AS average_wallet_balance
+FROM players
+GROUP BY account_tier;
 ```
 
 ---
