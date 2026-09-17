@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `jv9byxkvn4so`  
-**Submission Time:** 2026-09-17T11:05:35.372Z  
+**Submission Time:** 2026-09-17T11:05:39.378Z  
 
 ## Problem Statement
 
@@ -45,7 +45,9 @@ In the second testcase, no triplet sums up to 20.
 ## Solution
 
 ```js
-// Your code here
+t = int(input())
+for _ in range(t):
+    # Write your code here
 ```
 
 ---
