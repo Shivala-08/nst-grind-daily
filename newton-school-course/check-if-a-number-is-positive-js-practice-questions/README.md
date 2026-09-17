@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `m3sv5ugvdaai`  
-**Submission Time:** 2026-09-17T07:48:00.268Z  
+**Submission Time:** 2026-09-17T07:48:10.675Z  
 
 ## Problem Statement
 
@@ -53,7 +53,7 @@ Positive
 ## Solution
 
 ```js
-let num = 18;
+num = 18;
 
 if (num > 0) {
     console.log("Positive");

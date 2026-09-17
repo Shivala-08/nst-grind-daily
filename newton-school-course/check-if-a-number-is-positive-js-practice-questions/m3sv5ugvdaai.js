@@ -1,4 +1,4 @@
-let num = 18;
+num = 18;
 
 if (num > 0) {
     console.log("Positive");
