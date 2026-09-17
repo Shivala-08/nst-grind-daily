@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `9pp5xnj87bmt`  
-**Submission Time:** 2026-09-17T07:27:00.548Z  
+**Submission Time:** 2026-09-17T07:27:26.526Z  
 
 ## Problem Statement
 
@@ -30,11 +30,9 @@ Output:
 def adjLst():
     # Adjacency list representation where index corresponds to the node
     adjacency_list = [
-        [1, 2, 4],  # neighbors of node 0
-        [0, 3, 4],  # neighbors of node 1
-        [0, 3],     # neighbors of node 2
-        [1, 2],     # neighbors of node 3
-        [0, 1]      # neighbors of node 4
+        [1, 2],    # neighbors of node 0
+        [0, 2],    # neighbors of node 1
+        [0, 1]     # neighbors of node 2
     ]
     return adjacency_list
 ```
