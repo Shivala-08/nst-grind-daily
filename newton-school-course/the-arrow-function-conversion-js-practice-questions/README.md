@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `21xk0r29ks1w`  
-**Submission Time:** 2026-09-17T09:23:22.602Z  
+**Submission Time:** 2026-09-17T09:23:27.849Z  
 
 ## Problem Statement
 
@@ -39,9 +39,7 @@ your arrow function square(5) should return 25.
 ## Solution
 
 ```js
-function square(num) {
-  return num * num;
-}
+const square = num => num * num;
 ```
 
 ---
