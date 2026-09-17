@@ -9,18 +9,3 @@ function login(username, password) {
         }
     });
 }
-
-let inputLines = [];
-let isProcessed = false;
-
-rl.on('line', (line) => {
-    if (isProcessed) return;
-    inputLines.push(line.trim());
-    if (inputLines.length === 2) {
-        isProcessed = true;
-        rl.close();
-        login(inputLines[0], inputLines[1])
-            .then(console.log)
-            .catch(console.log);
-    }
-});
