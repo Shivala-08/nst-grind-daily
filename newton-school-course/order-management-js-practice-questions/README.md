@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `la9jcb1epu1u`  
-**Submission Time:** 2026-09-17T13:31:58.180Z  
+**Submission Time:** 2026-09-17T13:32:28.850Z  
 
 ## Problem Statement
 
@@ -68,7 +68,7 @@ const YoungPerson = (name, time) => {
   });
 };
 
-async function execution(oldPersonName, oldPersonTime, person1Name, person1Time, person2Name, person2Time) {
+const execution = async (oldPersonName, oldPersonTime, person1Name, person1Time, person2Name, person2Time) => {
   const oldResult = await OldPerson(oldPersonName, oldPersonTime);
   console.log(oldResult);
 
@@ -79,7 +79,7 @@ async function execution(oldPersonName, oldPersonTime, person1Name, person1Time,
 
   console.log(fastestYoung);
   return fastestYoung;
-}
+};
 ```
 
 ---

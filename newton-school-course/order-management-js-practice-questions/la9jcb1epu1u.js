@@ -14,7 +14,7 @@ const YoungPerson = (name, time) => {
   });
 };
 
-async function execution(oldPersonName, oldPersonTime, person1Name, person1Time, person2Name, person2Time) {
+const execution = async (oldPersonName, oldPersonTime, person1Name, person1Time, person2Name, person2Time) => {
   const oldResult = await OldPerson(oldPersonName, oldPersonTime);
   console.log(oldResult);
 
@@ -25,4 +25,4 @@ async function execution(oldPersonName, oldPersonTime, person1Name, person1Time,
 
   console.log(fastestYoung);
   return fastestYoung;
-}
+};
