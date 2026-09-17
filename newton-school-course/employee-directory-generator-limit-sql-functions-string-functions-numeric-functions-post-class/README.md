@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `sbjiitg13h5g`  
-**Submission Time:** 2026-09-17T21:52:39.928Z  
+**Submission Time:** 2026-09-17T21:52:54.367Z  
 
 ## Problem Statement
 
@@ -55,7 +55,7 @@ Tasks:
 ```js
 SELECT 
     CONCAT(last_name,',',first_name),
-    CONCAT(UPPER(LEFT(last_name,3)),),
+    CONCAT(UPPER(LEFT(last_name,3)),emp_id),
     department
 FROM Employees ORDER BY last_name ASC
 ```
