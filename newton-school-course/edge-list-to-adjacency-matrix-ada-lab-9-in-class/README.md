@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `5221huttdgps`  
-**Submission Time:** 2026-09-17T07:06:20.712Z  
+**Submission Time:** 2026-09-17T07:08:35.850Z  
 
 ## Problem Statement
 
@@ -43,7 +43,6 @@ Output:
 
 ```py
 def convertToAdjMatrix(n, edgeList):
-  # write your code here
 ```
 
 ---
