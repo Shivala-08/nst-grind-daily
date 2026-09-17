@@ -9,4 +9,4 @@ function addTen(value) {
 function multiplyByThree(value) {
   return Promise.resolve(value * 3);
 }
-console.log(double())
+console.log(double)
