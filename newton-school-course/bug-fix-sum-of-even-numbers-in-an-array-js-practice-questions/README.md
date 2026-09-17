@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `8qoqd7r5l1z8`  
-**Submission Time:** 2026-09-17T09:28:54.165Z  
+**Submission Time:** 2026-09-17T09:29:20.576Z  
 
 ## Problem Statement
 
@@ -30,19 +30,15 @@ Hence, sum will be 10+30+50 = 90.
 ## Solution
 
 ```js
-const fs = require('fs');
-
-function solve() {
-    const input = fs.readFileSync('/dev/stdin', 'utf-8').trim();
-    if (!input) return;
-    
-    const inventory = JSON.parse(input);
-    const count = Object.keys(inventory).length;
-    
-    console.log(`Total items: ${count}`);
+function sumEvenIntegers(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 0) {
+            sum += arr[i];
+        }
+    }
+    return sum;
 }
-
-solve();
 ```
 
 ---

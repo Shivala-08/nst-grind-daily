@@ -1,13 +1,9 @@
-const fs = require('fs');
-
-function solve() {
-    const input = fs.readFileSync('/dev/stdin', 'utf-8').trim();
-    if (!input) return;
-    
-    const inventory = JSON.parse(input);
-    const count = Object.keys(inventory).length;
-    
-    console.log(`Total items: ${count}`);
+function sumEvenIntegers(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 0) {
+            sum += arr[i];
+        }
+    }
+    return sum;
 }
-
-solve();
