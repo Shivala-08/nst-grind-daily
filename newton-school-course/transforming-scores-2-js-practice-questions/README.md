@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `9qudq1kr76qn`  
-**Submission Time:** 2026-09-17T10:37:55.745Z  
+**Submission Time:** 2026-09-17T10:37:58.649Z  
 
 ## Problem Statement
 
@@ -53,7 +53,7 @@ function processScores(scores, callbacks) {
     return currentScores.map(score => callback(score));
   }, scores);
 }
-console.log()
+console.log(processScores(scores, callbacks))
 ```
 
 ---
