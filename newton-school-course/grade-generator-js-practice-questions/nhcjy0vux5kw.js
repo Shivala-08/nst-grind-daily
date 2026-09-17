@@ -1,11 +1,18 @@
-function calculateGrade(score) {
+const fs = require('fs');
+
+// Read standard input
+const input = fs.readFileSync('/dev/stdin', 'utf-8').trim();
+
+if (input !== '') {
+    const score = parseInt(input, 10);
+    
     if (score >= 90) {
-        return 'A';
+        console.log('A');
     } else if (score >= 75) {
-        return 'B';
+        console.log('B');
     } else if (score >= 60) {
-        return 'C';
+        console.log('C');
     } else {
-        return 'D';
+        console.log('D');
     }
 }
