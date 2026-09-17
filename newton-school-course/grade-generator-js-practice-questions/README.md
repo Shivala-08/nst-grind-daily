@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `nhcjy0vux5kw`  
-**Submission Time:** 2026-09-17T09:24:47.364Z  
+**Submission Time:** 2026-09-17T09:24:54.574Z  
 
 ## Problem Statement
 
@@ -60,11 +60,6 @@ C
 ## Solution
 
 ```js
-const fs = require('fs');
-
-// Read standard input
-const input = fs.readFileSync('/dev/stdin', 'utf-8').trim();
-
 if (input !== '') {
     const score = parseInt(input, 10);
     
