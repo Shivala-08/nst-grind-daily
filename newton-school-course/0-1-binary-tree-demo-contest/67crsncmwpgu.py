@@ -1,10 +1,3 @@
-# Definition for a binary tree node.
-# class TreeNode:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
-
 class Solution:
     def countSubtrees(self, root):
         self.count = 0
@@ -21,8 +14,8 @@ class Solution:
             total_ones = left_ones + right_ones + (1 if node.val == 1 else 0)
             total_zeros = left_zeros + right_zeros + (1 if node.val == 0 else 0)
             
-            # Check if 1s are strictly greater than 0s
-            if total_ones > total_zeros:
+            # Change the condition if the problem asks for equality (e.g., balanced 0-1 subtrees)
+            if total_ones == total_zeros:
                 self.count += 1
                 
             return (total_ones, total_zeros)
