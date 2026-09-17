@@ -14,7 +14,7 @@ class Solution:
             total_ones = left_ones + right_ones + (1 if node.val == 1 else 0)
             total_zeros = left_zeros + right_zeros + (1 if node.val == 0 else 0)
             
-            # Check condition (e.g., matching the problem's criteria)
+            # Check condition
             if total_ones == total_zeros:
                 self.count += 1
                 
