@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `la9jcb1epu1u`  
-**Submission Time:** 2026-09-17T13:27:52.117Z  
+**Submission Time:** 2026-09-17T13:29:32.253Z  
 
 ## Problem Statement
 
@@ -74,7 +74,7 @@ async function execution(oldPersonName, oldPersonTime, person1Name, person1Time,
   console.log(oldResult);
 
   // 2. Take the orders of the two young persons concurrently using Promise.race() 
-  // to find which one finishes first (takes less time)
+  // to find out which one finishes first (takes less time)
   const fastestYoung = await Promise.race([
     YoungPerson(person1Name, person1Time),
     YoungPerson(person2Name, person2Time)

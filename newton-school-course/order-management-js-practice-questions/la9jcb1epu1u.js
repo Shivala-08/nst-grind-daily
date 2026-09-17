@@ -20,7 +20,7 @@ async function execution(oldPersonName, oldPersonTime, person1Name, person1Time,
   console.log(oldResult);
 
   // 2. Take the orders of the two young persons concurrently using Promise.race() 
-  // to find which one finishes first (takes less time)
+  // to find out which one finishes first (takes less time)
   const fastestYoung = await Promise.race([
     YoungPerson(person1Name, person1Time),
     YoungPerson(person2Name, person2Time)
