@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `sbjiitg13h5g`  
-**Submission Time:** 2026-09-17T21:50:04.790Z  
+**Submission Time:** 2026-09-17T21:50:39.709Z  
 
 ## Problem Statement
 
@@ -53,7 +53,8 @@ Tasks:
 ## Solution
 
 ```js
-SELECT
+SELECT 
+    CONCAT(last_name,',',first_name)
 ```
 
 ---
