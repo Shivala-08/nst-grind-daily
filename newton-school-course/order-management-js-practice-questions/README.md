@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `la9jcb1epu1u`  
-**Submission Time:** 2026-09-17T13:27:10.329Z  
+**Submission Time:** 2026-09-17T13:27:49.799Z  
 
 ## Problem Statement
 
@@ -69,12 +69,12 @@ const YoungPerson = (name, time) => {
 };
 
 async function execution(oldPersonName, oldPersonTime, person1Name, person1Time, person2Name, person2Time) {
-  // 1. Execute OldPerson's order first and wait for it to complete
+  // 1. Execute the old person's order first and wait for it to complete
   const oldResult = await OldPerson(oldPersonName, oldPersonTime);
   console.log(oldResult);
 
-  // 2. Take the orders of the two Young Persons concurrently using Promise.race() 
-  // to find out which one finishes/takes less time first.
+  // 2. Take the orders of the two young persons concurrently using Promise.race() 
+  // to find which one finishes first (takes less time)
   const fastestYoung = await Promise.race([
     YoungPerson(person1Name, person1Time),
     YoungPerson(person2Name, person2Time)
