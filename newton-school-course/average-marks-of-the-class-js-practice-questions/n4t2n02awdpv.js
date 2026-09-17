@@ -1,11 +1,20 @@
-function calculateGrade(score) {
-    if (score >= 90) {
-        console.log('A');
-    } else if (score >= 75) {
-        console.log('B');
-    } else if (score >= 60) {
-        console.log('C');
-    } else {
-        console.log('D');
+function filterStudents(students) {
+    let users = [];
+    
+    for (let i = 0; i < students.length; i++) {
+        let student = students[i];
+        let sum = 0;
+        
+        for (let j = 0; j < student.marks.length; j++) {
+            sum += student.marks[j];
+        }
+        
+        let average = sum / student.marks.length;
+        
+        if (average >= 35) {
+            users.push(student.name);
+        }
     }
+    
+    return users;
 }
