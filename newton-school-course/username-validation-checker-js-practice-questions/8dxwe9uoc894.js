@@ -1,14 +1,12 @@
-// HOF - DO NOT MODIFY
-function stringProcessor(str, callback) {
-    return callback(str);
-}
+// Step 1: Declare the required variables
+let username = "john123";
+let usernameLength = 7;
+let minLength = 6;
+let isAvailable = true;
 
-// TODO: Write a callback 'toUpper' that returns a string in all uppercase.
-function toUpper(str) {
-    return str.toUpperCase();
-}
+// Step 2: Create validation variables
+let meetsMinLength = usernameLength >= minLength;
+let isValid = meetsMinLength && isAvailable;
 
-// TODO: Write a callback 'exclaim' that adds an exclamation mark to the end.
-function exclaim(str) {
-    return str + "!";
-}
+// Step 3: Print the result using a template string
+console.log(`Username: ${username} is valid: ${isValid}`);
