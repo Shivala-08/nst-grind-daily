@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `67crsncmwpgu`  
-**Submission Time:** 2026-09-17T11:02:20.390Z  
+**Submission Time:** 2026-09-17T11:02:25.726Z  
 
 ## Problem Statement
 
@@ -39,11 +39,11 @@ Subtrees rooted at node 5 and 1 have more number of 1 nodes than the number of 0
 
 ```py
 # Definition for a binary tree node.
-# class Node:
-#     def __init__(self, val=0, left=None, right=None):
-#         self.val = val
-#         self.left = left
-#         self.right = right
+class Node:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
 
 class Solution:
     def countSubtrees(self, root):
