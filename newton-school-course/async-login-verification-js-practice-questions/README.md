@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `mpl39uduvx18`  
-**Submission Time:** 2026-09-17T09:13:33.043Z  
+**Submission Time:** 2026-09-17T09:14:03.282Z  
 
 ## Problem Statement
 
@@ -116,10 +116,13 @@ function login(username, password) {
 }
 
 let inputLines = [];
+let isProcessed = false;
 
 rl.on('line', (line) => {
+    if (isProcessed) return;
     inputLines.push(line);
     if (inputLines.length === 2) {
+        isProcessed = true;
         rl.close();
         const username = inputLines[0];
         const password = inputLines[1];

@@ -11,10 +11,13 @@ function login(username, password) {
 }
 
 let inputLines = [];
+let isProcessed = false;
 
 rl.on('line', (line) => {
+    if (isProcessed) return;
     inputLines.push(line);
     if (inputLines.length === 2) {
+        isProcessed = true;
         rl.close();
         const username = inputLines[0];
         const password = inputLines[1];
