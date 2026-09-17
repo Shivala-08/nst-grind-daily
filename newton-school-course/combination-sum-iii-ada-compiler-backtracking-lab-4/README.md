@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `r5f2sdoxfsq0`  
-**Submission Time:** 2026-09-17T10:12:42.581Z  
+**Submission Time:** 2026-09-17T10:25:42.918Z  
 
 ## Problem Statement
 
@@ -43,20 +43,23 @@ There are no other valid combinations.
 def combinationSum3(k, n):
     res = []
     
-    def backtrack(start, current_sum, comb):
-        if len(comb) == k and current_sum == n:
-            res.append(list(comb))
+    def backtrack(start, current_comb, current_sum):
+        # Base case: if combination length is k and sum is n, we found a valid combination
+        if len(current_comb) == k and current_sum == n:
+            res.append(list(current_comb))
             return
-        # Stop exploring if we exceed k numbers or the target sum n
-        if len(comb) >= k or current_sum >= n:
-            return
-        
-        for i in range(start, 10):
-            comb.append(i)
-            backtrack(i + 1, current_sum + i, comb)
-            comb.pop()
             
-    backtrack(1, 0, [])
+        # Optimization/Base case: if length exceeds k or sum exceeds n, stop exploring
+        if len(current_comb) >= k or current_sum > n:
+            return
+            
+        # Try numbers from 'start' to 9
+        for i in range(start, 10):
+            current_comb.append(i)
+            backtrack(i + 1, current_comb, current_sum + i)
+            current_comb.pop() # Backtrack
+            
+    backtrack(1, [], 0)
     return res
 ```
 
