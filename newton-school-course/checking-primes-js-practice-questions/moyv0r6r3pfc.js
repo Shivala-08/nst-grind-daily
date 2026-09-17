@@ -1,0 +1,15 @@
+function isPrime(num) {
+    if (num <= 1) return false;
+    
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+        if (num % i === 0) {
+            return false;
+        }
+    }
+    return true;
+}
+
+function checkPrimes(numbers) {
+    // Removed curly braces for an implicit return
+    return numbers.map(num => isPrime(num) ? "Prime" : "Not Prime");
+}
