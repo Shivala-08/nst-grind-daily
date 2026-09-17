@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `5221huttdgps`  
-**Submission Time:** 2026-09-17T07:08:35.850Z  
+**Submission Time:** 2026-09-17T07:15:10.821Z  
 
 ## Problem Statement
 
@@ -43,6 +43,11 @@ Output:
 
 ```py
 def convertToAdjMatrix(n, edgeList):
+    mat = [[0]*n for i in range(n)]
+    for x,y in edgeList:
+        mat[x][y] = 1
+        mat[y][x] = 1
+    return mat
 ```
 
 ---
