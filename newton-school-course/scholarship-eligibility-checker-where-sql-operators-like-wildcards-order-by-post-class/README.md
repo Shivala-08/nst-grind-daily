@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `gib91ep1v4cl`  
-**Submission Time:** 2026-09-17T21:47:15.410Z  
+**Submission Time:** 2026-09-17T21:47:24.577Z  
 
 ## Problem Statement
 
@@ -66,7 +66,7 @@ students
 
 ```js
 SELECT student_name , department, score FROM students WHERE
-is_suspended is FALSE AND score > 80 AND department IN ('Computer Science',)
+is_suspended is FALSE AND score > 80 AND department IN ('Computer Science',Information Technology)
 ```
 
 ---
