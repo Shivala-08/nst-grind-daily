@@ -1,1 +1,1 @@
-SELECT restrau
+SELECT restaurant_name,cuisine FROM restaurants
