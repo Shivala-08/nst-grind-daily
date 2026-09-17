@@ -5,13 +5,6 @@ class Node:
         self.left = None
         self.right = None
 '''
-'''
-class Node:
-    def __init__(self, val=0):
-        self.val = val
-        self.left = None
-        self.right = None
-'''
 
 def find_floor_ceil(root, x):
     floor = -1

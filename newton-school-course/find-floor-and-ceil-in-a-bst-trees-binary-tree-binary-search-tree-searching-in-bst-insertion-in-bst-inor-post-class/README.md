@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `88x9716qu0iu`  
-**Submission Time:** 2026-09-17T07:19:00.906Z  
+**Submission Time:** 2026-09-17T07:19:05.701Z  
 
 ## Problem Statement
 
@@ -40,13 +40,6 @@ The keys present in the tree are 4, 8, 12, 20, 22. For X = 25, the largest value
 ## Solution
 
 ```py
-'''
-class Node:
-    def __init__(self, val=0):
-        self.val = val
-        self.left = None
-        self.right = None
-'''
 '''
 class Node:
     def __init__(self, val=0):
