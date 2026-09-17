@@ -5,27 +5,27 @@ class Node:
         self.left = left
         self.right = right
 '''
-
 def rootToLeafPaths(root):
-    result = []
-    
-    def dfs(node, current_path):
+    paths = []
+
+    def dfs(node, path):
         if not node:
             return
         
-        # Add the current node's data to the path
-        current_path.append(str(node.data))
+        # Append current node's data to the path
+        path.append(str(node.data))
         
-        # If it's a leaf node, join the path and add to results
+        # If it's a leaf node, print or collect the path
         if not node.left and not node.right:
-            result.append(" ".join(current_path))
+            print(" ".join(path))
+            paths.append(" ".join(path))
         else:
-            # Recursively traverse left and right subtrees
-            dfs(node.left, current_path)
-            dfs(node.right, current_path)
+            # Continue traversal for left and right children
+            dfs(node.left, path)
+            dfs(node.right, path)
             
-        # Backtrack by removing the current node before returning to parent
-        current_path.pop()
-        
+        # Backtrack
+        path.pop()
+
     dfs(root, [])
-    return result
+    return paths
