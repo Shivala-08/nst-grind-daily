@@ -19,15 +19,8 @@ function processGroceryOrder(order, availableStock) {
       // Deduct the ordered quantity from the available stock
       itemStock.quantity -= order.quantity;
 
-      const totalPrice = order.quantity * itemStock.price;
-
-      resolve({
-        message: "Order processed successfully!",
-        item: order.item,
-        quantity: order.quantity,
-        totalPrice: totalPrice,
-        category: itemStock.category
-      });
+      // Resolve with the exact success string message required
+      resolve("Order processed successfully!");
     }, 2000);
   });
 }

@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ejh99gotq2r5`  
-**Submission Time:** 2026-09-17T13:21:39.505Z  
+**Submission Time:** 2026-09-17T13:22:10.102Z  
 
 ## Problem Statement
 
@@ -144,15 +144,8 @@ function processGroceryOrder(order, availableStock) {
       // Deduct the ordered quantity from the available stock
       itemStock.quantity -= order.quantity;
 
-      const totalPrice = order.quantity * itemStock.price;
-
-      resolve({
-        message: "Order processed successfully!",
-        item: order.item,
-        quantity: order.quantity,
-        totalPrice: totalPrice,
-        category: itemStock.category
-      });
+      // Resolve with the exact success string message required
+      resolve("Order processed successfully!");
     }, 2000);
   });
 }
