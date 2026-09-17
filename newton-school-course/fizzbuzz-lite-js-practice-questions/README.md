@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `e44gm41yon6q`  
-**Submission Time:** 2026-09-17T09:20:34.354Z  
+**Submission Time:** 2026-09-17T09:21:51.963Z  
 
 ## Problem Statement
 
@@ -80,11 +80,8 @@ Buzz
 ## Solution
 
 ```js
-// Write your code below
 for (let i = 1; i <= 20; i++) {
-    if (i % 3 === 0 && i % 5 === 0) {
-        console.log("FizzBuzz");
-    } else if (i % 3 === 0) {
+    if (i % 3 === 0) {
         console.log("Fizz");
     } else if (i % 5 === 0) {
         console.log("Buzz");
