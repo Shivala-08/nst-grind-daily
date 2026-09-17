@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `y3ib1wpwj5go`  
-**Submission Time:** 2026-09-17T13:06:34.689Z  
+**Submission Time:** 2026-09-17T13:06:42.546Z  
 
 ## Problem Statement
 
@@ -64,7 +64,7 @@ function addTen(value) {
 function multiplyByThree(value) {
   return Promise.resolve(value * 3);
 }
-console.log(double(value))
+console.log(double())
 ```
 
 ---
