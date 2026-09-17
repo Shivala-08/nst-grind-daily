@@ -1,8 +1,8 @@
 def adjLst():
-    # Adjacency list representation where index corresponds to the node
     adjacency_list = [
-        [1, 2],    # neighbors of node 0
-        [0, 2],    # neighbors of node 1
-        [0, 1]     # neighbors of node 2
+        [],        # unused index 0 (since labels start at 1)
+        [2, 3],    # neighbors of node 1
+        [1, 3],    # neighbors of node 2
+        [1, 2]     # neighbors of node 3
     ]
     return adjacency_list
