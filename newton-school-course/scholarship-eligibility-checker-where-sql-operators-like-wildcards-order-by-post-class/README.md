@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `gib91ep1v4cl`  
-**Submission Time:** 2026-09-17T07:07:30.258Z  
+**Submission Time:** 2026-09-17T21:45:55.433Z  
 
 ## Problem Statement
 
@@ -65,11 +65,7 @@ students
 ## Solution
 
 ```js
-SELECT student_name, department, score
-FROM students
-WHERE score >= 80
-  AND department IN ('Computer Science', 'Information Technology')
-  AND (is_suspended = FALSE OR is_suspended IS NULL);
+SELECT student_name , department, score FROM students WHERE
 ```
 
 ---
