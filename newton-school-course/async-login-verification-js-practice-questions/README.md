@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `mpl39uduvx18`  
-**Submission Time:** 2026-09-17T09:14:35.802Z  
+**Submission Time:** 2026-09-17T09:15:06.825Z  
 
 ## Problem Statement
 
@@ -116,10 +116,13 @@ function login(username, password) {
 }
 
 let inputLines = [];
+let isProcessed = false;
 
 rl.on('line', (line) => {
+    if (isProcessed) return;
     inputLines.push(line.trim());
     if (inputLines.length === 2) {
+        isProcessed = true;
         rl.close();
         login(inputLines[0], inputLines[1])
             .then(console.log)
