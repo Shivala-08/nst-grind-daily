@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `sbjiitg13h5g`  
-**Submission Time:** 2026-09-17T21:49:53.620Z  
+**Submission Time:** 2026-09-17T21:50:04.790Z  
 
 ## Problem Statement
 
@@ -53,12 +53,7 @@ Tasks:
 ## Solution
 
 ```js
-SELECT 
-    CONCAT(last_name, ', ', first_name) AS display_name,
-    CONCAT(UPPER(SUBSTRING(last_name, 1, 3)), emp_id) AS emp_code,
-    department
-FROM employees
-ORDER BY last_name;
+SELECT
 ```
 
 ---
