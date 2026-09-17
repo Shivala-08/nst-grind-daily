@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ejh99gotq2r5`  
-**Submission Time:** 2026-09-17T13:18:24.857Z  
+**Submission Time:** 2026-09-17T13:19:03.714Z  
 
 ## Problem Statement
 
@@ -125,14 +125,15 @@ Order failed! Not enough stock.
 ```js
 function processGroceryOrder(order, availableStock) {
   return new Promise((resolve, reject) => {
-    // 1. Check if the requested item exists in availableStock
-    if (!availableStock[order.item]) {
+    // 1. Check if the item exists in availableStock
+    if (!availableStock || !availableStock[order.item]) {
       reject("Order failed! Item not found.");
       return;
     }
 
-    // 2. Check if there is enough stock available for the requested quantity
     const itemStock = availableStock[order.item];
+
+    // 2. Check if there is enough stock available
     if (order.quantity > itemStock.quantity) {
       reject("Order failed! Not enough stock.");
       return;
@@ -140,9 +141,8 @@ function processGroceryOrder(order, availableStock) {
 
     // 3. Simulate asynchronous task with a 2-second delay
     setTimeout(() => {
-      // Calculate total cost
       const totalPrice = order.quantity * itemStock.price;
-      
+
       resolve({
         message: "Order processed successfully!",
         item: order.item,
