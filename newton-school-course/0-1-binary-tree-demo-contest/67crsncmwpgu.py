@@ -17,5 +17,5 @@ class Solution:
                 
             return (total_ones, total_zeros)
         
-        dfs(root)
+        dfs(root)       # This line triggers the DFS traversal
         return self.count

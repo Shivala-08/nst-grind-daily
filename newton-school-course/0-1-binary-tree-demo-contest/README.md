@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `67crsncmwpgu`  
-**Submission Time:** 2026-09-17T11:21:50.539Z  
+**Submission Time:** 2026-09-17T11:23:18.662Z  
 
 ## Problem Statement
 
@@ -57,7 +57,7 @@ class Solution:
                 
             return (total_ones, total_zeros)
         
-        dfs(root)
+        dfs(root)       # This line triggers the DFS traversal
         return self.count
 ```
 
