@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `qx4y2466uleb`  
-**Submission Time:** 2026-09-17T07:37:55.571Z  
+**Submission Time:** 2026-09-17T07:43:35.566Z  
 
 ## Problem Statement
 
@@ -65,14 +65,11 @@ def rootToLeafPaths(root):
             dfs(node.left, current_path)
             dfs(node.right, current_path)
             
-        # Backtrack to explore other paths
+        # Backtrack by removing the current node before returning to parent
         current_path.pop()
-
-    if root:
-        dfs(root, [])
         
-    for path in result:
-        print(path)
+    dfs(root, [])
+    return result
 ```
 
 ---

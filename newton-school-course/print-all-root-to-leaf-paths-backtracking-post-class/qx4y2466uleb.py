@@ -24,11 +24,8 @@ def rootToLeafPaths(root):
             dfs(node.left, current_path)
             dfs(node.right, current_path)
             
-        # Backtrack to explore other paths
+        # Backtrack by removing the current node before returning to parent
         current_path.pop()
-
-    if root:
-        dfs(root, [])
         
-    for path in result:
-        print(path)
+    dfs(root, [])
+    return result
