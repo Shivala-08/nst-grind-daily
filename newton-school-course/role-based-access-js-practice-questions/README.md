@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `d7ih0zn7t5ug`  
-**Submission Time:** 2026-08-14T05:34:55.988Z  
+**Submission Time:** 2026-09-17T07:47:14.255Z  
 
 ## Problem Statement
 
@@ -53,7 +53,15 @@ Access denied!
 ## Solution
 
 ```js
-// Write your code here
+function createAccess(role) {
+    return function(onAllowed, onDenied) {
+        if (role === "admin") {
+            onAllowed();
+        } else {
+            onDenied();
+        }
+    };
+}
 ```
 
 ---
