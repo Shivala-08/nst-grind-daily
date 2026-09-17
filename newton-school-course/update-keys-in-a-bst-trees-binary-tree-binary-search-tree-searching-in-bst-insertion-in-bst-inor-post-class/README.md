@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `kxnq7i0gl0ig`  
-**Submission Time:** 2026-09-17T07:19:47.340Z  
+**Submission Time:** 2026-09-17T07:20:06.242Z  
 
 ## Problem Statement
 
@@ -54,7 +54,7 @@ Output:
 
 ## Solution
 
-```py
+```js
 '''
 class Node:
     def __init__(self, val, left=None, right=None):
@@ -63,6 +63,25 @@ class Node:
         self.right = right 
 '''    
 def updateBST(root):
+    # Helper function to perform reverse in-order traversal
+    def reverse_inorder(node):
+        nonlocal total_sum
+        if not node:
+            return
+        
+        # Traverse the right subtree first (greater values)
+        reverse_inorder(node.right)
+        
+        # Update the current node's value with the running sum
+        total_sum += node.val
+        node.val = total_sum
+        
+        # Traverse the left subtree (smaller values)
+        reverse_inorder(node.left)
+
+    total_sum = 0
+    reverse_inorder(root)
+    return root
 ```
 
 ---
