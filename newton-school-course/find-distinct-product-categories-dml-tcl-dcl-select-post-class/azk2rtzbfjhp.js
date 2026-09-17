@@ -1,1 +1,1 @@
-SELECT
+SELECT UNIQUE category form Products
