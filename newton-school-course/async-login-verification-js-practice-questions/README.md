@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `mpl39uduvx18`  
-**Submission Time:** 2026-09-17T09:11:14.465Z  
+**Submission Time:** 2026-09-17T09:11:48.688Z  
 
 ## Problem Statement
 
@@ -103,7 +103,7 @@ Print the corresponding message using console.log()
 ## Solution
 
 ```js
-// Your code hereconst readline = require('readline');
+const readline = require('readline');
 
 const rl = readline.createInterface({
     input: process.stdin,
