@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `9pp5xnj87bmt`  
-**Submission Time:** 2026-09-17T07:28:43.659Z  
+**Submission Time:** 2026-09-17T07:32:22.213Z  
 
 ## Problem Statement
 
@@ -28,13 +28,23 @@ Output:
 
 ```py
 def adjLst():
-    adjacency_list = [
-        [],        # unused index 0 (since labels start at 1)
-        [2, 3],    # neighbors of node 1
-        [1, 3],    # neighbors of node 2
-        [1, 2]     # neighbors of node 3
-    ]
-    return adjacency_list
+    # Based on the graph image provided:
+    # Nodes: 0, 1, 2, 3, 4
+    # Edges:
+    # 0 is connected to: 1, 2, 4
+    # 1 is connected to: 0, 3, 4
+    # 2 is connected to: 0, 3
+    # 3 is connected to: 1, 2
+    # 4 is connected to: 0, 1
+    
+    adj_list = {
+        0: [1, 2, 4],
+        1: [0, 3, 4],
+        2: [0, 3],
+        3: [1, 2],
+        4: [0, 1]
+    }
+    return adj_list
 ```
 
 ---
