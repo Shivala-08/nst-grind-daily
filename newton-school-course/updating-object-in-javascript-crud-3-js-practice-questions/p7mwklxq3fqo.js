@@ -1,9 +1,9 @@
-const removeKeyFromObject = (obj, keyToRemove) => {
-  // Create a shallow copy of the object to avoid mutating the original one
-  const newObj = { ...obj };
+function updateKeyUsingNewObject(obj, keyToUpdate, newValue) {
+  // Create a shallow copy of the object using the spread operator
+  const updatedObj = { ...obj };
   
-  // Delete the specified key if it exists
-  delete newObj[keyToRemove];
+  // Update the value of the specified key
+  updatedObj[keyToUpdate] = newValue;
   
-  return newObj;
-};
+  return updatedObj;
+}

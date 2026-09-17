@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `p7mwklxq3fqo`  
-**Submission Time:** 2026-09-17T13:04:44.898Z  
+**Submission Time:** 2026-09-17T13:04:47.597Z  
 
 ## Problem Statement
 
@@ -33,15 +33,15 @@ Output:
 ## Solution
 
 ```js
-const removeKeyFromObject = (obj, keyToRemove) => {
-  // Create a shallow copy of the object to avoid mutating the original one
-  const newObj = { ...obj };
+function updateKeyUsingNewObject(obj, keyToUpdate, newValue) {
+  // Create a shallow copy of the object using the spread operator
+  const updatedObj = { ...obj };
   
-  // Delete the specified key if it exists
-  delete newObj[keyToRemove];
+  // Update the value of the specified key
+  updatedObj[keyToUpdate] = newValue;
   
-  return newObj;
-};
+  return updatedObj;
+}
 ```
 
 ---
