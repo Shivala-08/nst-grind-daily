@@ -11,7 +11,7 @@ class Solution:
         
         def dfs(node):
             if not node:
-                return (0, 0) # (count of 1s, count of 0s)
+                return (0, 0)  # (count of 1s, count of 0s)
             
             # Recurse left and right subtrees
             left_ones, left_zeros = dfs(node.left)

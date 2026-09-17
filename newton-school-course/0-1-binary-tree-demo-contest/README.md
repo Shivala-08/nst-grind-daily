@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `67crsncmwpgu`  
-**Submission Time:** 2026-09-17T11:16:32.344Z  
+**Submission Time:** 2026-09-17T11:16:58.024Z  
 
 ## Problem Statement
 
@@ -51,7 +51,7 @@ class Solution:
         
         def dfs(node):
             if not node:
-                return (0, 0) # (count of 1s, count of 0s)
+                return (0, 0)  # (count of 1s, count of 0s)
             
             # Recurse left and right subtrees
             left_ones, left_zeros = dfs(node.left)
