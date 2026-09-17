@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `9qudq1kr76qn`  
-**Submission Time:** 2026-09-17T10:36:57.300Z  
+**Submission Time:** 2026-09-17T10:37:16.370Z  
 
 ## Problem Statement
 
@@ -48,34 +48,11 @@ Final output: [110, 160, 190, 210]
 ## Solution
 
 ```js
-const fs = require('fs');
-
-function processScores(scores, ...callbacks) {
-    return callbacks.reduce((currentScores, callback) => {
-        return currentScores.map(score => callback(score));
-    }, scores);
+function processScores(scores, callbacks) {
+  return callbacks.reduce((currentScores, callback) => {
+    return currentScores.map(score => callback(score));
+  }, scores);
 }
-
-function solve() {
-    const input = fs.readFileSync(0, 'utf-8').trim().split('\n');
-    if (input.length === 0 || !input[0]) return;
-
-    const scores = JSON.parse(input[0].trim());
-    
-    const callbacks = [];
-    for (let i = 1; i < input.length; i++) {
-        const line = input[i].trim();
-        if (line === 'done' || line === '') break;
-        
-        const callbackFn = (0, eval)('(' + line + ')');
-        callbacks.push(callbackFn);
-    }
-
-    const result = processScores(scores, ...callbacks);
-    console.log(result);
-}
-
-solve();
 ```
 
 ---
