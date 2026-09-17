@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `67crsncmwpgu`  
-**Submission Time:** 2026-09-17T11:23:21.559Z  
+**Submission Time:** 2026-09-17T11:24:02.013Z  
 
 ## Problem Statement
 
@@ -38,13 +38,19 @@ Subtrees rooted at node 5 and 1 have more number of 1 nodes than the number of 0
 ## Solution
 
 ```py
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
 class Solution:
-    def countSubtrees(self, root):
-        self.count = 0
+    def countSubtrees(self, root: TreeNode) -> int:
+        self.valid_subtrees = 0
         
         def dfs(node):
             if not node:
-                return (0, 0)
+                return [0, 0] # [count_ones, count_zeros]
             
             left_ones, left_zeros = dfs(node.left)
             right_ones, right_zeros = dfs(node.right)
@@ -53,12 +59,12 @@ class Solution:
             total_zeros = left_zeros + right_zeros + (1 if node.val == 0 else 0)
             
             if total_ones > total_zeros:
-                self.count += 1
+                self.valid_subtrees += 1
                 
-            return (total_ones, total_zeros)
+            return [total_ones, total_zeros]
         
-        dfs(root)       # This line triggers the DFS traversal
-        return self.count
+        dfs(root)
+        return self.valid_subtrees
 ```
 
 ---
