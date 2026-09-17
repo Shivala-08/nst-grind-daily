@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `v3dbadhf5o4w`  
-**Submission Time:** 2026-09-09T05:51:01.780Z  
+**Submission Time:** 2026-09-17T07:37:30.531Z  
 
 ## Problem Statement
 
@@ -53,23 +53,48 @@ There exist two distinct solutions to the 4 queens puzzle as shown above
 ```py
 def solveNQueens(n):
     results = []
-    board =[["."]*n for _ in range(n)]
-    def issafe(row,col):
+    board = [["."] * n for _ in range(n)]
+
+    def is_safe(row, col):
+        # Check column above
         for i in range(row):
-            if board[i][col]=='Q':
+            if board[i][col] == 'Q':
                 return False
+        
+        # Check upper-left diagonal
+        i, j = row - 1, col - 1
+        while i >= 0 and j >= 0:
+            if board[i][j] == 'Q':
+                return False
+            i -= 1
+            j -= 1
+            
+        # Check upper-right diagonal
+        i, j = row - 1, col + 1
+        while i >= 0 and j < n:
+            if board[i][j] == 'Q':
+                return False
+            i -= 1
+            j += 1
+            
+        return True
+
     def solve(row):
-        if row==n:
-            ans=[]
+        if row == n:
+            ans = []
             for i in range(n):
-                s=''
-                for j in range(n):
-                    s+=board[i][j]
-                ans.append(s)
+                ans.append("".join(board[i]))
             results.append(ans)
+            return
+
         for col in range(n):
-            if issafe(row,col):
-                board[row][col]='Q'
+            if is_safe(row, col):
+                board[row][col] = 'Q'
+                solve(row + 1)
+                board[row][col] = '.'
+
+    solve(0)
+    return results
 ```
 
 ---
