@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `7eplzq4gi5i7`  
-**Submission Time:** 2026-09-17T10:22:23.126Z  
+**Submission Time:** 2026-09-17T10:22:38.047Z  
 
 ## Problem Statement
 
@@ -27,10 +27,6 @@ Output:
 ```js
 function addNumbers(...args) {
   return args.reduce((sum, current) => sum + current, 0);}
-
-if (input.length > 0 && input[0] !== '') {
-  const numbers = input.map(Number);;
-}
 ```
 
 ---
