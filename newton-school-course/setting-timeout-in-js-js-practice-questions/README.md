@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `6d7iaz9m7rwb`  
-**Submission Time:** 2026-09-17T13:16:19.792Z  
+**Submission Time:** 2026-09-17T13:16:28.851Z  
 
 ## Problem Statement
 
@@ -24,7 +24,10 @@ NA
 
 ```js
 function logAfterDelay(message) {
-// add your code here
+  // Use setTimeout to delay logging the message by 5000 milliseconds (5 seconds)
+  setTimeout(() => {
+    console.log(message);
+  }, 5000);
 }
 ```
 
