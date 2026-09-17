@@ -1,1 +1,1 @@
-SELECT DISTINCT category from Products
+SELECT
