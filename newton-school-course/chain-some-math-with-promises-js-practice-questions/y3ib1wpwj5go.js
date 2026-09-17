@@ -11,7 +11,7 @@ function multiplyByThree(value) {
 }
 
 // Chaining the functions as required:
-double(5)
+double(value)
   .then(result => {
     return addTen(result);
   })
