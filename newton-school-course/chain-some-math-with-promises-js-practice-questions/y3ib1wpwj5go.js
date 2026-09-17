@@ -9,11 +9,3 @@ function addTen(value) {
 function multiplyByThree(value) {
   return Promise.resolve(value * 3);
 }
-
-// Example usage to chain the promises:
-// double(5)
-//   .then(result => addTen(result))
-//   .then(result => multiplyByThree(result))
-//   .then(finalResult => {
-//     console.log(finalResult);
-//   });
