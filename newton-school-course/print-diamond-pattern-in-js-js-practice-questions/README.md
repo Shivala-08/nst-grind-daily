@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `2qyrzbmjltdx`  
-**Submission Time:** 2026-09-17T13:14:14.767Z  
+**Submission Time:** 2026-09-17T13:14:18.360Z  
 
 ## Problem Statement
 
@@ -27,14 +27,14 @@ Output
 // Assuming `n` is provided by the environment
 // Top half of the diamond (including the middle row)
 for (let i = 1; i <= n; i++) {
-  let spaces = " ".repeat(n - i);
+  let spaces = "  ".repeat(n - i);
   let stars = "* ".repeat(2 * i - 1);
   console.log(spaces + stars);
 }
 
 // Bottom half of the diamond
 for (let i = n - 1; i >= 1; i--) {
-  let spaces = " ".repeat(n - i);
+  let spaces = "  ".repeat(n - i);
   let stars = "* ".repeat(2 * i - 1);
   console.log(spaces + stars);
 }
