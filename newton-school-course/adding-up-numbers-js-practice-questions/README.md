@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `7eplzq4gi5i7`  
-**Submission Time:** 2026-09-17T10:21:55.562Z  
+**Submission Time:** 2026-09-17T10:22:15.634Z  
 
 ## Problem Statement
 
@@ -26,12 +26,7 @@ Output:
 
 ```js
 function addNumbers(...args) {
-  return args.reduce((sum, current) => sum + current, 0);
-}
-
-// Node.js standard input reading (if the platform requires handling stdin)
-const fs = require('fs');
-const input = fs.readFileSync('/dev/stdin', 'utf-8').trim().split(/\s+/);
+  return args.reduce((sum, current) => sum + current, 0);}
 
 if (input.length > 0 && input[0] !== '') {
   const numbers = input.map(Number);
