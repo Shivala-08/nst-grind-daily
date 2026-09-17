@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `67crsncmwpgu`  
-**Submission Time:** 2026-09-17T11:20:41.552Z  
+**Submission Time:** 2026-09-17T11:21:47.319Z  
 
 ## Problem Statement
 
@@ -52,7 +52,7 @@ class Solution:
             total_ones = left_ones + right_ones + (1 if node.val == 1 else 0)
             total_zeros = left_zeros + right_zeros + (1 if node.val == 0 else 0)
             
-            if total_ones == total_zeros:
+            if total_ones > total_zeros:
                 self.count += 1
                 
             return (total_ones, total_zeros)
