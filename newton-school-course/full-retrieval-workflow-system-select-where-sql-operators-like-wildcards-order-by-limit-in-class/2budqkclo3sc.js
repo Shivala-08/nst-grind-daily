@@ -5,4 +5,4 @@ ORDER BY rating DESC;
 SELECT * 
 FROM Books 
 WHERE publication_year BETWEEN 2010 AND 2020
-AND
+AND available_copies >1;
