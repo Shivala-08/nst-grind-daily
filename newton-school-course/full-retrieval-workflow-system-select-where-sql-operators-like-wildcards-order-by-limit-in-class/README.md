@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `2budqkclo3sc`  
-**Submission Time:** 2026-09-18T01:32:27.154Z  
+**Submission Time:** 2026-09-18T01:33:19.844Z  
 
 ## Problem Statement
 
@@ -69,7 +69,7 @@ WHERE publication_year BETWEEN 2010 AND 2020
 SELECT DISTINCT genre 
 FROM Books;
 
-SELECT author 
+SELECT *
 FROM Books 
 WHERE author LIKE '% M%';
 ```
