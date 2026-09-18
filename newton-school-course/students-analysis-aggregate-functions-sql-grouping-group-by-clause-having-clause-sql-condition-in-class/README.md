@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `59h95a2ts7fp`  
-**Submission Time:** 2026-09-18T01:15:12.501Z  
+**Submission Time:** 2026-09-18T01:16:09.881Z  
 
 ## Problem Statement
 
@@ -49,11 +49,8 @@ department,
 COUNT(*) AS student_count
 FROM STUDENTS
 GROUP BY department;
-SELECT 
-department,
-MAX(COUNT(*)) AS student_count
-FROM STUDENTS
-GROUP BY department;
+ORDER BY department DESC
+LIMIT 1
 ```
 
 ---
