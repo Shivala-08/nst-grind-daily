@@ -5,3 +5,7 @@ LIMIT 1;
 SELECT product_name,price
 FROM products
 LIMIT 3;
+SELECT product_name,price
+FROM products
+OFFSET 3
+LIMIT 3
