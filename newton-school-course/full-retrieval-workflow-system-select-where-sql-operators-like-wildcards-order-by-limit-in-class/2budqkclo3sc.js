@@ -4,4 +4,4 @@ WHERE rating >=4.7
 ORDER BY rating DESC;
 SELECT * 
 FROM Books 
-WHERE
+WHERE publication_year BETWEEN 2010
