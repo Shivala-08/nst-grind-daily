@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ld6yj1vvypmp`  
-**Submission Time:** 2026-09-18T01:35:01.636Z  
+**Submission Time:** 2026-09-18T01:35:04.613Z  
 
 ## Problem Statement
 
@@ -53,7 +53,7 @@ Tasks:
 ## Solution
 
 ```js
-SELECT username FROM Users WHERE username like '______'
+SELECT username FROM Users WHERE username like '______';
 SELECT username FROM Users WHERE username like '_______';
 SELECT username FROM Users WHERE username like '_______';
 ```
