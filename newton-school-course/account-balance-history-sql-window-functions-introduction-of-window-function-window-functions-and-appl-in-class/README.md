@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `8sitl3eyr7uy`  
-**Submission Time:** 2026-09-18T06:43:16.651Z  
+**Submission Time:** 2026-09-18T06:44:51.474Z  
 
 ## Problem Statement
 
@@ -47,7 +47,21 @@ The moving average should include the current row and the previous 2 rows, order
 
 ```js
 SELECT 
-account_id,balance_date,closing_balance
+    account_id,
+    balance_date,
+    closing_balance,
+    ROUND(
+        AVG(closing_balance) OVER (
+            PARTITION BY account_id
+            ORDER BY balance_date
+            ROWS BETWEEN 2 PRECEDING AND CURRENT ROW
+        ), 2
+    ) AS moving_avg_balance
+FROM 
+    ACCOUNT_BALANCE_HISTORY
+ORDER BY 
+    account_id, 
+    balance_date;
 ```
 
 ---
