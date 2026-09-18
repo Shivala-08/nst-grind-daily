@@ -2,4 +2,4 @@ SELECT
 department 
 COUNT(*) AS student_count
 FROM STUDENTS
-GROUP BY department
+GROUP BY department;
