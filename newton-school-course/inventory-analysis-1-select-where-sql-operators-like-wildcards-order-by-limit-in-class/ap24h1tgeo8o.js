@@ -12,7 +12,7 @@ LIMIT 3;
 SELECT product_name,price
 FROM products
 OFFSET 6
-LIMIT 3
+LIMIT 3;
 SELECT product_name,price
 FROM products
 ORDER BY price 
