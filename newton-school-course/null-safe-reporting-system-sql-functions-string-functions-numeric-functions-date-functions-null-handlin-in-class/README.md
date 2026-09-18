@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `wnfwx8ogd8cz`  
-**Submission Time:** 2026-09-18T01:40:10.815Z  
+**Submission Time:** 2026-09-18T01:40:37.308Z  
 
 ## Problem Statement
 
@@ -86,6 +86,7 @@ The report should allow the analytics team to identify employees who have not ye
 SELECT emp_name FROM employee_performance 
 WHERE bonus IS NULL;
 SELECT emp_name
+CASE
 ```
 
 ---
