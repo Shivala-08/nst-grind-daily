@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `wnfwx8ogd8cz`  
-**Submission Time:** 2026-09-18T01:43:18.731Z  
+**Submission Time:** 2026-09-18T01:43:34.698Z  
 
 ## Problem Statement
 
@@ -87,7 +87,7 @@ SELECT emp_name FROM employee_performance WHERE bonus IS NULL;
 
 SELECT 
     emp_name, 
-    COALESCE ()
+    COALESCE (CAST())
 ```
 
 ---
