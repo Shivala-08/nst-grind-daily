@@ -1,1 +1,1 @@
-SELECT
+SELECT emp_name FROM
