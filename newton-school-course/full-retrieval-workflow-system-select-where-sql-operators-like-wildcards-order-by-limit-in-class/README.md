@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `2budqkclo3sc`  
-**Submission Time:** 2026-09-18T01:28:46.984Z  
+**Submission Time:** 2026-09-18T01:28:56.219Z  
 
 ## Problem Statement
 
@@ -64,7 +64,8 @@ SELECT *
 FROM Books 
 WHERE publication_year BETWEEN 2010 AND 2020
 AND available_copies >1;
-SELECT DISTINCT
+SELECT DISTINCT genre 
+FROM Books;
 ```
 
 ---

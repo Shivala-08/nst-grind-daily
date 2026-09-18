@@ -6,4 +6,5 @@ SELECT *
 FROM Books 
 WHERE publication_year BETWEEN 2010 AND 2020
 AND available_copies >1;
-SELECT DISTINCT
+SELECT DISTINCT genre 
+FROM Books;
