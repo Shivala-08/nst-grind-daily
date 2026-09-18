@@ -6,11 +6,11 @@ ORDER BY rating DESC;
 SELECT * 
 FROM Books 
 WHERE publication_year BETWEEN 2010 AND 2020 
-AND available_copies > 1;
+  AND available_copies > 1;
 
 SELECT DISTINCT genre 
 FROM Books;
 
-SELECT author 
+SELECT * 
 FROM Books 
 WHERE author LIKE '% M%';

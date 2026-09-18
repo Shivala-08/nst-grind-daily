@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `2budqkclo3sc`  
-**Submission Time:** 2026-09-18T01:31:24.173Z  
+**Submission Time:** 2026-09-18T01:31:43.793Z  
 
 ## Problem Statement
 
@@ -64,12 +64,12 @@ ORDER BY rating DESC;
 SELECT * 
 FROM Books 
 WHERE publication_year BETWEEN 2010 AND 2020 
-AND available_copies > 1;
+  AND available_copies > 1;
 
 SELECT DISTINCT genre 
 FROM Books;
 
-SELECT author 
+SELECT * 
 FROM Books 
 WHERE author LIKE '% M%';
 ```
