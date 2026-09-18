@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `2budqkclo3sc`  
-**Submission Time:** 2026-09-18T01:26:54.845Z  
+**Submission Time:** 2026-09-18T01:27:21.430Z  
 
 ## Problem Statement
 
@@ -60,7 +60,9 @@ SELECT title,author,rating
 FROM Books
 WHERE rating >=4.7
 ORDER BY rating DESC;
-SELECT
+SELECT * 
+FROM Books 
+WHERE
 ```
 
 ---
