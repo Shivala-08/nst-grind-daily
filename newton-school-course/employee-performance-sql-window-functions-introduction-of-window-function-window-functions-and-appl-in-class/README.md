@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `893p3ucz1yds`  
-**Submission Time:** 2026-09-18T06:40:39.187Z  
+**Submission Time:** 2026-09-18T06:40:44.942Z  
 
 ## Problem Statement
 
@@ -43,7 +43,7 @@ Assign a unique row number (rank_number) to each employee based on descending pe
 ```js
 SELECT  * ,
 ROW_NUMBER() OVER (ORDER BY performance_score DESC)
-FROM EMPLOYEE_PREFORMANCE,
+FROM EMPLOYEE_PREFORMANCE;
 ```
 
 ---
