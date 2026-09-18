@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ap24h1tgeo8o`  
-**Submission Time:** 2026-09-18T01:21:10.177Z  
+**Submission Time:** 2026-09-18T01:21:59.270Z  
 
 ## Problem Statement
 
@@ -62,6 +62,9 @@ SELECT product_name,rating,reviews_count
 FROM products
 ORDER BY rating,reviews DESC
 LIMIT 1;
+SELECT product_name,price
+FROM products
+LIMIT 3;
 ```
 
 ---
