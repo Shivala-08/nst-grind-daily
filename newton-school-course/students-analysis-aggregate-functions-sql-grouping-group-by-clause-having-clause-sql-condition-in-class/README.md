@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `59h95a2ts7fp`  
-**Submission Time:** 2026-09-18T01:12:57.200Z  
+**Submission Time:** 2026-09-18T01:13:06.995Z  
 
 ## Problem Statement
 
@@ -49,6 +49,7 @@ department,
 COUNT(*) AS student_count
 FROM STUDENTS
 GROUP BY department;
+SELECT
 ```
 
 ---
