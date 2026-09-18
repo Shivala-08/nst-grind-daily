@@ -10,4 +10,4 @@ SELECT DISTINCT genre
 FROM Books;
 SELECT author 
 FROM Books
-WHERE
+WHERE author LIKE "M%"
