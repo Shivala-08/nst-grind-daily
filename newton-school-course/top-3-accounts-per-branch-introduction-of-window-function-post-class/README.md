@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `82x5si6klx3s`  
-**Submission Time:** 2026-09-18T06:37:11.154Z  
+**Submission Time:** 2026-09-18T06:37:37.191Z  
 
 ## Problem Statement
 
@@ -53,7 +53,7 @@ Hint: Use a window function to assign a sequential rank to accounts within each 
 ```js
 SELECT 
 account_holder,branch,balance,
-RANK(balance) OVER (PARTITION BY branch
+RANK() OVER (PARTITION BY branch
 ORDER BY balance DESC) AS rn
 FROM accounts;
 ```
