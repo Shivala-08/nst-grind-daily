@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ap24h1tgeo8o`  
-**Submission Time:** 2026-09-18T01:19:45.586Z  
+**Submission Time:** 2026-09-18T01:20:06.562Z  
 
 ## Problem Statement
 
@@ -58,7 +58,9 @@ You are given a products table with following columns -
 ## Solution
 
 ```js
-SELECT product_name,rating,reviews_count
+SELECT product_name,rating,reviews_count 
+FROM products
+WHERE
 ```
 
 ---
