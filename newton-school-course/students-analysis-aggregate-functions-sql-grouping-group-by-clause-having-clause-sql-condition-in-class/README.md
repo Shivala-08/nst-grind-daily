@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `59h95a2ts7fp`  
-**Submission Time:** 2026-09-18T01:11:21.371Z  
+**Submission Time:** 2026-09-18T01:11:29.456Z  
 
 ## Problem Statement
 
@@ -47,7 +47,7 @@ Write SQL queries to:
 SELECT 
 department 
 count(*) AS student_count
-from
+from STUDENTS
 ```
 
 ---
