@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `59h95a2ts7fp`  
-**Submission Time:** 2026-09-18T01:10:23.190Z  
+**Submission Time:** 2026-09-18T01:11:03.959Z  
 
 ## Problem Statement
 
@@ -44,15 +44,9 @@ Write SQL queries to:
 ## Solution
 
 ```js
-SELECT department, COUNT(*) AS student_count
-FROM students
-GROUP BY department
-ORDER BY department ASC;
-SELECT department, COUNT(*) AS student_count
-FROM students
-GROUP BY department
-ORDER BY student_count DESC
-LIMIT 1;
+SELECT 
+department 
+count(*)
 ```
 
 ---
