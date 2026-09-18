@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ap24h1tgeo8o`  
-**Submission Time:** 2026-09-18T01:22:44.682Z  
+**Submission Time:** 2026-09-18T01:22:52.326Z  
 
 ## Problem Statement
 
@@ -60,7 +60,7 @@ You are given a products table with following columns -
 ```js
 SELECT product_name,rating,reviews_count 
 FROM products
-ORDER BY rating,reviews DESC
+ORDER BY rating DESC
 LIMIT 1;
 SELECT product_name,price
 FROM products
