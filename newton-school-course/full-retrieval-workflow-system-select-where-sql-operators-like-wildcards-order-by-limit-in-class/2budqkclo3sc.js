@@ -11,6 +11,6 @@ WHERE publication_year BETWEEN 2010 AND 2020
 SELECT DISTINCT genre 
 FROM Books;
 
-SELECT * 
+SELECT author 
 FROM Books 
 WHERE author LIKE '% M%';
