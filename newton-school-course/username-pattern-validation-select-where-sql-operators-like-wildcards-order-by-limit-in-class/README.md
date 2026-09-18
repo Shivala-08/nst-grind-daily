@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ld6yj1vvypmp`  
-**Submission Time:** 2026-09-18T01:35:50.619Z  
+**Submission Time:** 2026-09-18T01:35:55.644Z  
 
 ## Problem Statement
 
@@ -55,7 +55,7 @@ Tasks:
 ```js
 SELECT username FROM Users WHERE username like '______';
 SELECT username FROM Users WHERE username like '_______';
-SELECT username FROM Users WHERE username like '%%';
+SELECT username FROM Users WHERE username like '%/%';
 ```
 
 ---
