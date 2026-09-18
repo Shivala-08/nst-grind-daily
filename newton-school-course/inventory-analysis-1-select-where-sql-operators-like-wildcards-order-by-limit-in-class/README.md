@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ap24h1tgeo8o`  
-**Submission Time:** 2026-09-18T01:23:09.524Z  
+**Submission Time:** 2026-09-18T01:23:13.977Z  
 
 ## Problem Statement
 
@@ -68,6 +68,10 @@ LIMIT 3;
 SELECT product_name,price
 FROM products
 OFFSET 3
+LIMIT 3
+SELECT product_name,price
+FROM products
+OFFSET 6
 LIMIT 3
 ```
 
