@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `59h95a2ts7fp`  
-**Submission Time:** 2026-09-18T01:14:06.607Z  
+**Submission Time:** 2026-09-18T01:14:37.710Z  
 
 ## Problem Statement
 
@@ -51,7 +51,9 @@ FROM STUDENTS
 GROUP BY department;
 SELECT 
 department,
-COUNT()
+MAX(COUNT(*)) AS student_count
+FROM STUDENTS
+GROUP BY department;
 ```
 
 ---
