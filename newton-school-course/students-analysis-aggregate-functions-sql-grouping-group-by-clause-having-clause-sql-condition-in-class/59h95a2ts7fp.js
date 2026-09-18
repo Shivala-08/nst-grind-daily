@@ -3,4 +3,6 @@ department,
 COUNT(*) AS student_count
 FROM STUDENTS
 GROUP BY department;
-SELECT
+SELECT 
+department,
+COUNT()
