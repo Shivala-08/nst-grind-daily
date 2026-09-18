@@ -12,5 +12,5 @@ SELECT
 FROM 
     ACCOUNT_BALANCE_HISTORY
 ORDER BY 
-    account_id, 
+     
     balance_date;

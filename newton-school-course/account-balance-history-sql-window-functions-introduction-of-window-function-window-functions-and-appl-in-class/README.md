@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `8sitl3eyr7uy`  
-**Submission Time:** 2026-09-18T06:44:51.474Z  
+**Submission Time:** 2026-09-18T06:45:40.623Z  
 
 ## Problem Statement
 
@@ -60,7 +60,7 @@ SELECT
 FROM 
     ACCOUNT_BALANCE_HISTORY
 ORDER BY 
-    account_id, 
+     
     balance_date;
 ```
 
