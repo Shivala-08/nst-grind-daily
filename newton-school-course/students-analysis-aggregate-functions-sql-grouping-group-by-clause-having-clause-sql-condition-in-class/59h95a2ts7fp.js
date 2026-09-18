@@ -1,3 +1,4 @@
 SELECT 
 department 
-count(*)
+count(*) AS student_count
+from
