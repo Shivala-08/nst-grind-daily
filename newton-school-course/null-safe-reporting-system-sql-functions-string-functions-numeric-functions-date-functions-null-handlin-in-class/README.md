@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `wnfwx8ogd8cz`  
-**Submission Time:** 2026-09-18T01:45:08.758Z  
+**Submission Time:** 2026-09-18T01:45:24.899Z  
 
 ## Problem Statement
 
@@ -87,8 +87,11 @@ SELECT emp_name FROM employee_performance WHERE bonus IS NULL;
 
 SELECT 
     emp_name, 
-    COALESCE (CAST(bonus AS TEXT),0) AS bonus_display,
-    COALESCE(ROUND(salesa_achieved))
+    COALESCE(CAST(bonus AS TEXT), 'Not Awarded') AS bonus_display,
+    COALESCE(ROUND(CAST((sales_achieved * 100.0) / NULLIF(sales_target, 0) AS NUMERIC), 1), 0) AS achievement_pct
+FROM employee_performance
+WHERE sales_target IS NOT NULL
+ORDER BY achievement_pct DESC;
 ```
 
 ---
