@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ap24h1tgeo8o`  
-**Submission Time:** 2026-09-18T01:19:01.581Z  
+**Submission Time:** 2026-09-18T01:19:45.586Z  
 
 ## Problem Statement
 
@@ -58,29 +58,7 @@ You are given a products table with following columns -
 ## Solution
 
 ```js
-SELECT product_name, rating, reviews_count 
-FROM products 
-ORDER BY rating DESC, reviews_count DESC 
-LIMIT 1;
-
-
-SELECT product_name, price 
-FROM products 
-LIMIT 3 OFFSET 0;
-
-SELECT product_name, price 
-FROM products 
-LIMIT 3 OFFSET 3;
-
-SELECT product_name, price 
-FROM products 
-LIMIT 3 OFFSET 6;
-
-SELECT product_name, price 
-FROM products 
-WHERE in_stock = true 
-ORDER BY price ASC 
-LIMIT 3;
+SELECT product_name,rating,reviews_count
 ```
 
 ---
