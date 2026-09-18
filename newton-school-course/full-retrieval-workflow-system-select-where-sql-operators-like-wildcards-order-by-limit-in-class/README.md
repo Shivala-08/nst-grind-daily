@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `2budqkclo3sc`  
-**Submission Time:** 2026-09-18T01:30:48.042Z  
+**Submission Time:** 2026-09-18T01:31:22.538Z  
 
 ## Problem Statement
 
@@ -56,19 +56,22 @@ Tasks:
 ## Solution
 
 ```js
-SELECT title,author,rating 
-FROM Books
-WHERE rating >=4.7
+SELECT title, author, rating 
+FROM Books 
+WHERE rating >= 4.7 
 ORDER BY rating DESC;
+
 SELECT * 
 FROM Books 
-WHERE publication_year BETWEEN 2010 AND 2020
-AND available_copies >1;
+WHERE publication_year BETWEEN 2010 AND 2020 
+AND available_copies > 1;
+
 SELECT DISTINCT genre 
 FROM Books;
+
 SELECT author 
-FROM Books
-WHERE author LIKE '%M%'
+FROM Books 
+WHERE author LIKE '% M%';
 ```
 
 ---
