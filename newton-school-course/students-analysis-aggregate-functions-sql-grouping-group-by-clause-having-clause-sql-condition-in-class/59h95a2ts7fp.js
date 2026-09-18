@@ -1,5 +1,5 @@
 SELECT 
 department 
-COUNT(*) AS student_count
+COUNT() AS student_count
 FROM STUDENTS
 GROUP BY department;
