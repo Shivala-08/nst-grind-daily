@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `2budqkclo3sc`  
-**Submission Time:** 2026-09-18T01:25:36.418Z  
+**Submission Time:** 2026-09-18T01:25:49.874Z  
 
 ## Problem Statement
 
@@ -56,7 +56,7 @@ Tasks:
 ## Solution
 
 ```js
-SELECT
+SELECT title,author,
 ```
 
 ---
