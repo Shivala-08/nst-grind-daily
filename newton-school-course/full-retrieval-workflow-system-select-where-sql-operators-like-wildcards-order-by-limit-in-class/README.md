@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `2budqkclo3sc`  
-**Submission Time:** 2026-09-18T01:27:38.799Z  
+**Submission Time:** 2026-09-18T01:27:49.502Z  
 
 ## Problem Statement
 
@@ -62,7 +62,7 @@ WHERE rating >=4.7
 ORDER BY rating DESC;
 SELECT * 
 FROM Books 
-WHERE publication_year BETWEEN 2010
+WHERE publication_year BETWEEN 2010 AND 2020
 ```
 
 ---
