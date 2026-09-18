@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `wnfwx8ogd8cz`  
-**Submission Time:** 2026-09-18T01:38:48.798Z  
+**Submission Time:** 2026-09-18T01:39:15.057Z  
 
 ## Problem Statement
 
@@ -83,15 +83,7 @@ The report should allow the analytics team to identify employees who have not ye
 ## Solution
 
 ```js
-SELECT emp_name FROM employee_performance WHERE bonus IS NULL;
-
-SELECT 
-    emp_name, 
-    COALESCE(CAST(bonus AS TEXT), 'Not Awarded') AS bonus_display,
-    COALESCE(ROUND(CAST((sales_achieved * 100.0) / NULLIF(sales_target, 0) AS NUMERIC), 1), 0) AS achievement_pct
-FROM employee_performance
-WHERE sales_target IS NOT NULL
-ORDER BY achievement_pct DESC;
+SELECT
 ```
 
 ---
