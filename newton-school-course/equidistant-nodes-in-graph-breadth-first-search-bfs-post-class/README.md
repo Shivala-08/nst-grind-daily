@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `hr8n4qfhtxyf`  
-**Submission Time:** 2026-09-24T07:36:50.819Z  
+**Submission Time:** 2026-09-24T07:36:54.546Z  
 
 ## Problem Statement
 
@@ -45,14 +45,8 @@ Vertices $A$ and $B$ themselves are valid candidates if $d(A, A) = d(B, A)$ or $
 
 ## Solution
 
-```cpp
-#include <bits/stdc++.h> // header file includes every Standard library
-using namespace std;
-
-int main() {
-	// Your code here
-    return 0;
-}
+```js
+# Your code here
 ```
 
 ---
