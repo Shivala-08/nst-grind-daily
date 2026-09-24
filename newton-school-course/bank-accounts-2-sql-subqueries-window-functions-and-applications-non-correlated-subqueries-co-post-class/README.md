@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `3kbf8t57fh3u`  
-**Submission Time:** 2026-09-24T07:48:41.802Z  
+**Submission Time:** 2026-09-24T07:49:06.235Z  
 
 ## Problem Statement
 
@@ -56,14 +56,14 @@ for accounts that have at least one transaction.
 
 ```js
 SELECT 
-    account_holder, 
-    branch, 
+    account_id, 
+    customer_name, 
     balance 
 FROM accounts a 
-WHERE balance > (
-    SELECT AVG(balance) 
-    FROM accounts 
-    WHERE branch = a.branch
+WHERE EXISTS (
+    SELECT 1 
+    FROM transactions t 
+    WHERE t.account_id = a.account_id
 );
 ```
 

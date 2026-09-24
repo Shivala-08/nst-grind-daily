@@ -1,10 +1,10 @@
 SELECT 
-    account_holder, 
-    branch, 
+    account_id, 
+    customer_name, 
     balance 
 FROM accounts a 
-WHERE balance > (
-    SELECT AVG(balance) 
-    FROM accounts 
-    WHERE branch = a.branch
+WHERE EXISTS (
+    SELECT 1 
+    FROM transactions t 
+    WHERE t.account_id = a.account_id
 );
