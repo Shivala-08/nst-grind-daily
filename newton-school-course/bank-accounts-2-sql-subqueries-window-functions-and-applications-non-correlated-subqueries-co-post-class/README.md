@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `3kbf8t57fh3u`  
-**Submission Time:** 2026-09-24T07:48:12.120Z  
+**Submission Time:** 2026-09-24T07:48:34.186Z  
 
 ## Problem Statement
 
@@ -58,11 +58,11 @@ for accounts that have at least one transaction.
 SELECT 
     account_holder, 
     branch, 
-    balance
-FROM accounts a
+    balance 
+FROM accounts a 
 WHERE balance > (
-    SELECT AVG(balance)
-    FROM accounts
+    SELECT AVG(balance) 
+    FROM accounts 
     WHERE branch = a.branch
 );
 ```
