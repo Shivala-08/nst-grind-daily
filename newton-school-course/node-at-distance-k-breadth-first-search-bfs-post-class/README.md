@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `gye90az5uwiz`  
-**Submission Time:** 2026-09-24T10:23:08.449Z  
+**Submission Time:** 2026-09-24T10:23:12.622Z  
 
 ## Problem Statement
 
@@ -58,14 +58,8 @@ In the third sample, no vertices are at distance $2$ from vertex $1$, so the out
 
 ## Solution
 
-```cpp
-#include <bits/stdc++.h> // header file includes every Standard library
-using namespace std;
-
-int main() {
-	// Your code here
-    return 0;
-}
+```js
+# Your code here
 ```
 
 ---
