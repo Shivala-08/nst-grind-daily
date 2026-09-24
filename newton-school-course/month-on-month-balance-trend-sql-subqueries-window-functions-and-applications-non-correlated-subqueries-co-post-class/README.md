@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `4djzflfr633j`  
-**Submission Time:** 2026-09-24T07:46:37.774Z  
+**Submission Time:** 2026-09-24T07:46:54.395Z  
 
 ## Problem Statement
 
@@ -56,15 +56,13 @@ Write a query to return the following details from the account records:
 ```js
 SELECT 
     account_holder, 
-    branch, 
-    account_type, 
-    balance
-FROM accounts a
-WHERE balance > (
-    SELECT AVG(balance)
-    FROM accounts
-    WHERE branch = a.branch
-);
+    opened_date, 
+    balance,
+    LAG(balance, 1, 0::numeric) OVER (ORDER BY opened_date) AS prev_balance,
+    LEAD(balance, 1) OVER (ORDER BY opened_date) AS next_balance,
+    balance - LAG(balance, 1, 0::numeric) OVER (ORDER BY opened_date) AS balance_change
+FROM accounts
+ORDER BY opened_date;
 ```
 
 ---

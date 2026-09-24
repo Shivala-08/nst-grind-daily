@@ -1,11 +1,9 @@
 SELECT 
     account_holder, 
-    branch, 
-    account_type, 
-    balance
-FROM accounts a
-WHERE balance > (
-    SELECT AVG(balance)
-    FROM accounts
-    WHERE branch = a.branch
-);
+    opened_date, 
+    balance,
+    LAG(balance, 1, 0::numeric) OVER (ORDER BY opened_date) AS prev_balance,
+    LEAD(balance, 1) OVER (ORDER BY opened_date) AS next_balance,
+    balance - LAG(balance, 1, 0::numeric) OVER (ORDER BY opened_date) AS balance_change
+FROM accounts
+ORDER BY opened_date;
