@@ -1,6 +1,6 @@
 SELECT 
-    QUARTER(joining_date) AS joining_quarter, 
-    COUNT(*) AS total_joinees
-FROM employees
-GROUP BY QUARTER(joining_date)
-ORDER BY joining_quarter;
+    SUM(CASE WHEN QUARTER(joining_date) = 1 THEN 1 ELSE 0 END) AS Q1_joins,
+    SUM(CASE WHEN QUARTER(joining_date) = 2 THEN 1 ELSE 0 END) AS Q2_joins,
+    SUM(CASE WHEN QUARTER(joining_date) = 3 THEN 1 ELSE 0 END) AS Q3_joins,
+    SUM(CASE WHEN QUARTER(joining_date) = 4 THEN 1 ELSE 0 END) AS Q4_joins
+FROM employees;
