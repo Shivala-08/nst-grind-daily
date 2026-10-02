@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `6d9jo3nfcylm`  
-**Submission Time:** 2026-10-02T17:26:31.481Z  
+**Submission Time:** 2026-10-02T17:26:37.948Z  
 
 ## Problem Statement
 
@@ -41,7 +41,7 @@ CREATE TABLE Students (
 );
 
 INSERT INTO Students (id, name, age, grade) VALUES
-(1, 'Pranav', 20, 'A'),
+(1, 'Pranav', 19, 'A'),
 (2, 'Amrita', 19, 'B');
 
 SELECT * FROM Students;
