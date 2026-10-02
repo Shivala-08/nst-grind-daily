@@ -6,7 +6,7 @@ CREATE TABLE Students (
 );
 
 INSERT INTO Students (id, name, age, grade) VALUES 
-(1, 'Pranav', 19, 'A'),
+(1, 'Pranav', 20, 'A'),
 (2, 'Amrita', 19, 'B');
 
 SELECT * FROM Students;
