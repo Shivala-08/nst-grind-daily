@@ -1,1 +1,2 @@
-INSERT INTO students ()
+INSERT INTO students (id,name,columna)
+VALUES

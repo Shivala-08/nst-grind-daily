@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `lvbrahk3is1o`  
-**Submission Time:** 2026-10-05T20:35:11.302Z  
+**Submission Time:** 2026-10-05T20:35:32.229Z  
 
 ## Problem Statement
 
@@ -12,7 +12,8 @@ untitled
 ## Solution
 
 ```js
-INSERT INTO students ()
+INSERT INTO students (id,name,columna)
+VALUES
 ```
 
 ---
