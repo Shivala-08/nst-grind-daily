@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `lvbrahk3is1o`  
-**Submission Time:** 2026-10-05T20:18:39.838Z  
+**Submission Time:** 2026-10-05T20:18:50.349Z  
 
 ## Problem Statement
 
@@ -16,7 +16,6 @@ CREATE TABLE departments (
 dept_id INT PRIMARY KEY,
 dept_name VARCHAR(50) NOT NULL
 );
-CREATE TABLE emp_backup AS SELECT * FROM employees;
 ```
 
 ---
