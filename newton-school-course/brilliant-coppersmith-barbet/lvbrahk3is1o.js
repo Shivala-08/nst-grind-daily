@@ -1,4 +1,7 @@
--- Newton School Online PostgreSQL compiler to run SQL online.
--- Write PostgreSQL code in this online editor and run it.
-
-SELECT 'Hello from Newton School! 👋';
+CREATE DATABASE company;
+CREATE SCHEMA hr;
+CREATE TABLE departments (
+dept_id INT PRIMARY KEY,
+dept_name VARCHAR(50) NOT NULL
+);
+CREATE TABLE emp_backup AS SELECT * FROM employees;

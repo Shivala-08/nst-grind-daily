@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `lvbrahk3is1o`  
-**Submission Time:** 2026-10-05T20:17:40.288Z  
+**Submission Time:** 2026-10-05T20:18:27.011Z  
 
 ## Problem Statement
 
@@ -12,10 +12,13 @@ untitled
 ## Solution
 
 ```js
--- Newton School Online PostgreSQL compiler to run SQL online.
--- Write PostgreSQL code in this online editor and run it.
-
-SELECT 'Hello from Newton School! 👋';
+CREATE DATABASE company;
+CREATE SCHEMA hr;
+CREATE TABLE departments (
+dept_id INT PRIMARY KEY,
+dept_name VARCHAR(50) NOT NULL
+);
+CREATE TABLE emp_backup AS SELECT * FROM employees;
 ```
 
 ---
