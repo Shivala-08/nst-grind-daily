@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `lvbrahk3is1o`  
-**Submission Time:** 2026-10-05T20:27:39.281Z  
+**Submission Time:** 2026-10-05T20:27:43.158Z  
 
 ## Problem Statement
 
@@ -17,7 +17,7 @@ ALTER TABLE students
 ADD column NAME
 ADD COLUMN SURNAME
 ADD COLUMN DIVISION
-ALTER TABLE students ALTER COLUMN NAME TYPE
+ALTER TABLE students ALTER COLUMN name TYPE varchar(20);
 ```
 
 ---
