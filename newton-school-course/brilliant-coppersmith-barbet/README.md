@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `lvbrahk3is1o`  
-**Submission Time:** 2026-10-05T20:18:27.011Z  
+**Submission Time:** 2026-10-05T20:18:31.050Z  
 
 ## Problem Statement
 
@@ -12,8 +12,6 @@ untitled
 ## Solution
 
 ```js
-CREATE DATABASE company;
-CREATE SCHEMA hr;
 CREATE TABLE departments (
 dept_id INT PRIMARY KEY,
 dept_name VARCHAR(50) NOT NULL
