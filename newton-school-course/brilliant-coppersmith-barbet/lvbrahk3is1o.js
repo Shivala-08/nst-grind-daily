@@ -1,3 +1,5 @@
 ALTER TABLE students ADD COLUMN Branch Varchar(20);
 ALTER TABLE students 
-ADD column
+ADD column NAME
+ADD COLUMN SURNAME
+ADD COLUMN DIVISION

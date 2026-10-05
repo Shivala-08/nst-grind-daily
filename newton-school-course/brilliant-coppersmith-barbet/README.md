@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `lvbrahk3is1o`  
-**Submission Time:** 2026-10-05T20:24:00.246Z  
+**Submission Time:** 2026-10-05T20:24:16.549Z  
 
 ## Problem Statement
 
@@ -14,7 +14,9 @@ untitled
 ```js
 ALTER TABLE students ADD COLUMN Branch Varchar(20);
 ALTER TABLE students 
-ADD column
+ADD column NAME
+ADD COLUMN SURNAME
+ADD COLUMN DIVISION
 ```
 
 ---
