@@ -3,4 +3,4 @@ ALTER TABLE students
 ADD column NAME
 ADD COLUMN SURNAME
 ADD COLUMN DIVISION
-ALTER TABLE students MODIFY name Varchar(20);
+ALTER TABLE students RENAME COLUMN name to fullname
