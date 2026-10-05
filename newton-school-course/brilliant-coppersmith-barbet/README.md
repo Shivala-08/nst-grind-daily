@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `lvbrahk3is1o`  
-**Submission Time:** 2026-10-05T20:18:52.847Z  
+**Submission Time:** 2026-10-05T20:23:03.569Z  
 
 ## Problem Statement
 
@@ -12,10 +12,8 @@ untitled
 ## Solution
 
 ```js
-CREATE TABLE departments (
-dept_id INT PRIMARY KEY,
-dept_name VARCHAR(50) NOT NULL
-);
+ALTER TABLE students ADD COLUMN Branch Varchar(20);
+ALTER TABLE students
 ```
 
 ---

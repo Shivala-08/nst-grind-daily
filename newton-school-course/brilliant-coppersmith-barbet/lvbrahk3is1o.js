@@ -1,4 +1,2 @@
-CREATE TABLE departments (
-dept_id INT PRIMARY KEY,
-dept_name VARCHAR(50) NOT NULL
-);
+ALTER TABLE students ADD COLUMN Branch Varchar(20);
+ALTER TABLE students
