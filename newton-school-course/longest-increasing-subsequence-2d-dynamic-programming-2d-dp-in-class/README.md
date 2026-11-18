@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `uciogifya8cj`  
-**Submission Time:** 2026-11-18T05:29:16.631Z  
+**Submission Time:** 2026-11-18T05:52:07.207Z  
 
 ## Problem Statement
 
@@ -35,6 +35,29 @@ Longest increasing subsequence is of length 6. There are many subsequences of le
 
 ```py
 def lengthOfLIS(nums):
+    if not nums:
+        return 0
+    
+    tails = []
+    for num in nums:
+        left, right = 0, len(tails) - 1
+        idx = len(tails)
+        
+        while left <= right:
+            mid = (left + right) // 2
+            if tails[mid] >= num:
+                idx = mid
+                right = mid - 1
+            else:
+                left = mid + 1
+                
+        
+        if idx == len(tails):
+            tails.append(num)
+        else:
+            tails[idx] = num
+            
+    return len(tails)
 ```
 
 ---
