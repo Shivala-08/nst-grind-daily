@@ -3,35 +3,12 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `assignment`  
-**Submission Time:** 2026-11-24T17:07:50.821Z  
+**Submission Time:** 2026-11-24T18:29:44.183Z  
 
 ## Solution
 
 ```js
-const express = require("express");
-const dotenv = require("dotenv");
-const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
-const authenticateToken = require('./middleware/validate'); 
-dotenv.config();
-const app = express();
-const PORT = process.env.PORT || 3000; // Set default port to 3000
-const JWT_SECRET = 'mysecretkey';
-app.use(express.json());
-const users = []; 
-app.get('/protected', authenticateToken, (req, res) => {
- res.status(200).json({ message: `Welcome to the protected data, ${req.user.email}!`, user: req.user });
-});
-// User Register
-app.post('/register', async (req, res) => {
-    const { email, password } = req.body;
-    if (!email || !password) {
-        return res.status(400).json({ message: 'Email and password are required' });
-    }
-    if (users.find(u => u.email === email)) {
-        return res.status(409).json({ message: 'User already exists' });
-    }
-    try {
+in context of Http method, it is idempotent if making the same request once or multiple times leaves the server in the exact same  state, GET PUT DELETE, are idempotent, get req. only reads data without altering anything, a put request completely replaces a resource with the same data no matter how many times it is sent, adn a delete request removes a resource so repeating the call leaves the resource deleted with the same end result on the server, the post in not idempotent because sending it multiple times will create multiple new items or repeat the action each time.
 ```
 
 ---
