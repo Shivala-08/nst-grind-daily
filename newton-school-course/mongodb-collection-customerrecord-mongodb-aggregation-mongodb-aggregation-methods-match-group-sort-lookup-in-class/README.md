@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `9m6k4d0q47mc`  
-**Submission Time:** 2026-11-24T12:07:32.004Z  
+**Submission Time:** 2026-11-24T12:07:56.878Z  
 
 ## Problem Statement
 
@@ -127,9 +127,12 @@ db.customerRecord.aggregate([
       _id: "$customer_id",
       totalPurchases: { $sum: 1 },
       totalSpent: { $sum: "$amount" },
-      avgPurchaseAmount: {
-        $round: [{ $avg: "$amount" }, 2]
-      }
+      avgPurchaseAmount: { $avg: "$amount" }
+    }
+  },
+  {
+    $set: {
+      avgPurchaseAmount: { $round: ["$avgPurchaseAmount", 2] }
     }
   },
   {

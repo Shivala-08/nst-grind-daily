@@ -4,9 +4,12 @@ db.customerRecord.aggregate([
       _id: "$customer_id",
       totalPurchases: { $sum: 1 },
       totalSpent: { $sum: "$amount" },
-      avgPurchaseAmount: {
-        $round: [{ $avg: "$amount" }, 2]
-      }
+      avgPurchaseAmount: { $avg: "$amount" }
+    }
+  },
+  {
+    $set: {
+      avgPurchaseAmount: { $round: ["$avgPurchaseAmount", 2] }
     }
   },
   {
