@@ -1,27 +1,17 @@
-db.employees.aggregate([
+db.customerRecord.aggregate([
   {
-    $lookup: {
-      from: "departments",
-      localField: "dept_id",
-      foreignField: "_id",
-      as: "department"
-    }
-  },
-  {
-    $unwind: {
-      path: "$department",
-      preserveNullAndEmptyArrays: true
-    }
-  },
-  {
-    $project: {
-      _id: 0,
-      name: 1,
-      salary: 1,
-      department: {
-        department_name: 1,
-        location: 1
+    $group: {
+      _id: "$customer_id",
+      totalPurchases: { $sum: 1 },
+      totalSpent: { $sum: "$amount" },
+      avgPurchaseAmount: {
+        $round: [{ $avg: "$amount" }, 2]
       }
+    }
+  },
+  {
+    $sort: {
+      totalSpent: -1
     }
   }
 ]);

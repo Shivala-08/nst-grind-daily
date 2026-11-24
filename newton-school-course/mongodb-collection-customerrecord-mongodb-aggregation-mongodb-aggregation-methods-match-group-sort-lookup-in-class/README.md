@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `9m6k4d0q47mc`  
-**Submission Time:** 2026-11-24T12:07:07.661Z  
+**Submission Time:** 2026-11-24T12:07:32.004Z  
 
 ## Problem Statement
 
@@ -121,30 +121,20 @@ Order by totalSpent desc.
 ## Solution
 
 ```js
-db.employees.aggregate([
+db.customerRecord.aggregate([
   {
-    $lookup: {
-      from: "departments",
-      localField: "dept_id",
-      foreignField: "_id",
-      as: "department"
-    }
-  },
-  {
-    $unwind: {
-      path: "$department",
-      preserveNullAndEmptyArrays: true
-    }
-  },
-  {
-    $project: {
-      _id: 0,
-      name: 1,
-      salary: 1,
-      department: {
-        department_name: 1,
-        location: 1
+    $group: {
+      _id: "$customer_id",
+      totalPurchases: { $sum: 1 },
+      totalSpent: { $sum: "$amount" },
+      avgPurchaseAmount: {
+        $round: [{ $avg: "$amount" }, 2]
       }
+    }
+  },
+  {
+    $sort: {
+      totalSpent: -1
     }
   }
 ]);
