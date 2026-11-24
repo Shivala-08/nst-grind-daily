@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `hg89ojl5tulr`  
-**Submission Time:** 2026-11-24T10:03:56.814Z  
+**Submission Time:** 2026-11-24T10:04:19.863Z  
 
 ## Problem Statement
 
@@ -133,7 +133,10 @@ current_year_total_salary|previous_years_total_salary
 ## Solution
 
 ```js
-SUM(CASE WHEN YEAR(joining_date) = YEAR(CURDATE()) - 1 THEN salary ELSE 0 END) AS previous_year_total_salary
+SELECT
+    SUM(CASE WHEN YEAR(joining_date) = YEAR(CURDATE()) THEN salary ELSE 0 END) AS current_year_total_salary,
+    SUM(CASE WHEN YEAR(joining_date) = YEAR(CURDATE()) - 1 THEN salary ELSE 0 END) AS previous_year_total_salary
+FROM employees;
 ```
 
 ---
