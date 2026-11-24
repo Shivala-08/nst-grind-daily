@@ -3,12 +3,12 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `assignment`  
-**Submission Time:** 2026-11-24T18:35:08.654Z  
+**Submission Time:** 2026-11-24T18:36:54.820Z  
 
 ## Solution
 
 ```js
-In the context of HTTP, stateless means that the server treats every incoming request as an isolated, independent transaction with no built-in memory or retained context from previous interactions. Because HTTP does not natively track state between requests, modern web applications maintain continuity by implementing application-level state mechanisms such as cookies, session IDs, or JSON Web Tokens (JWTs). When a user logs in or adds an item to their cart, the server generates a unique identifier (like a session token) and sends it to the client via the Set-Cookie header; the browser then automatically attaches this token to the Cookie (or Authorization) header of all subsequent requests, allowing the server to look up the user's active session and preserve their cart contents seamlessly through to checkout.
+POST request is non-idempotent because repeating the same request modifies the server state each time, whereas a PUT request is idempotent because sending the same request once or multiple times leaves the server resource in the exact same final state. For example, if you send POST /users with data {"name": "Alice"} three times, the database creates three separate user records with three different IDs (e.g., ID 101, 102, and 103), causing duplicate entries and side effects with each call. In contrast, sending PUT /users/101 with {"name": "Alice Smith"} updates or replaces the data for user 101 on the first call, and repeating that exact request two more times simply overwrites user 101 with the identical values, keeping the database in the exact same state without creating new records.
 ```
 
 ---
