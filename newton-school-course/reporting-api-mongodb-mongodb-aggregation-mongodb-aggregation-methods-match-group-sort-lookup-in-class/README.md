@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ri9fp4jd15a9`  
-**Submission Time:** 2026-11-25T13:39:50.205Z  
+**Submission Time:** 2026-11-25T13:46:06.234Z  
 
 ## Problem Statement
 
@@ -126,14 +126,27 @@ db.employees.aggregate([
 ## Solution
 
 ```js
-{
-  $lookup: {
-    from: "departments",
-    localField: "dept_id",
-    foreignField: "_id",
-    as: "department"
+db.employees.aggregate([
+  {
+    $lookup: {
+      from: "departments",
+      localField: "dept_id",
+      foreignField: "_id",
+      as: "department"
+    }
+  },
+  {
+    $unwind: "$department"
+  },
+  {
+    $project: {
+      name: 1,
+      salary: 1,
+      "department.department_name": 1,
+      "department.location": 1
+    }
   }
-}
+]);
 ```
 
 ---
