@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `fpjfpx4uconu`  
-**Submission Time:** 2026-11-25T13:33:51.480Z  
+**Submission Time:** 2026-11-25T13:34:16.005Z  
 
 ## Problem Statement
 
@@ -41,6 +41,7 @@ Profit = (2 - 1) + (2 - 0) = 3
 ## Solution
 
 ```py
+import sys
 from typing import List
 
 
@@ -48,10 +49,6 @@ def maxProfit(prices: List[int]) -> int:
     if not prices:
         return 0
 
-    # Day 0 initialization:
-    # - Buying on day 0 gives profit -prices[0]
-    # - Selling on day 0 is impossible, so use a very small number
-    # - Resting on day 0 gives profit 0
     hold = -prices[0]
     sold = float("-inf")
     rest = 0
@@ -66,6 +63,27 @@ def maxProfit(prices: List[int]) -> int:
         rest = max(prev_rest, prev_sold)
 
     return int(max(sold, rest))
+
+
+def solve() -> None:
+    data = sys.stdin.read().strip().split()
+    if not data:
+        print(0)
+        return
+
+    # If the first token is n and the remaining tokens equal n, treat token 0 as count;
+    # otherwise treat all tokens as prices.
+    nums = [int(x.strip("[](),")) for x in data]
+    if len(nums) > 1 and nums[0] == len(nums) - 1:
+        prices = nums[1:]
+    else:
+        prices = nums
+
+    print(maxProfit(prices))
+
+
+if __name__ == "__main__":
+    solve()
 ```
 
 ---
