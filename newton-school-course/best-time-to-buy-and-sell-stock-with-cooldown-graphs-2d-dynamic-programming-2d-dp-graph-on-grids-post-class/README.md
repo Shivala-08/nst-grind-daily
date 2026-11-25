@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `fpjfpx4uconu`  
-**Submission Time:** 2026-11-25T13:34:55.391Z  
+**Submission Time:** 2026-11-25T13:36:21.723Z  
 
 ## Problem Statement
 
@@ -42,10 +42,9 @@ Profit = (2 - 1) + (2 - 0) = 3
 
 ```py
 import sys
-from typing import List
 
 
-def maxProfit(prices: List[int]) -> int:
+def maxProfit(prices):
     if not prices:
         return 0
 
@@ -65,14 +64,12 @@ def maxProfit(prices: List[int]) -> int:
     return int(max(sold, rest))
 
 
-def solve() -> None:
+def solve():
     data = sys.stdin.read().strip().split()
     if not data:
         print(0)
         return
 
-    # If the first token is n and the remaining tokens equal n, treat token 0 as count;
-    # otherwise treat all tokens as prices.
     nums = [int(x.strip("[](),")) for x in data]
     if len(nums) > 1 and nums[0] == len(nums) - 1:
         prices = nums[1:]
