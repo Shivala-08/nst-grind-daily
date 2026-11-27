@@ -6,3 +6,12 @@ db.characters.insertOne({
     { gadget_name: "Anywhere Door", level: 4 }
   ]
 });
+
+db.characters.find({
+  "gadgets.gadget_name": "Anywhere Door"
+});
+
+db.characters.updateMany(
+  { "gadgets.gadget_name": "Take-copter" },
+  { $inc: { "gadgets.$.level": 1 } }
+);

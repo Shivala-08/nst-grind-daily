@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `yq5942v8wzfq`  
-**Submission Time:** 2026-11-27T15:01:52.737Z  
+**Submission Time:** 2026-11-27T15:02:31.141Z  
 
 ## Problem Statement
 
@@ -40,6 +40,15 @@ db.characters.insertOne({
     { gadget_name: "Anywhere Door", level: 4 }
   ]
 });
+
+db.characters.find({
+  "gadgets.gadget_name": "Anywhere Door"
+});
+
+db.characters.updateMany(
+  { "gadgets.gadget_name": "Take-copter" },
+  { $inc: { "gadgets.$.level": 1 } }
+);
 ```
 
 ---
