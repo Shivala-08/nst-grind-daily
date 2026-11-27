@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ctnglbeupulf`  
-**Submission Time:** 2026-11-27T15:15:57.116Z  
+**Submission Time:** 2026-11-27T15:16:38.382Z  
 
 ## Problem Statement
 
@@ -79,12 +79,13 @@ db.pushpa_devi_dining_hall.insertOne({
 });
 
 // Insert dinner menu
+// Insert dinner menu
 db.pushpa_devi_dining_hall.insertOne({
   meal_name: "dinner",
-  starter: ,         // 🟢 Fill in starter 
-  main_course: ,     // 🟢 Fill in main course 
-  dessert: ,         // 🟢 Fill in dessert
-  drink:             // 🟢 Fill in drink 
+  starter: "fruit salad",
+  main_course: "mexican bread and hummus",
+  dessert: "tiramisu",
+  drink: "diet coke"
 });
 ```
 
