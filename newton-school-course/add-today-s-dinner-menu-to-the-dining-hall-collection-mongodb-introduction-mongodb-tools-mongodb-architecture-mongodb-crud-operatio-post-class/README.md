@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `ctnglbeupulf`  
-**Submission Time:** 2026-11-27T15:15:19.385Z  
+**Submission Time:** 2026-11-27T15:15:45.635Z  
 
 ## Problem Statement
 
@@ -60,25 +60,6 @@ Use the following details: Just fill the details for the dinner document, rest a
 ## Solution
 
 ```js
-// Insert breakfast menu
-db.pushpa_devi_dining_hall.insertOne({
-  meal_name: "breakfast",
-  starter: "sprouted moong salad",
-  main_course: "poha with peanuts",
-  dessert: "banana",
-  drink: "masala chai"
-});
-
-// Insert lunch menu
-db.pushpa_devi_dining_hall.insertOne({
-  meal_name: "lunch",
-  starter: "vegetable soup",
-  main_course: "rajma chawal with mixed veg",
-  dessert: "gulab jamun",
-  drink: "buttermilk"
-});
-
-// Insert dinner menu
 db.pushpa_devi_dining_hall.insertOne({
   meal_name: "dinner",
   starter: "fruit salad",
