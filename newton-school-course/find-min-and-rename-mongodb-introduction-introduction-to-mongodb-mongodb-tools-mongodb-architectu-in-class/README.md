@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `361xztwhvhfa`  
-**Submission Time:** 2026-11-27T14:44:46.694Z  
+**Submission Time:** 2026-11-27T14:45:18.626Z  
 
 ## Problem Statement
 
@@ -27,17 +27,29 @@ After the update, fetch all employee records with only name, department, and sco
 ## Solution
 
 ```js
-db.employees.aggregate([
-  {
-    $set: {
-      score: { $min: ["$score", 60] },
-      department: "$dept"
+db.employees.updateMany(
+  {},
+  [
+    {
+      $set: {
+        score: { $min: ["$score", 60] },
+        department: "$dept"
+      }
+    },
+    {
+      $unset: "dept"
     }
-  },
+  ]
+);
+db.employees.find(
+  {},
   {
-    $unset: "dept"
+    _id: 0,
+    name: 1,
+    department: 1,
+    score: 1
   }
-]);
+);
 ```
 
 ---

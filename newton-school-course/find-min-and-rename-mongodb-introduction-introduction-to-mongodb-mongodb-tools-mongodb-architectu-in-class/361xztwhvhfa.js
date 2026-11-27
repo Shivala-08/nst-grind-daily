@@ -1,11 +1,23 @@
-db.employees.aggregate([
-  {
-    $set: {
-      score: { $min: ["$score", 60] },
-      department: "$dept"
+db.employees.updateMany(
+  {},
+  [
+    {
+      $set: {
+        score: { $min: ["$score", 60] },
+        department: "$dept"
+      }
+    },
+    {
+      $unset: "dept"
     }
-  },
+  ]
+);
+db.employees.find(
+  {},
   {
-    $unset: "dept"
+    _id: 0,
+    name: 1,
+    department: 1,
+    score: 1
   }
-]);
+);
