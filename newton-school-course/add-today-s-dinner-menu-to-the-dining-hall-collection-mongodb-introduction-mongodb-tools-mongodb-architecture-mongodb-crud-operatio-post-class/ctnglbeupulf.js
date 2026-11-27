@@ -17,7 +17,6 @@ db.pushpa_devi_dining_hall.insertOne({
 });
 
 // Insert dinner menu
-// Insert dinner menu
 db.pushpa_devi_dining_hall.insertOne({
   meal_name: "dinner",
   starter: "fruit salad",
