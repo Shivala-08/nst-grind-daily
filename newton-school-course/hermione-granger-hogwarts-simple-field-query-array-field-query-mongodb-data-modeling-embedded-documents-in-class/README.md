@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `zylywmzt4nuq`  
-**Submission Time:** 2026-11-27T15:07:43.937Z  
+**Submission Time:** 2026-11-27T15:08:34.175Z  
 
 ## Problem Statement
 
@@ -47,17 +47,7 @@ Task:
 ## Solution
 
 ```js
-db.students.updateOne(
-  {
-    name: "Hermione Granger",
-    "spells.spell_name": "Alohomora"
-  },
-  {
-    $set: {
-      "spells.$.level": 5
-    }
-  }
-);
+db.students.find({ name: "Hermione Granger" });
 ```
 
 ---
