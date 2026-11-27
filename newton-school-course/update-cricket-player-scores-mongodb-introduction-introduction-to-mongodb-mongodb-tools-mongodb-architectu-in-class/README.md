@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `a1uukjfip7qe`  
-**Submission Time:** 2026-11-27T14:41:43.254Z  
+**Submission Time:** 2026-11-27T14:42:11.522Z  
 
 ## Problem Statement
 
@@ -26,10 +26,10 @@ After updating, retrieve the top 5 players with the highest scores. After updati
 ## Solution
 
 ```js
-db.players.updateMany(
-  { score: { $gt: 100 } },
-  { $set: { score: 100 } }
-)
+db.players.find(
+  {},
+  { _id: 0, name: 1, team: 1, score: 1 }
+).sort({ score: -1 }).limit(5)
 ```
 
 ---
