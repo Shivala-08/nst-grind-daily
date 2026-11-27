@@ -3,7 +3,7 @@
 ## Course Context
 **Course:** Newton School Course  
 **Problem Slug:** `v946haesk9ho`  
-**Submission Time:** 2026-11-27T15:26:06.715Z  
+**Submission Time:** 2026-11-27T15:26:29.202Z  
 
 ## Problem Statement
 
@@ -34,15 +34,11 @@ After updating, write a query to display Riya&rsquo;s updated record from the da
 
 ```js
 db.students.updateOne(
-  {
-    name: "Riya",
-    year: 3,
-    department: "Computer Science"
-  },
-  {
-    $set: { year: 4 }
-  }
+  { name: "Riya", year: 3, department: "Computer Science" },
+  { $set: { year: 4 } }
 );
+
+db.students.find({ name: "Riya", department: "Computer Science" });
 ```
 
 ---
